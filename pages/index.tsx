@@ -2,9 +2,11 @@ import company from "./company.json";
 import { ChangeEventHandler, useCallback, useEffect, useMemo, useState } from "react";
 import { InView } from "react-intersection-observer";
 import Image from "next/image";
-import { FaSpeakerDeck } from "react-icons/fa";
+import { FaSpeakerDeck, FaSlideshare } from "react-icons/fa";
 import { BsFillFileEarmarkSpreadsheetFill } from "react-icons/bs";
 import { AiFillCaretLeft, AiFillCaretRight, AiFillGithub } from "react-icons/ai";
+
+import { useMediaQuery } from "react-responsive";
 
 declare module "react" {
     interface StyleHTMLAttributes<T> extends React.HTMLAttributes<T> {
@@ -47,12 +49,19 @@ const Company = (props: Company) => {
                 className={"Company"}
             >
                 <h1 className={"CompanyName"}>
-                    <a href={props.company_url}>{props.company_name}</a>
+                    <a href={props.company_url} target={"_blank"} rel="noreferrer">
+                        {props.company_name}
+                    </a>
                 </h1>
                 <h2>
                     {props.type === "speakerdeck" && (
                         <a className={"CompanySlides"} href={props.slide_urls[0]}>
                             <FaSpeakerDeck color={"#006159"} /> Speakerdeck
+                        </a>
+                    )}
+                    {props.type === "slideshare" && (
+                        <a className={"CompanySlides"} href={props.slide_urls[0]}>
+                            <FaSlideshare color={"#006159"} /> SlideShare
                         </a>
                     )}
                 </h2>
@@ -79,10 +88,17 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
         return `${props.slide_urls[0]}?slide=${props.currentPage}`;
     }, [props.currentPage, props.slide_urls]);
     if (props.type !== "speakerdeck") {
-        return null;
+        return (
+            <div
+                style={{
+                    width: props.image_width,
+                    height: props.image_height
+                }}
+            />
+        );
     }
     return (
-        <InView delay={0} threshold={0.2}>
+        <InView delay={0} threshold={0.1}>
             {({ inView, ref }) => {
                 return (
                     <div
@@ -101,13 +117,12 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
                         {shouldShowLastPage ? (
                             <Company {...props} />
                         ) : (
-                            <a href={slideUrl} target={"_blank"} rel="noreferrer">
+                            <a title={props.company_name} href={slideUrl} target={"_blank"} rel="noreferrer">
                                 <Image
                                     width={props.image_width}
                                     height={props.image_height}
-                                    alt={props.company_name}
+                                    alt={""}
                                     src={`https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`}
-                                    loading={"lazy"}
                                     onLoad={onLoad}
                                     onError={onErrorPage}
                                 />
@@ -122,12 +137,11 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
 type ToggleProps = {
     left: { label: string; value: string };
     right: { label: string; value: string };
+    value: string;
     onChange: (value: string) => void;
 };
 const Toggle = (props: ToggleProps) => {
-    const [checked, setChecked] = useState(props.left.value);
     const onChange: ChangeEventHandler<HTMLInputElement> = (event) => {
-        setChecked(event.target.value);
         props.onChange(event.target.value);
     };
     return (
@@ -192,7 +206,7 @@ const Toggle = (props: ToggleProps) => {
                     name="switchToggle"
                     value={props.left.value}
                     onChange={onChange}
-                    checked={props.left.value === checked}
+                    checked={props.left.value === props.value}
                 />
                 <label htmlFor="switch_left">{props.left.label}</label>
                 <input
@@ -201,7 +215,7 @@ const Toggle = (props: ToggleProps) => {
                     name="switchToggle"
                     value={props.right.value}
                     onChange={onChange}
-                    checked={props.right.value === checked}
+                    checked={props.right.value === props.value}
                 />
                 <label htmlFor="switch_right">{props.right.label}</label>
             </form>
@@ -210,8 +224,14 @@ const Toggle = (props: ToggleProps) => {
 };
 
 function HomePage() {
+    const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
     const [currentPage, setCurrentPage] = useState(0);
     const [mode, setMode] = useState<"list" | "grid">("list");
+    useEffect(() => {
+        if (isMobile) {
+            setMode("grid");
+        }
+    }, [isMobile]);
     const onClickNext = useCallback(() => {
         setCurrentPage((prevState) => prevState + 1);
     }, []);
@@ -238,14 +258,6 @@ function HomePage() {
     }, []);
     return (
         <div>
-            <style jsx global>{`
-                html,
-                body {
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: border-box;
-                }
-            `}</style>
             <style jsx>{`
                 .Grid {
                     display: grid;
@@ -256,8 +268,23 @@ function HomePage() {
                     justify-items: center;
                 }
 
-                .Grid--Grid {
-                    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+                /* Mobile */
+                @media screen and (max-width: 599px) {
+                    .Grid--Grid {
+                        grid-template-columns: repeat(auto-fill, 1fr);
+                    }
+
+                    .FooterInformationSpreadSheet,
+                    .FooterModeChanger {
+                        display: none !important;
+                    }
+                }
+
+                /* PC */
+                @media screen and (min-width: 600px) {
+                    .Grid--Grid {
+                        grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+                    }
                 }
 
                 .Grid--List {
@@ -321,7 +348,7 @@ function HomePage() {
                     align-content: center;
                     align-items: center;
                     padding-right: 4px;
-                    font-size: 16px;
+                    font-size: 20px;
                 }
             `}</style>
             <div className={`Grid ${mode === "list" ? "Grid--List" : "Grid--Grid"}`}>
@@ -355,6 +382,7 @@ function HomePage() {
                     <Toggle
                         left={{ label: "List", value: "list" }}
                         right={{ label: "Grid", value: "grid" }}
+                        value={mode}
                         onChange={onChangeMode}
                     />
                 </div>
@@ -365,18 +393,18 @@ function HomePage() {
                         }
                         target={"_blank"}
                         rel="noreferrer"
-                        className="LinkWithIcon"
+                        className="LinkWithIcon FooterInformationSpreadSheet"
                     >
-                        <BsFillFileEarmarkSpreadsheetFill size={"16px"} color={"#188038"} />
-                        スライドを追加
+                        <BsFillFileEarmarkSpreadsheetFill size={"20px"} color={"#188038"} />
+                        Add Slide
                     </a>
                     <a
                         href={"https://github.com/azu/company-introduction-jp"}
                         target={"_blank"}
                         rel="noreferrer"
-                        className={"LinkWithIcon"}
+                        className={"LinkWithIcon FooterInformationGitHub"}
                     >
-                        <AiFillGithub color={"black"} size={"16px"} />
+                        <AiFillGithub color={"black"} size={"20px"} />
                     </a>
                 </div>
             </footer>

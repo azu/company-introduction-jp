@@ -9,15 +9,32 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, "../../pages/company.json");
 type Result = SlideItem & Company;
 const json = await fetchSpreadsheet();
-const actions = json.map((item) => {
-    return async () => {
-        const speakerDeck = await fetchSpeakerDeck(item.slide_urls[0]);
-        return {
-            ...item,
-            ...speakerDeck
+const actions = json
+    .filter((item) => {
+        if (!item.company_url.startsWith("http")) {
+            return false;
+        }
+        if (!item.slide_urls[0].startsWith("https")) {
+            return false;
+        }
+        return true;
+    })
+    .map((item) => {
+        return async () => {
+            const slideUrl = item.slide_urls[0];
+            if (slideUrl.startsWith("https://www.slideshare.net/")) {
+                return {
+                    type: "slideshare",
+                    ...item
+                };
+            }
+            const speakerDeck = await fetchSpeakerDeck(slideUrl);
+            return {
+                ...item,
+                ...speakerDeck
+            };
         };
-    };
-});
+    });
 const results = (await pAll(actions, {
     concurrency: 4
 })) as Result[];
