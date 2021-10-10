@@ -1,10 +1,10 @@
 import company from "./company.json";
-import { ChangeEvent, ChangeEventHandler, useCallback, useEffect, useMemo, useState } from "react";
+import { ChangeEventHandler, useCallback, useEffect, useMemo, useState } from "react";
 import { InView } from "react-intersection-observer";
 import Image from "next/image";
 import { FaSpeakerDeck } from "react-icons/fa";
 import { BsFillFileEarmarkSpreadsheetFill } from "react-icons/bs";
-import { AiFillCaretRight, AiFillCaretLeft, AiFillGithub } from "react-icons/ai";
+import { AiFillCaretLeft, AiFillCaretRight, AiFillGithub } from "react-icons/ai";
 
 declare module "react" {
     interface StyleHTMLAttributes<T> extends React.HTMLAttributes<T> {
@@ -61,10 +61,6 @@ const Company = (props: Company) => {
     );
 };
 const Slide = (props: typeof company[0] & { currentPage: number }) => {
-    if (props.type !== "speakerdeck") {
-        return null;
-    }
-
     const [lastPage, setLastPage] = useState<number>(0);
     const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
     const onLoad = useCallback(() => {
@@ -82,6 +78,9 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
         }
         return `${props.slide_urls[0]}?slide=${props.currentPage}`;
     }, [props.currentPage, props.slide_urls]);
+    if (props.type !== "speakerdeck") {
+        return null;
+    }
     return (
         <InView delay={0} threshold={0.2}>
             {({ inView, ref }) => {
@@ -102,7 +101,7 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
                         {shouldShowLastPage ? (
                             <Company {...props} />
                         ) : (
-                            <a href={slideUrl} target={"_blank"}>
+                            <a href={slideUrl} target={"_blank"} rel="noreferrer">
                                 <Image
                                     width={props.image_width}
                                     height={props.image_height}
@@ -365,6 +364,7 @@ function HomePage() {
                             "https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit"
                         }
                         target={"_blank"}
+                        rel="noreferrer"
                         className="LinkWithIcon"
                     >
                         <BsFillFileEarmarkSpreadsheetFill size={"16px"} color={"#188038"} />
@@ -373,6 +373,7 @@ function HomePage() {
                     <a
                         href={"https://github.com/azu/company-introduction-jp"}
                         target={"_blank"}
+                        rel="noreferrer"
                         className={"LinkWithIcon"}
                     >
                         <AiFillGithub color={"black"} size={"16px"} />
