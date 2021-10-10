@@ -1,0 +1,1596 @@
+[
+    {
+        "rowIndex": 2,
+        "company_name": "株式会社SmartHR",
+        "company_url": "https://smarthr.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/miyasho88/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "e20c6467299e4c1ca07ad14064a89d74",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 3,
+        "company_name": "株式会社ミラティブ",
+        "company_url": "https://www.mirrativ.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hr_team/mirrativ-letter",
+            "https://speakerdeck.com/hr_team/engineers-handbook"
+        ],
+        "type": "speakerdeck",
+        "id": "a9c5725598604c2584fc771e1cd2ab4e",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 4,
+        "company_name": "株式会社ドクターズプライム",
+        "company_url": "https://drsprime.com/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/drsprime/dokutazupuraimude-dong-kukotonixing-wei-gaarufang-he"
+        ],
+        "type": "speakerdeck",
+        "id": "942129cb00514737ba067cf1ae49dc94",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 5,
+        "company_name": "株式会社FABRIC TOKYO",
+        "company_url": "https://corp.fabric-tokyo.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/yuichirom/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "56af589996a64bbb9c8687e075eba4b9",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 6,
+        "company_name": "ヘイ株式会社",
+        "company_url": "https://hey.jp/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/heyinc/hey-book"
+        ],
+        "type": "speakerdeck",
+        "id": "ada0326670644eb8b43b35492ce721d0",
+        "image_ratio": 0.707671043538355,
+        "image_width": 560,
+        "image_height": 791
+    },
+    {
+        "rowIndex": 7,
+        "company_name": "株式会社HRBrain",
+        "company_url": "https://www.hrbrain.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hrbrain/introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "04906b9c19604329bc21287a23645da4",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 8,
+        "company_name": "株式会社ベイジ",
+        "company_url": "https://baigie.me/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/sogitani1107/beizifalsehui-she-shao-jie"
+        ],
+        "type": "speakerdeck",
+        "id": "156fab94a6f54799b5c9ba3551635852",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 9,
+        "company_name": "株式会社メドレー",
+        "company_url": "https://www.medley.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/medley/hui-she-shao-jie-2018nian-9yue"
+        ],
+        "type": "speakerdeck",
+        "id": "ffa134c3a6de432ba63562eedfb88566",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 10,
+        "company_name": "LAPRAS株式会社",
+        "company_url": "https://corp.lapras.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/lapras/lapras-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "cf1bd65a42f94140b03729d8bc1a42d0",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 11,
+        "company_name": "キャディ株式会社",
+        "company_url": "https://corp.caddi.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/caddi_eng/caddi-top-mgmt"
+        ],
+        "type": "speakerdeck",
+        "id": "c6927d7317fc4124bacb1afa760a10f5",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 12,
+        "company_name": "Ubie株式会社",
+        "company_url": "https://ubie.life/",
+        "slide_urls": [
+            "https://speakerdeck.com/ubie/about-ubie-software-engineer"
+        ],
+        "type": "speakerdeck",
+        "id": "e4ad181e9d73407388c330771c21e074",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 13,
+        "company_name": "株式会社iCARE",
+        "company_url": "https://www.icare.jpn.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/yoshi111kazu/startup-book"
+        ],
+        "type": "speakerdeck",
+        "id": "1e85e7d8378549d98f83f2461d0820cb",
+        "image_ratio": 1.41241379310345,
+        "image_width": 560,
+        "image_height": 396
+    },
+    {
+        "rowIndex": 14,
+        "company_name": "株式会社10X",
+        "company_url": "https://10x.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/10xinc/zhu-shi-hui-she-10x-culture-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "54119fadcc534c17a300a4ef44c9fbef",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 15,
+        "company_name": "スマートキャンプ株式会社",
+        "company_url": "https://smartcamp.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/smartcamp/smartcamp-company-info"
+        ],
+        "type": "speakerdeck",
+        "id": "a8e05b10c51342b1a366c5c68f01eab9",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 16,
+        "company_name": "株式会社カンム",
+        "company_url": "https://kanmu.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kanmu/kanmu-inc-current-status"
+        ],
+        "type": "speakerdeck",
+        "id": "78911418a1df4b1a9a60f938a57e9951",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 17,
+        "company_name": "BASE株式会社",
+        "company_url": "https://binc.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/base/base"
+        ],
+        "type": "speakerdeck",
+        "id": "b99cce508c6944c7aaa3f063c1fa9091",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 18,
+        "company_name": "株式会社プレックス",
+        "company_url": "https://plex.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/plex/recruiting-pitch"
+        ],
+        "type": "speakerdeck",
+        "id": "c01a745a7a70415f87c7ca842934dadc",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 19,
+        "company_name": "株式会社アトラエ",
+        "company_url": "https://atrae.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/atrae/join-us"
+        ],
+        "type": "speakerdeck",
+        "id": "74f5d0d07e104909a8318fc293f5f451",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 20,
+        "company_name": "ユアマイスター株式会社",
+        "company_url": "https://corp.yourmystar.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/yourmystar/loveletterfromus"
+        ],
+        "type": "speakerdeck",
+        "id": "c6951385ac5941ebacf7fa2cc8f10a43",
+        "image_ratio": 1.44428772919605,
+        "image_width": 560,
+        "image_height": 387
+    },
+    {
+        "rowIndex": 21,
+        "company_name": "株式会社リンクアンドモチベーション",
+        "company_url": "https://www.lmi.ne.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/lmi/introduction-to-link-and-motivation-for-software-engineers"
+        ],
+        "type": "speakerdeck",
+        "id": "fd1077cbb46446228131d79040d032d8",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 22,
+        "company_name": "株式会社ユニラボ",
+        "company_url": "https://www.unilabo.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/unilabo/zhu-shi-hui-she-yunirabocai-yong-pitutizi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "42c88f1bcfcc4996bde9f3c366d491b0",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 23,
+        "company_name": "株式会社グッドパッチ",
+        "company_url": "https://goodpatch.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/goodpatch/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "31e368bd60bd4a26978ec84fd075cb90",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 24,
+        "company_name": "サイボウズ株式会社",
+        "company_url": "https://cybozu.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/cybozuinsideout/cybozu-engineer-recruit"
+        ],
+        "type": "speakerdeck",
+        "id": "5eabf6cdd9e7484988e6a0d1b8f5d957",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 25,
+        "company_name": "インビジョン株式会社",
+        "company_url": "https://www.invision-inc.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/yukikato/invision-inc"
+        ],
+        "type": "speakerdeck",
+        "id": "b63e0a8f162e4d2b841d5e416ad0ee15",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 26,
+        "company_name": "株式会社コーナー",
+        "company_url": "https://www.corner-inc.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/carbon_ma2/zhu-shi-hui-she-kona-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "839380d26a6d40b695e037603746b724",
+        "image_ratio": 1.41241379310345,
+        "image_width": 560,
+        "image_height": 396
+    },
+    {
+        "rowIndex": 27,
+        "company_name": "atama plus株式会社",
+        "company_url": "https://corp.atama.plus/",
+        "slide_urls": [
+            "https://speakerdeck.com/atamaplus/about-atama-plus"
+        ],
+        "type": "speakerdeck",
+        "id": "9076f65c497946e880fab7a2b57d1c29",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 28,
+        "company_name": "XTech株式会社",
+        "company_url": "https://xtech-corp.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/raimuizumi/xtechzhu-shi-hui-she-hui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "f2de046fff424b59b6aa18a41197b1f7",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 29,
+        "company_name": "OLTA株式会社",
+        "company_url": "https://corp.olta.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/taxy/olta-culture-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "ae62854c67c34c42a98cef612748053e",
+        "image_ratio": 1.6,
+        "image_width": 560,
+        "image_height": 350
+    },
+    {
+        "rowIndex": 30,
+        "company_name": "HiCustomer株式会社",
+        "company_url": "https://hicustomer.jp/about/",
+        "slide_urls": [
+            "https://speakerdeck.com/hizeny/engineers-at-hicustomer"
+        ],
+        "type": "speakerdeck",
+        "id": "e5ccdf64565f43768d4cf7084f8cf5f6",
+        "image_ratio": 1.75945017182131,
+        "image_width": 560,
+        "image_height": 318
+    },
+    {
+        "rowIndex": 31,
+        "company_name": "株式会社FORCAS",
+        "company_url": "https://www.forcas.com/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/uzabaseculture2021/zhu-shi-hui-she-yuzabesu-forcasshao-jie-zi-liao-202104-14494efc-960a-4dba-ab0d-4cd51b1bda04"
+        ],
+        "type": "speakerdeck",
+        "id": "6ac78fd5b0a14750a9191e560b7ea379",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 32,
+        "company_name": "LeapMind株式会社",
+        "company_url": "https://leapmind.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/mimu/leapmindzhu-shi-hui-she-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "588eb4eed3704f5dbf9dafd325b9d93c",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 33,
+        "company_name": "Acroquest Technology株式会社",
+        "company_url": "https://www.acroquest.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/acroquest_technology/introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "d5c58a2740ac4bb9a5899d110b70abfe",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 34,
+        "company_name": "株式会社フィードフォース",
+        "company_url": "https://www.feedforce.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/feedforce/feedforce-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "9f821b1f7731498aa22b7bad3047210c",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 35,
+        "company_name": "株式会社アスクレピア",
+        "company_url": "https://www.asclepia.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/asclepia/zhu-shi-hui-she-asukurepia-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "673abbfee10f47a3b69e1695db09230b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 36,
+        "company_name": "カラビナテクノロジー株式会社",
+        "company_url": "https://karabiner.tech/",
+        "slide_urls": [
+            "https://speakerdeck.com/karabiner/karabinatekufalserozi-cai-yong-suraido"
+        ],
+        "type": "speakerdeck",
+        "id": "1ea56db657ce48dfb903eb3571147c13",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 37,
+        "company_name": "MNTSQ株式会社",
+        "company_url": "https://www.mntsq.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/ikutani41/whats-mntsq-careersdeck"
+        ],
+        "type": "speakerdeck",
+        "id": "1c61edbbeb484e41b1f18e4917028cfa",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 38,
+        "company_name": "株式会社estie",
+        "company_url": "https://www.estie.jp/corp/",
+        "slide_urls": [
+            "https://speakerdeck.com/estie/company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "02d593e22d2b46d9a1fe8d67f68a1a31",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 39,
+        "company_name": "株式会社カラダノート",
+        "company_url": "https://corp.karadanote.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/karadanote_recruit/cai-yong-zi-liao-2021-dot-07-dot-29"
+        ],
+        "type": "speakerdeck",
+        "id": "33e19b2e9a434d9491e2f0b3c9cf2cb2",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 40,
+        "company_name": "株式会社sizebook",
+        "company_url": "https://sizebook.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/sizebook/company-introduction-of-sizebook"
+        ],
+        "type": "speakerdeck",
+        "id": "90e8aceb70f448b2af9fde3b9c9a5855",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 41,
+        "company_name": "株式会社COUNTERWORKS",
+        "company_url": "https://www.counterworks.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kentymmt/counterworks-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "215a4fd780d14dcbb80697ca9fa896bc",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 42,
+        "company_name": "ラクスル株式会社",
+        "company_url": "https://corp.raksul.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/raksulrecruiting/raksul-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "39a342d1156044239bc1f0ac2b2cb71b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 43,
+        "company_name": "株式会社ビザスク",
+        "company_url": "https://visasq.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/eikohashiba/visasq-about-us"
+        ],
+        "type": "speakerdeck",
+        "id": "b9e533fc2fd5456c88fa089ec8f5f2ba",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 44,
+        "company_name": "ecbo株式会社",
+        "company_url": "https://ecbo.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/ecbo/we-are-hiring-ecbo-inc-dot"
+        ],
+        "type": "speakerdeck",
+        "id": "70ca949c81864c9b9becef4b7a984acc",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 45,
+        "company_name": "株式会社Kaizen Platform",
+        "company_url": "https://kaizenplatform.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/kaizen_platform/company-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "ebfac040c4114fc0973412d017ce16a9",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 46,
+        "company_name": "株式会社スタートアップテクノロジー",
+        "company_url": "https://startup-technology.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/startuptechnology/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "725c504902e7424095a32afe1cbdf56c",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 47,
+        "company_name": "TOWN株式会社",
+        "company_url": "https://town.biz/",
+        "slide_urls": [
+            "https://speakerdeck.com/towninc/townhui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "32680d8170e84c8a9a639167e3b12d7f",
+        "image_ratio": 1.6,
+        "image_width": 560,
+        "image_height": 350
+    },
+    {
+        "rowIndex": 48,
+        "company_name": "株式会社アペルザ",
+        "company_url": "https://www.aperza.com/corp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hr_team_aperza/aperza-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "0d62775f9af040d395b4181d80605393",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 49,
+        "company_name": "株式会社RCIエージェンシー",
+        "company_url": "http://www.rci-agency.com/",
+        "slide_urls": [
+            "https://www.slideshare.net/ssuser724428/company-introduction-v16"
+        ]
+    },
+    {
+        "rowIndex": 50,
+        "company_name": "株式会社Leaner Technologies",
+        "company_url": "https://leaner.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/leaner_tech/leaner-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "39646b808f4144dbb18eb0e0f39b1a01",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 51,
+        "company_name": "アジアクエスト株式会社",
+        "company_url": "https://www.asia-quest.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/asiaquest/we-invite-you"
+        ],
+        "type": "speakerdeck",
+        "id": "2a642ef201394b3d8e6e76bfe85b632b",
+        "image_ratio": 1.78397212543554,
+        "image_width": 560,
+        "image_height": 313
+    },
+    {
+        "rowIndex": 52,
+        "company_name": "株式会社mofmof",
+        "company_url": "https://www.mof-mof.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/harada4atsushi/mofmofinc-informatioin-for-recruiting"
+        ],
+        "type": "speakerdeck",
+        "id": "1fd30020b83f487a8f910512eb669f70",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 53,
+        "company_name": "株式会社ログラス",
+        "company_url": "https://loglass.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/tomoyafukawa/rogurasu"
+        ],
+        "type": "speakerdeck",
+        "id": "a100725e4c094f63bfc6c18b5b934323",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 54,
+        "company_name": "ファインディ株式会社\n",
+        "company_url": "https://findy.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/findyinc/findy-letter-for-engineers"
+        ],
+        "type": "speakerdeck",
+        "id": "39db840be90d4d968122ea667a35cb78",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 55,
+        "company_name": "株式会社トラーナ",
+        "company_url": "https://torana.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/memory1994/zhu-shi-hui-she-torana-purodakutokai-fa-bu-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "3859d2debcf047188e6e97414dc658d4",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 56,
+        "company_name": "株式会社OKAN",
+        "company_url": "https://okan.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/chihir0tezuka/okanhui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "406c17769470429caed93fde6e8bb1d5",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 57,
+        "company_name": "アライドアーキテクツ株式会社",
+        "company_url": "https://www.aainc.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/alliedarchitects/araidoakitekutuzhu-shi-hui-she-enziniadezainaxiang-ke-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "3c8dc28eff22434facf5c0e1440ddb4e",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 58,
+        "company_name": "株式会社ACES",
+        "company_url": "https://acesinc.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/aces/zhu-shi-hui-she-aces-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "3928674e9e2a4a68b6ce9c0154a8ecd4",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 59,
+        "company_name": "株式会社WEIN Group",
+        "company_url": "https://wein.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/wein/top0-dot-1-percent-ren-cai-hefalsetiao-zhan-zhuang"
+        ],
+        "type": "speakerdeck",
+        "id": "bf5d888fde5044e2bf2b34f4fd1d562d",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 60,
+        "company_name": "GCストーリー株式会社",
+        "company_url": "https://gc-story.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/gcstory/whats-gcstory"
+        ],
+        "type": "speakerdeck",
+        "id": "054b9224b227438594ba3cb7047870de",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 61,
+        "company_name": "株式会社チカク",
+        "company_url": "https://www.chikaku.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/chikaku/zhu-shi-hui-she-tikaku-magotiyanneru-cai-yong-suraido"
+        ],
+        "type": "speakerdeck",
+        "id": "1857bfec47794c53a722e1064029e9b4",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 62,
+        "company_name": "株式会社ケップル",
+        "company_url": "https://www.kepple.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kepple_hr/kepple-recruitingpitch-20210916"
+        ],
+        "type": "speakerdeck",
+        "id": "310da93717e7475c97e476db0b370e2a",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 63,
+        "company_name": "株式会社エレファントストーン",
+        "company_url": "https://elephantstone.net/",
+        "slide_urls": [
+            "https://speakerdeck.com/elephantstone/erehuantosuton-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "5767e0cf6b5e43418f453b023544339b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 64,
+        "company_name": "株式会社リチカ",
+        "company_url": "https://richka.co/",
+        "slide_urls": [
+            "https://speakerdeck.com/yukiharuharu/zhu-shi-hui-she-ritikanixing-wei-wochi-tuteitadaitafang-he"
+        ],
+        "type": "speakerdeck",
+        "id": "8de6075636d84f708f4629ce012f96c3",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 65,
+        "company_name": "株式会社一休",
+        "company_url": "https://www.ikyu.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kensuketanaka/introduce-ikyu"
+        ],
+        "type": "speakerdeck",
+        "id": "5b968a6ed304446c8302cb40ec2da695",
+        "image_ratio": 1.67320261437909,
+        "image_width": 560,
+        "image_height": 334
+    },
+    {
+        "rowIndex": 66,
+        "company_name": "株式会社MATCHA",
+        "company_url": "https://company.matcha-jp.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/yuaoki/zhu-shi-hui-she-matcha-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "70f3143df1f94313ad966e63f9ea666b",
+        "image_ratio": 1.41241379310345,
+        "image_width": 560,
+        "image_height": 396
+    },
+    {
+        "rowIndex": 67,
+        "company_name": "dely株式会社",
+        "company_url": "https://dely.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/tsubotax/dely"
+        ],
+        "type": "speakerdeck",
+        "id": "c28f083615264c03a2e4e8fa108f0d11",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 68,
+        "company_name": "ANYCOLOR株式会社",
+        "company_url": "https://www.anycolor.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/anycolor/anycolor-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "012874eddc9d44c2a985d6e32c7c6254",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 69,
+        "company_name": "株式会社レバレッジ",
+        "company_url": "https://www.lev.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/leverage/recruit"
+        ],
+        "type": "speakerdeck",
+        "id": "6d5187cde22a4529a6505fcb516df170",
+        "image_ratio": 1.41241379310345,
+        "image_width": 560,
+        "image_height": 396
+    },
+    {
+        "rowIndex": 70,
+        "company_name": "Wano株式会社",
+        "company_url": "https://wano.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/wano_pr/wano-company-overview"
+        ],
+        "type": "speakerdeck",
+        "id": "6f5d84bc26dc4b618fbf01826d28d247",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 71,
+        "company_name": "株式会社タイマーズ",
+        "company_url": "https://timers-inc.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/timers_inc/timers-guidebook"
+        ],
+        "type": "speakerdeck",
+        "id": "9507838e8cdd446da206612054eb1d5b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 72,
+        "company_name": "株式会社ワンキャリア",
+        "company_url": "https://onecareer.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/onecareer/wankiyaria-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "2c75f7eed95047f5975eb5ffb82f6789",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 73,
+        "company_name": "オーティファイ株式会社",
+        "company_url": "https://autify.com/ja/about",
+        "slide_urls": [
+            "https://speakerdeck.com/autifyhq/autify-company-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "4d0e5539e58f4ecf97f0bb7929d88560",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 74,
+        "company_name": "プレティア・テクノロジーズ株式会社",
+        "company_url": "https://corporate.pretiaar.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/pretia/pretia-technologies-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "440687147433468da4e84726fed85df3",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 75,
+        "company_name": "株式会社アトラエ",
+        "company_url": "https://atrae.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/atrae/join-us"
+        ],
+        "type": "speakerdeck",
+        "id": "74f5d0d07e104909a8318fc293f5f451",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 76,
+        "company_name": "株式会社mikan",
+        "company_url": "https://mikan.link/",
+        "slide_urls": [
+            "https://speakerdeck.com/mikan_inc/culture-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "441290eb71034e819029d55b23125b76",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 77,
+        "company_name": "株式会社サイカ",
+        "company_url": "https://xica.net/",
+        "slide_urls": [
+            "https://speakerdeck.com/xicapr/company-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "390d0211c3484c6a941d11ac6f8f8751",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 78,
+        "company_name": "モノグサ株式会社",
+        "company_url": "https://corp.monoxer.com/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/monoxer/monoxer-inc-cai-yong-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "ec2f50ebfce14964bd708be8e78447f5",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 79,
+        "company_name": "アルプ株式会社",
+        "company_url": "https://thealp.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/alpinc/alp-inc-company-overview-for-developers",
+            "https://speakerdeck.com/alpinc/alp-inc-company-overview-for-designers",
+            "https://speakerdeck.com/alpinc/alp-inc-company-overview-for-business"
+        ],
+        "type": "speakerdeck",
+        "id": "d3bc1d74cd7b4e639b21da3446d883c2",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 80,
+        "company_name": "AI inside 株式会社",
+        "company_url": "https://inside.ai/",
+        "slide_urls": [
+            "https://speakerdeck.com/aiinside/ai-insidehui-she-shao-jie"
+        ],
+        "type": "speakerdeck",
+        "id": "c220fd1908ad4f698d46dd28514b0a17",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 81,
+        "company_name": "株式会社CAMPFIRE",
+        "company_url": "https://campfire.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/campfire/campfire-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "89b2139627ad409d8330686fe7a1afcf",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 82,
+        "company_name": "株式会社エクサウィザーズ",
+        "company_url": "https://exawizards.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/exawizards/introduction-of-exawizards-inc-a8a7acda-9b1c-4c7b-b0fa-c2145bbda8d8"
+        ],
+        "type": "speakerdeck",
+        "id": "d23f4d339ea74a34917f04fe4ef11dd2",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 83,
+        "company_name": "株式会社stand.fm",
+        "company_url": "https://corp.stand.fm/",
+        "slide_urls": [
+            "https://speakerdeck.com/standfm/company-deck-for-engineers"
+        ],
+        "type": "speakerdeck",
+        "id": "b0c531e1d0c74622a5842bc525e095e7",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 84,
+        "company_name": "コインチェック株式会社",
+        "company_url": "https://corporate.coincheck.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/coincheck_recruit/coincheck-company-description"
+        ],
+        "type": "speakerdeck",
+        "id": "2b1fd9262b344b5a9d2687f8a3a53252",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 85,
+        "company_name": "株式会社カミナシ",
+        "company_url": "https://corp.kaminashi.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kaminashi/kaminashi-corporate-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "8cd0451bf2114ce68fab034a99075876",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 86,
+        "company_name": "株式会社アペルザ",
+        "company_url": "https://www.aperza.com/corp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hr_team_aperza/aperza-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "0d62775f9af040d395b4181d80605393",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 87,
+        "company_name": "株式会社アイデミー",
+        "company_url": "https://aidemy.co.jp/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/aidemy/about-us-ea067f91-b209-4d3f-9966-90e87886ef66"
+        ],
+        "type": "speakerdeck",
+        "id": "d2bc3b7d78104eb2b90812200e0ab263",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 88,
+        "company_name": "メダップ株式会社",
+        "company_url": "https://medup.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/medup/medatupuhui-she-shao-jie"
+        ],
+        "type": "speakerdeck",
+        "id": "b985500298c24e4cba0aaa42408a7ed3",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 89,
+        "company_name": "GMOペパボ株式会社",
+        "company_url": "https://pepabo.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/pepabo_recruit/company-profile-for-career"
+        ],
+        "type": "speakerdeck",
+        "id": "2e70f28788ed46f3862da8e66afac188",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 90,
+        "company_name": "株式会社FLUX",
+        "company_url": "https://flux-g.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/flux/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "215211e05bc0409389d7de89c70f8723",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 91,
+        "company_name": "株式会社TimeTree",
+        "company_url": "https://timetreeapp.com/intl/ja/corporate",
+        "slide_urls": [
+            "https://speakerdeck.com/timetree/greetings-from-timetree"
+        ],
+        "type": "speakerdeck",
+        "id": "f3759f86f53c4ff4a4b466ab8ffaa3b6",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 92,
+        "company_name": "株式会社スピークバディ",
+        "company_url": "https://speakbuddy.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/speakbuddy/zhu-shi-hui-she-supikubadei-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "11905498f14c4ab1b9dfbfbe868f8e07",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 93,
+        "company_name": "株式会社JX通信社",
+        "company_url": "https://jxpress.net/",
+        "slide_urls": [
+            "https://speakerdeck.com/jxpress/introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "c999be993a50478aaf9862f3d8612560",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 94,
+        "company_name": "HENNGE株式会社",
+        "company_url": "https://hennge.com/jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hennge/company-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "06f4f4820c514d6585314bd99069fd07",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 95,
+        "company_name": "株式会社VARK",
+        "company_url": "https://corp.vark.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/vark/zhu-shi-hui-she-vark-hui-she-shao-jie-zi-liao-for-cai-yong-hou-bu-zhe-yang"
+        ],
+        "type": "speakerdeck",
+        "id": "01af1ed365e049db9523d152d6951ad8",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 96,
+        "company_name": "Supership株式会社",
+        "company_url": "https://supership.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/supership/supership-corporate-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "f2413ebf3a2d454fa5b478688234b288",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 97,
+        "company_name": "株式会社AppBrew",
+        "company_url": "https://appbrew.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/appbrew_rec/appbrew-engineer-recruitment"
+        ],
+        "type": "speakerdeck",
+        "id": "ee12fb84982b403196d6d9a4f8a1bd21",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 98,
+        "company_name": "株式会社hokan",
+        "company_url": "https://www.corp.hkn.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hokan/hokanhui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "c796ae1cd2844f7d92ab7c8544fa5b44",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 99,
+        "company_name": "Re.Hatch株式会社",
+        "company_url": "https://re-hatch.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/ryotasakoda/re-dot-hatchzhu-shi-hui-she-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "e67cb4ce6d0b4942ac2f41f712b1d613",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 100,
+        "company_name": "株式会社Prazto",
+        "company_url": "https://prazto.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/prazto/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "ebd418fdd362428b9e2f8e66b000f7ea",
+        "image_ratio": 1.6,
+        "image_width": 560,
+        "image_height": 350
+    },
+    {
+        "rowIndex": 101,
+        "company_name": "株式会社グラファー",
+        "company_url": "https://graffer.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/graffer/zhu-shi-hui-she-gurahuahui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "1f2c335cf3e94eb699786f9e3f2d3570",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 102,
+        "company_name": "インフォメティス株式会社",
+        "company_url": "https://www.informetis.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/informetis/informetishui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "39db704a5fa043d0abfe643f46468929",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 103,
+        "company_name": "株式会社電脳交通",
+        "company_url": "https://cybertransporters.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/dennokotsu/zhu-shi-hui-she-dian-noy-jiao-tong-hui-she-shao-jie-zi-liao-4e1940de-416b-4bcd-9b2a-161ecddb31ac"
+        ],
+        "type": "speakerdeck",
+        "id": "618dd536ea78452b944bb7bf464d33ae",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 104,
+        "company_name": "株式会社ナレッジラボ",
+        "company_url": "https://knowledgelabo.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/knowledgelabo/knowledgelabo-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "f7f0bcdd1d404f06aec015405922a39c",
+        "image_ratio": 1.44428772919605,
+        "image_width": 560,
+        "image_height": 387
+    },
+    {
+        "rowIndex": 105,
+        "company_name": "株式会社MICIN",
+        "company_url": "https://micin.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/micin_hr/micin-company-introduction-hui-she-shuo-ming-zi-liao-67f2bb8a-f585-4c48-9b3b-2b7330b071d0"
+        ],
+        "type": "speakerdeck",
+        "id": "cb8f73625c954c24a454db850d4545b8",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 106,
+        "company_name": "株式会社TENTIAL",
+        "company_url": "https://corp.tential.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/piyosakai/invitation-to-tential"
+        ],
+        "type": "speakerdeck",
+        "id": "87203ce7d07c4eb29cedb70e048722b8",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 107,
+        "company_name": "株式会社スタメン",
+        "company_url": "https://stmn.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/stmn/zhu-shi-hui-she-sutamenhui-she-shao-jie-cai-yong-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "fb8c996fd75043e38192a2f7f92bed94",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 108,
+        "company_name": "エムスリー株式会社",
+        "company_url": "https://corporate.m3.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/ryusukekogetsu/m3design-team-profile",
+            "https://speakerdeck.com/yamamuteki/introduction-of-m3-engineering-group"
+        ],
+        "type": "speakerdeck",
+        "id": "904c34c964424c679773089a76c279ca",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 109,
+        "company_name": "株式会社Lang-8",
+        "company_url": "https://lang-8.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/lang8/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "cd8693e0a6f7430ebdaa5fe11569f480",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 110,
+        "company_name": "株式会社Libry",
+        "company_url": "https://about.libry.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/libry/libry-company-introduction-to-engineer"
+        ],
+        "type": "speakerdeck",
+        "id": "305c7cf9f8204294b0f3ee7b46d7cd94",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 111,
+        "company_name": "株式会社フレクト",
+        "company_url": "https://www.flect.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/flect_hr/zhu-shi-hui-she-hurekutohui-she-shuo-ming-zi-liao-arubekiwei-lai-wokuraudodekatatinisuru"
+        ],
+        "type": "speakerdeck",
+        "id": "e1640edee4c14bdfbaf3c0b5d455388e",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 112,
+        "company_name": "株式会社ビビッドガーデン",
+        "company_url": "https://vivid-garden.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/vividgarden/bibitudogadenhui-she-shao-jie-zi-liao-cai-yong-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "74fa14bad8cb496fba55b52434dc4527",
+        "image_ratio": 1.77162629757785,
+        "image_width": 560,
+        "image_height": 316
+    },
+    {
+        "rowIndex": 113,
+        "company_name": "株式会社スタディスト",
+        "company_url": "https://studist.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/studist/about-studist"
+        ],
+        "type": "speakerdeck",
+        "id": "6bf8393004bc45e4b2b269743cd89474",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 114,
+        "company_name": "株式会社ギフティ",
+        "company_url": "https://giftee.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/recruit_giftee/giftee-company-introduction-material"
+        ],
+        "type": "speakerdeck",
+        "id": "1675a18b17bf4121a81e19541c96e3a3",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 115,
+        "company_name": "株式会社アンドパッド",
+        "company_url": "https://andpad.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/andpad_hr88/andpad-hui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "8d7e95c6eb2942419bbdcabc7ae58ec9",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 116,
+        "company_name": "株式会社IRIAM",
+        "company_url": "https://www.live.iriam.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/iriam/company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "6760560f4e2f47ffbe3a1030194f07e6",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 117,
+        "company_name": "株式会社スマートラウンド",
+        "company_url": "https://jp.smartround.com/",
+        "slide_urls": [
+            "https://docs.google.com/presentation/d/1bgM8vvJLas_HA7Dju07VGpktFr5ZYUcwq_sJE_esO8s/edit?usp=sharing"
+        ]
+    },
+    {
+        "rowIndex": 118,
+        "company_name": "株式会社マインディア",
+        "company_url": "https://corporate.minedia.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/matsubo/engineering-at-minedia"
+        ],
+        "type": "speakerdeck",
+        "id": "354ab7792d6b44b89d40b5b183ffa419",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 119,
+        "company_name": "株式会社WOW WORLD",
+        "company_url": "https://www.wow-world.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/azia/wow-world-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "a4242ea8547143ea864d904019ee4251",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 120,
+        "company_name": "REALITY株式会社",
+        "company_url": "https://reality.inc/",
+        "slide_urls": [
+            "https://speakerdeck.com/realityinc/reality-introduction-aug-2021"
+        ],
+        "type": "speakerdeck",
+        "id": "69b96485d3794eb381535723cbe7a77f",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 121,
+        "company_name": "株式会社OneMile Partners",
+        "company_url": "https://onemile.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/onemile/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "08e6f083f0a04ee293135982e0d53522",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 122,
+        "company_name": "株式会社Progate",
+        "company_url": "https://prog-8.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/progate/we-are-hiring",
+            "https://speakerdeck.com/progate/about-progate-engineer"
+        ],
+        "type": "speakerdeck",
+        "id": "df7d2aa20f1e40ccb5199b6c6105a00b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 123,
+        "company_name": "株式会社POL",
+        "company_url": "https://pol.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/polinc/zhu-shi-hui-she-polhui-she-shuo-ming-zi-liao-004576b5-9648-41b3-8d3b-38e02c1965b2"
+        ],
+        "type": "speakerdeck",
+        "id": "accbaf3c0a534bba9116e2f84711beeb",
+        "image_ratio": 1.73559322033898,
+        "image_width": 560,
+        "image_height": 322
+    },
+    {
+        "rowIndex": 124,
+        "company_name": "株式会社ROUTE06",
+        "company_url": "https://route06.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/route06/zhu-shi-hui-she-route06-rutositukusu-hui-she-shao-jie"
+        ],
+        "type": "speakerdeck",
+        "id": "82045c82e032459e9602c0954bf1dcc0",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    }
+]

@@ -1,0 +1,386 @@
+import company from "./company.json";
+import { ChangeEvent, ChangeEventHandler, useCallback, useEffect, useMemo, useState } from "react";
+import { InView } from "react-intersection-observer";
+import Image from "next/image";
+import { FaSpeakerDeck } from "react-icons/fa";
+import { BsFillFileEarmarkSpreadsheetFill } from "react-icons/bs";
+import { AiFillCaretRight, AiFillCaretLeft, AiFillGithub } from "react-icons/ai";
+
+declare module "react" {
+    interface StyleHTMLAttributes<T> extends React.HTMLAttributes<T> {
+        jsx?: boolean;
+        global?: boolean;
+    }
+}
+type Company = typeof company[0];
+const Company = (props: Company) => {
+    return (
+        <>
+            <style jsx>{`
+                .Company {
+                    background-color: white;
+                    display: grid;
+                    flex-direction: column;
+                    place-items: center;
+                }
+
+                .CompanyName {
+                    font-family: system-ui, -apple-system, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Meiryo",
+                        sans-serif;
+                }
+
+                .Company a {
+                    color: #0078b4;
+                }
+
+                .CompanySlides {
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                }
+            `}</style>
+            <div
+                style={{
+                    width: props.image_width,
+                    height: props.image_height
+                }}
+                className={"Company"}
+            >
+                <h1 className={"CompanyName"}>
+                    <a href={props.company_url}>{props.company_name}</a>
+                </h1>
+                <h2>
+                    {props.type === "speakerdeck" && (
+                        <a className={"CompanySlides"} href={props.slide_urls[0]}>
+                            <FaSpeakerDeck color={"#006159"} /> Speakerdeck
+                        </a>
+                    )}
+                </h2>
+            </div>
+        </>
+    );
+};
+const Slide = (props: typeof company[0] & { currentPage: number }) => {
+    if (props.type !== "speakerdeck") {
+        return null;
+    }
+
+    const [lastPage, setLastPage] = useState<number>(0);
+    const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
+    const onLoad = useCallback(() => {
+        setLastPage(props.currentPage);
+    }, [props.currentPage]);
+    const onErrorPage = useCallback(() => {
+        setLoadErrorPages((prevState) => prevState.concat(props.currentPage));
+    }, [props.currentPage]);
+    const shouldShowLastPage = useMemo(() => {
+        return loadErrorPages.includes(props.currentPage);
+    }, [lastPage, loadErrorPages, props.currentPage]);
+    const slideUrl = useMemo(() => {
+        if (props.currentPage === 0) {
+            return props.slide_urls[0];
+        }
+        return `${props.slide_urls[0]}?slide=${props.currentPage}`;
+    }, [props.currentPage, props.slide_urls]);
+    return (
+        <InView delay={0} threshold={0.2}>
+            {({ inView, ref }) => {
+                return (
+                    <div
+                        ref={ref}
+                        style={{
+                            display: "inline-block",
+                            border: "0px none",
+                            background: "rgba(0, 0, 0, 0.1) none repeat scroll 0% 0% padding-box; margin: 0px",
+                            padding: 0,
+                            borderRadius: "6px",
+                            boxShadow: "rgba(0, 0, 0, 0.2) 0px 5px 40px",
+                            margin: "4px",
+                            visibility: inView ? "visible" : "hidden"
+                        }}
+                    >
+                        {shouldShowLastPage ? (
+                            <Company {...props} />
+                        ) : (
+                            <a href={slideUrl} target={"_blank"}>
+                                <Image
+                                    width={props.image_width}
+                                    height={props.image_height}
+                                    alt={props.company_name}
+                                    src={`https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`}
+                                    loading={"lazy"}
+                                    onLoad={onLoad}
+                                    onError={onErrorPage}
+                                />
+                            </a>
+                        )}
+                    </div>
+                );
+            }}
+        </InView>
+    );
+};
+type ToggleProps = {
+    left: { label: string; value: string };
+    right: { label: string; value: string };
+    onChange: (value: string) => void;
+};
+const Toggle = (props: ToggleProps) => {
+    const [checked, setChecked] = useState(props.left.value);
+    const onChange: ChangeEventHandler<HTMLInputElement> = (event) => {
+        setChecked(event.target.value);
+        props.onChange(event.target.value);
+    };
+    return (
+        <>
+            <style jsx>{`
+                .switch-field {
+                    font-family: sans-serif;
+                    overflow: hidden;
+                }
+
+                .switch-title {
+                    font-weight: bold;
+                    margin-bottom: 6px;
+                }
+
+                .switch-field input {
+                    position: absolute !important;
+                    clip: rect(0, 0, 0, 0);
+                    height: 1px;
+                    width: 1px;
+                    border: 0;
+                    overflow: hidden;
+                }
+
+                .switch-field label {
+                    display: inline-block;
+                    width: 100px;
+                    background-color: #e4e4e4;
+                    color: rgba(0, 0, 0, 0.6);
+                    font-size: 14px;
+                    font-weight: normal;
+                    text-align: center;
+                    text-shadow: none;
+                    padding: 6px 14px;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+                    transition: all 0.1s ease-in-out;
+                }
+
+                .switch-field label:hover {
+                    cursor: pointer;
+                }
+
+                .switch-field input:checked + label {
+                    background-color: #1955a5;
+                    color: #fff;
+                    box-shadow: none;
+                }
+
+                .switch-field label:first-of-type {
+                    border-radius: 4px 0 0 4px;
+                }
+
+                .switch-field label:last-of-type {
+                    border-radius: 0 4px 4px 0;
+                }
+            `}</style>
+            <form className="switch-field">
+                <input
+                    type="radio"
+                    id="switch_left"
+                    name="switchToggle"
+                    value={props.left.value}
+                    onChange={onChange}
+                    checked={props.left.value === checked}
+                />
+                <label htmlFor="switch_left">{props.left.label}</label>
+                <input
+                    type="radio"
+                    id="switch_right"
+                    name="switchToggle"
+                    value={props.right.value}
+                    onChange={onChange}
+                    checked={props.right.value === checked}
+                />
+                <label htmlFor="switch_right">{props.right.label}</label>
+            </form>
+        </>
+    );
+};
+
+function HomePage() {
+    const [currentPage, setCurrentPage] = useState(0);
+    const [mode, setMode] = useState<"list" | "grid">("list");
+    const onClickNext = useCallback(() => {
+        setCurrentPage((prevState) => prevState + 1);
+    }, []);
+    const onClickPrev = useCallback(() => {
+        setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
+    }, []);
+    useEffect(() => {
+        const listener = function (event: KeyboardEvent) {
+            if (event.key === "ArrowRight") {
+                event.preventDefault();
+                setCurrentPage((prevState) => prevState + 1);
+            } else if (event.key === "ArrowLeft") {
+                event.preventDefault();
+                setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
+            }
+        };
+        document.addEventListener("keydown", listener);
+        return () => {
+            document.removeEventListener("keydown", listener);
+        };
+    }, []);
+    const onChangeMode = useCallback((value: string) => {
+        setMode(value as "list" | "grid");
+    }, []);
+    return (
+        <div>
+            <style jsx global>{`
+                html,
+                body {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+            `}</style>
+            <style jsx>{`
+                .Grid {
+                    display: grid;
+                    grid-gap: 10px;
+                    padding: 10px;
+                    margin: 1em 0 2em;
+                    overflow: hidden;
+                    justify-items: center;
+                }
+
+                .Grid--Grid {
+                    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+                }
+
+                .Grid--List {
+                    grid-template-columns: 1fr;
+                }
+
+                .Grid--List .GridItem {
+                    display: grid;
+                    grid-gap: 10px;
+                    padding: 10px;
+                    margin: 1em 0 2em;
+                    overflow: hidden;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-columns: 1fr 1fr;
+                }
+
+                .GridItem {
+                    padding: 10px;
+                }
+
+                .Footer {
+                    position: fixed;
+                    bottom: 0;
+                    width: 98%;
+                    margin: auto;
+                    font-size: 16px;
+                    padding: 0 8px;
+                    color: #fff;
+                    background-color: rgba(0, 0, 0, 0.15);
+                }
+
+                .Footer {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-content: center;
+                    align-items: center;
+                }
+
+                .FooterController,
+                .FooterModeChanger,
+                .FooterInformation {
+                    display: inline-block;
+                }
+
+                .FooterInformation {
+                    margin-left: auto;
+                }
+
+                .FooterControllerButton {
+                    appearance: none;
+                    border: 0;
+                    border-radius: 8px;
+                    background: transparent;
+                    padding: 8px 16px;
+                    font-size: 16px;
+                }
+
+                .LinkWithIcon {
+                    display: inline-flex;
+                    align-content: center;
+                    align-items: center;
+                    padding-right: 4px;
+                    font-size: 16px;
+                }
+            `}</style>
+            <div className={`Grid ${mode === "list" ? "Grid--List" : "Grid--Grid"}`}>
+                {company.map((slide) => {
+                    if (mode === "list") {
+                        return (
+                            <div className={"GridItem"} key={slide.rowIndex}>
+                                <Slide {...slide} currentPage={currentPage} />
+                                <Company {...slide} />
+                            </div>
+                        );
+                    }
+                    return (
+                        <div key={slide.rowIndex} className={"GridItem"}>
+                            <Slide {...slide} currentPage={currentPage} />
+                        </div>
+                    );
+                })}
+            </div>
+            <footer className={"Footer"}>
+                <div className={"FooterController"}>
+                    <button className={"FooterControllerButton"} onClick={onClickPrev}>
+                        <AiFillCaretLeft color={"#fff"} />
+                    </button>
+                    <span>{currentPage}</span>
+                    <button className={"FooterControllerButton"} onClick={onClickNext}>
+                        <AiFillCaretRight color={"#fff"} />
+                    </button>
+                </div>
+                <div className={"FooterModeChanger"}>
+                    <Toggle
+                        left={{ label: "List", value: "list" }}
+                        right={{ label: "Grid", value: "grid" }}
+                        onChange={onChangeMode}
+                    />
+                </div>
+                <div className={"FooterInformation"}>
+                    <a
+                        href={
+                            "https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit"
+                        }
+                        target={"_blank"}
+                        className="LinkWithIcon"
+                    >
+                        <BsFillFileEarmarkSpreadsheetFill size={"16px"} color={"#188038"} />
+                        スライドを追加
+                    </a>
+                    <a
+                        href={"https://github.com/azu/company-introduction-jp"}
+                        target={"_blank"}
+                        className={"LinkWithIcon"}
+                    >
+                        <AiFillGithub color={"black"} size={"16px"} />
+                    </a>
+                </div>
+            </footer>
+        </div>
+    );
+}
+
+export default HomePage;
