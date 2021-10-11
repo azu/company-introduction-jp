@@ -23,7 +23,11 @@
   - サービスサイトではなく会社としてのトップページが優先されます。
 - 紹介URL: スライドのURL。
   - 複数ある場合は改行区切りで入力します。
-  
+
+追加したデータは、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)のライセンスの元に提供されます。
+訂正、削除した場合は、SpreadSheetを編集してください。
+または、[Issue](https://github.com/azu/company-introduction-jp/issues)を作成して知らせてください。
+
 ## ウェブサイトの更新の流れ
 
 <https://company-introduction-jp.vercel.app/>は[SpreadSheet](https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc)を元に1日1回更新されます。
