@@ -413,16 +413,17 @@ function HomePage() {
                         href={
                             "https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit"
                         }
+                        title={"データを管理しているSpreaSheet"}
                         target={"_blank"}
                         rel="noreferrer"
                         className="LinkWithIcon FooterInformationSpreadSheet"
                     >
                         <BsFillFileEarmarkSpreadsheetFill size={"20px"} color={"#188038"} />
-                        Add Slide
                     </a>
                     <a
                         href={"https://github.com/azu/company-introduction-jp"}
                         target={"_blank"}
+                        title={"このウェブサイトのソースコード"}
                         rel="noreferrer"
                         className={"LinkWithIcon FooterInformationGitHub"}
                     >
