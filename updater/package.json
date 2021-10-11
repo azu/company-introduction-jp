@@ -17,7 +17,7 @@
   "scripts": {
     "update-data": "node --require dotenv/config --loader ts-node/esm src/update-data.ts",
     "fetch-spreadsheet": "node --require dotenv/config --loader ts-node/esm src/fetch-spreadsheet.ts",
-    "merge-speackerdeck": "node --require dotenv/config --loader ts-node/esm src/merge-speackerdeck.ts",
+    "merge-speakerdeck": "node --require dotenv/config --loader ts-node/esm src/merge-speackerdeck.ts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "prettier": {

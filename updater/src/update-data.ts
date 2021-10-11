@@ -1,7 +1,7 @@
 import pAll from "p-all";
 import * as fs from "fs/promises";
 import { Company, fetchSpreadsheet } from "./fetch-spreadsheet.js";
-import { fetchSpeakerDeck, SlideItem } from "./merge-speackerdeck.js";
+import { fetchSpeakerDeck, SlideItem } from "./merge-speakerdeck.js";
 import { fileURLToPath } from "url";
 import path from "path";
 

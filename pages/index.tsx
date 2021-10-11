@@ -70,7 +70,38 @@ const Company = (props: Company) => {
         </>
     );
 };
-const Slide = (props: typeof company[0] & { currentPage: number }) => {
+type SlideProps = typeof company[0] & { currentPage: number };
+const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
+    return (
+        <a title={props.company_name} href={props.slideUrl} target={"_blank"} rel="noreferrer">
+            <Image
+                width={props.image_width}
+                height={props.image_height}
+                alt={""}
+                src={`https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`}
+                onLoad={props.onLoad}
+                onError={props.onError}
+            />
+        </a>
+    );
+};
+// TODO: not implement
+const SlideShareSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
+    return (
+        <a title={props.company_name} href={props.slideUrl} target={"_blank"} rel="noreferrer">
+            <Image
+                width={"560"}
+                height={"315"}
+                alt={""}
+                src={`/not-found-image.jpeg`}
+                onLoad={props.onLoad}
+                onError={props.onError}
+            />
+        </a>
+    );
+};
+
+const Slide = (props: SlideProps) => {
     const [lastPage, setLastPage] = useState<number>(0);
     const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
     const onLoad = useCallback(() => {
@@ -88,23 +119,13 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
         }
         return `${props.slide_urls[0]}?slide=${props.currentPage}`;
     }, [props.currentPage, props.slide_urls]);
-    if (props.type !== "speakerdeck") {
-        return (
-            <div
-                style={{
-                    width: `${props.image_width}px`,
-                    height: `${props.image_height}px`,
-                    display: "inline-block",
-                    border: "0px none",
-                    background: "rgba(0, 0, 0, 0.1) none repeat scroll 0% 0% padding-box; margin: 0px",
-                    padding: 0,
-                    borderRadius: "6px",
-                    boxShadow: "rgba(0, 0, 0, 0.2) 0px 5px 40px",
-                    margin: "4px"
-                }}
-            />
-        );
-    }
+    const Slide = useMemo(() => {
+        if (props.type === "speakerdeck") {
+            return <SpeakerDeckSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />;
+        } else {
+            return <SlideShareSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />;
+        }
+    }, [props, slideUrl, onLoad, onErrorPage]);
     return (
         <InView rootMargin={"600px"}>
             {({ inView, ref }) => {
@@ -122,20 +143,7 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
                             visibility: inView ? "visible" : "hidden"
                         }}
                     >
-                        {shouldShowLastPage ? (
-                            <Company {...props} />
-                        ) : (
-                            <a title={props.company_name} href={slideUrl} target={"_blank"} rel="noreferrer">
-                                <Image
-                                    width={props.image_width}
-                                    height={props.image_height}
-                                    alt={""}
-                                    src={`https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`}
-                                    onLoad={onLoad}
-                                    onError={onErrorPage}
-                                />
-                            </a>
-                        )}
+                        {shouldShowLastPage ? <Company {...props} /> : Slide}
                     </div>
                 );
             }}
