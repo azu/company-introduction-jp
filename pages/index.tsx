@@ -91,14 +91,21 @@ const Slide = (props: typeof company[0] & { currentPage: number }) => {
         return (
             <div
                 style={{
-                    width: props.image_width,
-                    height: props.image_height
+                    width: `${props.image_width}px`,
+                    height: `${props.image_height}px`,
+                    display: "inline-block",
+                    border: "0px none",
+                    background: "rgba(0, 0, 0, 0.1) none repeat scroll 0% 0% padding-box; margin: 0px",
+                    padding: 0,
+                    borderRadius: "6px",
+                    boxShadow: "rgba(0, 0, 0, 0.2) 0px 5px 40px",
+                    margin: "4px"
                 }}
             />
         );
     }
     return (
-        <InView delay={0} threshold={0.1}>
+        <InView rootMargin={"600px"}>
             {({ inView, ref }) => {
                 return (
                     <div
