@@ -7,6 +7,7 @@ import { BsFillFileEarmarkSpreadsheetFill } from "react-icons/bs";
 import { AiFillCaretLeft, AiFillCaretRight, AiFillGithub } from "react-icons/ai";
 
 import { useMediaQuery } from "react-responsive";
+import Head from "next/head";
 
 declare module "react" {
     interface StyleHTMLAttributes<T> extends React.HTMLAttributes<T> {
@@ -265,6 +266,12 @@ function HomePage() {
     }, []);
     return (
         <div>
+            <Head>
+                <meta charSet="utf-8" />
+                <title>日本の会社紹介スライドのまとめ</title>
+                <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
+                <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
+            </Head>
             <style jsx>{`
                 .Grid {
                     display: grid;
