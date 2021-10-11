@@ -24,6 +24,15 @@
 - 紹介URL: スライドのURL。
   - 複数ある場合は改行区切りで入力します。
   
+## ウェブサイトの更新の流れ
+
+<https://company-introduction-jp.vercel.app/>は[SpreadSheet](https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc)を元に1日1回更新されます。
+
+1. SpreadSheetが更新される
+2. [update-data.yml](./.github/workflows/update-data.yml)が1日1回が起動する
+3. [Sheetson](https://sheetson.com/)を使ってSpreadSheetの中身を取得して、[pages/company.json](./pages/company.json)を更新する
+4. [pages/company.json](./pages/company.json)が更新されたらVercelにデプロイされる
+
 ## Contributing
 
 Pull requests and stars are always welcome.
