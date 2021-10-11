@@ -11,7 +11,7 @@
 ## 会社紹介スライドの追加方法
 
 データはGoogle SpreadSheetで管理されています。
-次のSpreadSheetに自由に追加してください。
+次のSpreadSheetに対して自由に追加してください。
 
 - <https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit>
 
