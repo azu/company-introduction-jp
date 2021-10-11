@@ -51,4 +51,5 @@ For bugs and feature requests, [please create an issue](https://github.com/azu/c
 
 ## License
 
-MIT © azu
+- ソースコード: MIT © azu
+- [SpreadSheet](https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc)のデータ: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)
