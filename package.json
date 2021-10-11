@@ -32,7 +32,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "npm run lint && npm run build"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,css}": [
