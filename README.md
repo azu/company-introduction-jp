@@ -1,27 +1,29 @@
 # company-introduction-jp
 
+日本の会社紹介スライドのまとめ。
 
+## ウェブサイト
 
-## Install
+次のURLから、会社ごとのスライドの一覧を確認できます。
 
-Install with [npm](https://www.npmjs.com/):
+- <https://company-introduction-jp.vercel.app/>
 
-    npm install company-introduction-jp
+## 会社紹介スライドの追加方法
 
-## Usage
+データはGoogle SpreadSheetで管理されています。
+次のSpreadSheetに自由に追加してください。
 
-- [ ] Write usage instructions
+- <https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit>
 
-## Changelog
+項目
 
-See [Releases page](https://github.com/azu/company-introduction-jp/releases).
-
-## Running tests
-
-Install devDependencies and Run `npm test`:
-
-    npm test
-
+- 会社名: 会社の正式名称。
+  - 登記簿の名前が優先されます。
+- 会社URL: 会社のコーポレートサイトのURL。
+  - サービスサイトではなく会社としてのトップページが優先されます。
+- 紹介URL: スライドのURL。
+  - 複数ある場合は改行区切りで入力します。
+  
 ## Contributing
 
 Pull requests and stars are always welcome.
