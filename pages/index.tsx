@@ -374,7 +374,9 @@ function HomePage() {
                 .FooterController,
                 .FooterModeChanger,
                 .FooterInformation {
-                    display: inline-block;
+                    display: inline-flex;
+                    align-content: center;
+                    align-items: center;
                 }
 
                 .FooterInformation {
@@ -394,8 +396,8 @@ function HomePage() {
                     display: inline-flex;
                     align-content: center;
                     align-items: center;
-                    padding-right: 4px;
-                    font-size: 20px;
+                    padding-right: 8px;
+                    font-size: 24px;
                 }
             `}</style>
             <div className={`Grid ${mode === "list" ? "Grid--List" : "Grid--Grid"}`}>
@@ -443,7 +445,7 @@ function HomePage() {
                         rel="noreferrer"
                         className="LinkWithIcon FooterInformationSpreadSheet"
                     >
-                        <BsFillFileEarmarkSpreadsheetFill size={"20px"} color={"#188038"} />
+                        <BsFillFileEarmarkSpreadsheetFill size={"24px"} color={"#188038"} />
                     </a>
                     <a
                         href={"https://github.com/azu/company-introduction-jp"}
@@ -452,7 +454,7 @@ function HomePage() {
                         rel="noreferrer"
                         className={"LinkWithIcon FooterInformationGitHub"}
                     >
-                        <AiFillGithub color={"black"} size={"20px"} />
+                        <AiFillGithub color={"black"} size={"24px"} />
                     </a>
                 </div>
             </footer>
