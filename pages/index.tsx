@@ -50,18 +50,31 @@ const Company = (props: Company) => {
                 className={"Company"}
             >
                 <h1 className={"CompanyName"}>
-                    <a href={props.company_url} target={"_blank"} rel="noreferrer">
+                    <a
+                        href={props.company_url}
+                        target={"_blank"}
+                        rel="noreferrer"
+                        aria-label={`${props.company_name}の会社ページ`}
+                    >
                         {props.company_name}
                     </a>
                 </h1>
                 <h2>
                     {props.type === "speakerdeck" && (
-                        <a className={"CompanySlides"} href={props.slide_urls[0]}>
+                        <a
+                            className={"CompanySlides"}
+                            href={props.slide_urls[0]}
+                            aria-label={`${props.company_name}のSpeakerdeckへのリンク`}
+                        >
                             <FaSpeakerDeck color={"#006159"} /> Speakerdeck
                         </a>
                     )}
                     {props.type === "slideshare" && (
-                        <a className={"CompanySlides"} href={props.slide_urls[0]}>
+                        <a
+                            className={"CompanySlides"}
+                            href={props.slide_urls[0]}
+                            aria-label={`${props.company_name}のSlideShareへのリンク`}
+                        >
                             <FaSlideshare color={"#006159"} /> SlideShare
                         </a>
                     )}
@@ -73,7 +86,13 @@ const Company = (props: Company) => {
 type SlideProps = typeof company[0] & { currentPage: number };
 const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
     return (
-        <a title={props.company_name} href={props.slideUrl} target={"_blank"} rel="noreferrer">
+        <a
+            title={props.company_name}
+            href={props.slideUrl}
+            target={"_blank"}
+            rel="noreferrer"
+            aria-label={`${props.company_name}のスライドの${props.currentPage}ページ目`}
+        >
             <Image
                 width={props.image_width}
                 height={props.image_height}
@@ -88,7 +107,13 @@ const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => 
 // TODO: not implement
 const SlideShareSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
     return (
-        <a title={props.company_name} href={props.slideUrl} target={"_blank"} rel="noreferrer">
+        <a
+            title={props.company_name}
+            href={props.slideUrl}
+            target={"_blank"}
+            rel="noreferrer"
+            aria-label={`${props.company_name}のスライドの${props.currentPage}ページ目`}
+        >
             <Image
                 width={"560"}
                 height={"315"}
