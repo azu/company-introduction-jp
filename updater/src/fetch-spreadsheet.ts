@@ -29,6 +29,7 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
     let currentCursor = 0;
     while (true) {
         const url = API_ENDPOINT + `?skip=${currentCursor}&limit=100`;
+        console.log("[fetchSpreadsheet] fetch", API_ENDPOINT);
         const result = (await fetch(url, {
             headers: {
                 Authorization: `Bearer ${API_KEY}`,
@@ -41,5 +42,6 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
             break;
         }
     }
+    console.log("[fetchSpreadsheet] fetch total", results.length);
     return results;
 };
