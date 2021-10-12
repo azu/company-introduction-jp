@@ -28,7 +28,10 @@ const actions = json
                     ...item
                 };
             }
-            const speakerDeck = await fetchSpeakerDeck(slideUrl);
+            const speakerDeck = await fetchSpeakerDeck(slideUrl).catch((error) => {
+                console.error("[update-data] failed to load slide details", slideUrl);
+                return Promise.reject(error);
+            });
             return {
                 ...item,
                 ...speakerDeck
