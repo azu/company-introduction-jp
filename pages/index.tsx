@@ -419,11 +419,19 @@ function HomePage() {
             </div>
             <footer className={"Footer"}>
                 <div className={"FooterController"}>
-                    <button className={"FooterControllerButton"} onClick={onClickPrev}>
+                    <button
+                        className={"FooterControllerButton"}
+                        onClick={onClickPrev}
+                        aria-label={`スライドを前のページに変更`}
+                    >
                         <AiFillCaretLeft color={"#fff"} />
                     </button>
                     <span>{currentPage}</span>
-                    <button className={"FooterControllerButton"} onClick={onClickNext}>
+                    <button
+                        className={"FooterControllerButton"}
+                        onClick={onClickNext}
+                        aria-label={`スライドを次のページに変更`}
+                    >
                         <AiFillCaretRight color={"#fff"} />
                     </button>
                 </div>
