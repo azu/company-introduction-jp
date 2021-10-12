@@ -8,6 +8,12 @@
 
 - <https://company-introduction-jp.vercel.app/>
 
+### API
+
+会社の一覧をJSONで返します。
+
+- <https://company-introduction-jp.vercel.app/api/company>
+
 ## 会社紹介スライドの追加方法
 
 データはGoogle SpreadSheetで管理されています。
