@@ -9,8 +9,8 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html>
-                <Head lang={"ja"} />
+            <Html lang={"ja"}>
+                <Head />
                 <body>
                     <Main />
                     <NextScript />
