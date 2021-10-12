@@ -64,7 +64,7 @@ const Company = (props: Company) => {
                         <a
                             className={"CompanySlides"}
                             href={props.slide_urls[0]}
-                            aria-label={`${props.company_name}のSpeakerdeckへのリンク`}
+                            aria-label={`${props.company_name}のスライド`}
                         >
                             <FaSpeakerDeck color={"#006159"} /> Speakerdeck
                         </a>
@@ -73,7 +73,7 @@ const Company = (props: Company) => {
                         <a
                             className={"CompanySlides"}
                             href={props.slide_urls[0]}
-                            aria-label={`${props.company_name}のSlideShareへのリンク`}
+                            aria-label={`${props.company_name}のスライド`}
                         >
                             <FaSlideshare color={"#006159"} /> SlideShare
                         </a>
