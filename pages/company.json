@@ -171,19 +171,6 @@
     },
     {
         "rowIndex": 15,
-        "company_name": "スマートキャンプ株式会社",
-        "company_url": "https://smartcamp.co.jp/",
-        "slide_urls": [
-            "https://speakerdeck.com/smartcamp/smartcamp-company-info"
-        ],
-        "type": "speakerdeck",
-        "id": "a8e05b10c51342b1a366c5c68f01eab9",
-        "image_ratio": 1.41436464088398,
-        "image_width": 560,
-        "image_height": 395
-    },
-    {
-        "rowIndex": 16,
         "company_name": "株式会社カンム",
         "company_url": "https://kanmu.co.jp/",
         "slide_urls": [
@@ -196,7 +183,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 17,
+        "rowIndex": 16,
         "company_name": "BASE株式会社",
         "company_url": "https://binc.jp/",
         "slide_urls": [
@@ -209,7 +196,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 18,
+        "rowIndex": 17,
         "company_name": "株式会社プレックス",
         "company_url": "https://plex.co.jp/",
         "slide_urls": [
@@ -222,7 +209,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 19,
+        "rowIndex": 18,
         "company_name": "株式会社アトラエ",
         "company_url": "https://atrae.co.jp/",
         "slide_urls": [
@@ -235,7 +222,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 20,
+        "rowIndex": 19,
         "company_name": "ユアマイスター株式会社",
         "company_url": "https://corp.yourmystar.jp/",
         "slide_urls": [
@@ -248,7 +235,7 @@
         "image_height": 387
     },
     {
-        "rowIndex": 21,
+        "rowIndex": 20,
         "company_name": "株式会社リンクアンドモチベーション",
         "company_url": "https://www.lmi.ne.jp/",
         "slide_urls": [
@@ -261,7 +248,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 22,
+        "rowIndex": 21,
         "company_name": "株式会社ユニラボ",
         "company_url": "https://www.unilabo.jp/",
         "slide_urls": [
@@ -274,7 +261,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 23,
+        "rowIndex": 22,
         "company_name": "株式会社グッドパッチ",
         "company_url": "https://goodpatch.com/",
         "slide_urls": [
@@ -287,7 +274,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 24,
+        "rowIndex": 23,
         "company_name": "サイボウズ株式会社",
         "company_url": "https://cybozu.co.jp/",
         "slide_urls": [
@@ -300,7 +287,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 25,
+        "rowIndex": 24,
         "company_name": "インビジョン株式会社",
         "company_url": "https://www.invision-inc.jp/",
         "slide_urls": [
@@ -313,7 +300,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 26,
+        "rowIndex": 25,
         "company_name": "株式会社コーナー",
         "company_url": "https://www.corner-inc.co.jp/",
         "slide_urls": [
@@ -326,7 +313,7 @@
         "image_height": 396
     },
     {
-        "rowIndex": 27,
+        "rowIndex": 26,
         "company_name": "atama plus株式会社",
         "company_url": "https://corp.atama.plus/",
         "slide_urls": [
@@ -339,7 +326,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 28,
+        "rowIndex": 27,
         "company_name": "XTech株式会社",
         "company_url": "https://xtech-corp.co.jp/",
         "slide_urls": [
@@ -352,7 +339,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 29,
+        "rowIndex": 28,
         "company_name": "OLTA株式会社",
         "company_url": "https://corp.olta.co.jp/",
         "slide_urls": [
@@ -365,7 +352,7 @@
         "image_height": 350
     },
     {
-        "rowIndex": 30,
+        "rowIndex": 29,
         "company_name": "HiCustomer株式会社",
         "company_url": "https://hicustomer.jp/about/",
         "slide_urls": [
@@ -378,7 +365,7 @@
         "image_height": 318
     },
     {
-        "rowIndex": 31,
+        "rowIndex": 30,
         "company_name": "株式会社FORCAS",
         "company_url": "https://www.forcas.com/company/",
         "slide_urls": [
@@ -391,7 +378,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 32,
+        "rowIndex": 31,
         "company_name": "LeapMind株式会社",
         "company_url": "https://leapmind.io/",
         "slide_urls": [
@@ -404,7 +391,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 33,
+        "rowIndex": 32,
         "company_name": "Acroquest Technology株式会社",
         "company_url": "https://www.acroquest.co.jp/",
         "slide_urls": [
@@ -417,7 +404,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 34,
+        "rowIndex": 33,
         "company_name": "株式会社フィードフォース",
         "company_url": "https://www.feedforce.jp/",
         "slide_urls": [
@@ -430,7 +417,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 35,
+        "rowIndex": 34,
         "company_name": "株式会社アスクレピア",
         "company_url": "https://www.asclepia.co.jp/",
         "slide_urls": [
@@ -443,7 +430,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 36,
+        "rowIndex": 35,
         "company_name": "カラビナテクノロジー株式会社",
         "company_url": "https://karabiner.tech/",
         "slide_urls": [
@@ -456,7 +443,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 37,
+        "rowIndex": 36,
         "company_name": "MNTSQ株式会社",
         "company_url": "https://www.mntsq.co.jp/",
         "slide_urls": [
@@ -469,7 +456,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 38,
+        "rowIndex": 37,
         "company_name": "株式会社estie",
         "company_url": "https://www.estie.jp/corp/",
         "slide_urls": [
@@ -482,7 +469,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 39,
+        "rowIndex": 38,
         "company_name": "株式会社カラダノート",
         "company_url": "https://corp.karadanote.jp/",
         "slide_urls": [
@@ -495,7 +482,7 @@
         "image_height": 420
     },
     {
-        "rowIndex": 40,
+        "rowIndex": 39,
         "company_name": "株式会社sizebook",
         "company_url": "https://sizebook.co.jp/",
         "slide_urls": [
@@ -508,7 +495,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 41,
+        "rowIndex": 40,
         "company_name": "株式会社COUNTERWORKS",
         "company_url": "https://www.counterworks.jp/",
         "slide_urls": [
@@ -521,7 +508,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 42,
+        "rowIndex": 41,
         "company_name": "ラクスル株式会社",
         "company_url": "https://corp.raksul.com/",
         "slide_urls": [
@@ -534,7 +521,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 43,
+        "rowIndex": 42,
         "company_name": "株式会社ビザスク",
         "company_url": "https://visasq.co.jp/",
         "slide_urls": [
@@ -547,7 +534,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 44,
+        "rowIndex": 43,
         "company_name": "ecbo株式会社",
         "company_url": "https://ecbo.io/",
         "slide_urls": [
@@ -560,7 +547,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 45,
+        "rowIndex": 44,
         "company_name": "株式会社Kaizen Platform",
         "company_url": "https://kaizenplatform.com/",
         "slide_urls": [
@@ -573,7 +560,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 46,
+        "rowIndex": 45,
         "company_name": "株式会社スタートアップテクノロジー",
         "company_url": "https://startup-technology.com/",
         "slide_urls": [
@@ -586,7 +573,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 47,
+        "rowIndex": 46,
         "company_name": "TOWN株式会社",
         "company_url": "https://town.biz/",
         "slide_urls": [
@@ -599,7 +586,7 @@
         "image_height": 350
     },
     {
-        "rowIndex": 48,
+        "rowIndex": 47,
         "company_name": "株式会社アペルザ",
         "company_url": "https://www.aperza.com/corp/",
         "slide_urls": [
@@ -613,7 +600,7 @@
     },
     {
         "type": "slideshare",
-        "rowIndex": 49,
+        "rowIndex": 48,
         "company_name": "株式会社RCIエージェンシー",
         "company_url": "http://www.rci-agency.com/",
         "slide_urls": [
@@ -621,7 +608,7 @@
         ]
     },
     {
-        "rowIndex": 50,
+        "rowIndex": 49,
         "company_name": "株式会社Leaner Technologies",
         "company_url": "https://leaner.co.jp/",
         "slide_urls": [
@@ -634,7 +621,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 51,
+        "rowIndex": 50,
         "company_name": "アジアクエスト株式会社",
         "company_url": "https://www.asia-quest.jp/",
         "slide_urls": [
@@ -647,7 +634,7 @@
         "image_height": 313
     },
     {
-        "rowIndex": 52,
+        "rowIndex": 51,
         "company_name": "株式会社mofmof",
         "company_url": "https://www.mof-mof.co.jp/",
         "slide_urls": [
@@ -660,7 +647,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 53,
+        "rowIndex": 52,
         "company_name": "株式会社ログラス",
         "company_url": "https://loglass.jp/",
         "slide_urls": [
@@ -673,7 +660,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 54,
+        "rowIndex": 53,
         "company_name": "ファインディ株式会社\n",
         "company_url": "https://findy.co.jp/",
         "slide_urls": [
@@ -686,7 +673,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 55,
+        "rowIndex": 54,
         "company_name": "株式会社トラーナ",
         "company_url": "https://torana.co.jp/",
         "slide_urls": [
@@ -699,7 +686,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 56,
+        "rowIndex": 55,
         "company_name": "株式会社OKAN",
         "company_url": "https://okan.co.jp/",
         "slide_urls": [
@@ -712,7 +699,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 57,
+        "rowIndex": 56,
         "company_name": "アライドアーキテクツ株式会社",
         "company_url": "https://www.aainc.co.jp/",
         "slide_urls": [
@@ -725,7 +712,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 58,
+        "rowIndex": 57,
         "company_name": "株式会社ACES",
         "company_url": "https://acesinc.co.jp/",
         "slide_urls": [
@@ -738,7 +725,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 59,
+        "rowIndex": 58,
         "company_name": "株式会社WEIN Group",
         "company_url": "https://wein.co.jp/",
         "slide_urls": [
@@ -751,7 +738,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 60,
+        "rowIndex": 59,
         "company_name": "GCストーリー株式会社",
         "company_url": "https://gc-story.com/",
         "slide_urls": [
@@ -764,7 +751,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 61,
+        "rowIndex": 60,
         "company_name": "株式会社チカク",
         "company_url": "https://www.chikaku.co.jp/",
         "slide_urls": [
@@ -777,7 +764,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 62,
+        "rowIndex": 61,
         "company_name": "株式会社ケップル",
         "company_url": "https://www.kepple.co.jp/",
         "slide_urls": [
@@ -790,7 +777,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 63,
+        "rowIndex": 62,
         "company_name": "株式会社エレファントストーン",
         "company_url": "https://elephantstone.net/",
         "slide_urls": [
@@ -803,7 +790,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 64,
+        "rowIndex": 63,
         "company_name": "株式会社リチカ",
         "company_url": "https://richka.co/",
         "slide_urls": [
@@ -816,7 +803,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 65,
+        "rowIndex": 64,
         "company_name": "株式会社一休",
         "company_url": "https://www.ikyu.co.jp/",
         "slide_urls": [
@@ -829,7 +816,7 @@
         "image_height": 334
     },
     {
-        "rowIndex": 66,
+        "rowIndex": 65,
         "company_name": "株式会社MATCHA",
         "company_url": "https://company.matcha-jp.com/",
         "slide_urls": [
@@ -842,7 +829,7 @@
         "image_height": 396
     },
     {
-        "rowIndex": 67,
+        "rowIndex": 66,
         "company_name": "dely株式会社",
         "company_url": "https://dely.jp/",
         "slide_urls": [
@@ -855,7 +842,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 68,
+        "rowIndex": 67,
         "company_name": "ANYCOLOR株式会社",
         "company_url": "https://www.anycolor.co.jp/",
         "slide_urls": [
@@ -868,7 +855,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 69,
+        "rowIndex": 68,
         "company_name": "株式会社レバレッジ",
         "company_url": "https://www.lev.co.jp/",
         "slide_urls": [
@@ -881,7 +868,7 @@
         "image_height": 396
     },
     {
-        "rowIndex": 70,
+        "rowIndex": 69,
         "company_name": "Wano株式会社",
         "company_url": "https://wano.co.jp/",
         "slide_urls": [
@@ -894,7 +881,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 71,
+        "rowIndex": 70,
         "company_name": "株式会社タイマーズ",
         "company_url": "https://timers-inc.com/",
         "slide_urls": [
@@ -907,7 +894,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 72,
+        "rowIndex": 71,
         "company_name": "株式会社ワンキャリア",
         "company_url": "https://onecareer.co.jp/",
         "slide_urls": [
@@ -915,12 +902,12 @@
         ],
         "type": "speakerdeck",
         "id": "2c75f7eed95047f5975eb5ffb82f6789",
-        "image_ratio": 1.33333333333333,
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 420
+        "image_height": 314
     },
     {
-        "rowIndex": 73,
+        "rowIndex": 72,
         "company_name": "オーティファイ株式会社",
         "company_url": "https://autify.com/ja/about",
         "slide_urls": [
@@ -933,7 +920,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 74,
+        "rowIndex": 73,
         "company_name": "プレティア・テクノロジーズ株式会社",
         "company_url": "https://corporate.pretiaar.com/",
         "slide_urls": [
@@ -946,7 +933,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 75,
+        "rowIndex": 74,
         "company_name": "株式会社アトラエ",
         "company_url": "https://atrae.co.jp/",
         "slide_urls": [
@@ -959,7 +946,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 76,
+        "rowIndex": 75,
         "company_name": "株式会社mikan",
         "company_url": "https://mikan.link/",
         "slide_urls": [
@@ -972,7 +959,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 77,
+        "rowIndex": 76,
         "company_name": "株式会社サイカ",
         "company_url": "https://xica.net/",
         "slide_urls": [
@@ -985,7 +972,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 78,
+        "rowIndex": 77,
         "company_name": "モノグサ株式会社",
         "company_url": "https://corp.monoxer.com/company/",
         "slide_urls": [
@@ -998,7 +985,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 79,
+        "rowIndex": 78,
         "company_name": "アルプ株式会社",
         "company_url": "https://thealp.co.jp/",
         "slide_urls": [
@@ -1013,7 +1000,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 80,
+        "rowIndex": 79,
         "company_name": "AI inside 株式会社",
         "company_url": "https://inside.ai/",
         "slide_urls": [
@@ -1026,7 +1013,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 81,
+        "rowIndex": 80,
         "company_name": "株式会社CAMPFIRE",
         "company_url": "https://campfire.co.jp/",
         "slide_urls": [
@@ -1039,7 +1026,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 82,
+        "rowIndex": 81,
         "company_name": "株式会社エクサウィザーズ",
         "company_url": "https://exawizards.com/",
         "slide_urls": [
@@ -1052,7 +1039,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 83,
+        "rowIndex": 82,
         "company_name": "株式会社stand.fm",
         "company_url": "https://corp.stand.fm/",
         "slide_urls": [
@@ -1065,7 +1052,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 84,
+        "rowIndex": 83,
         "company_name": "コインチェック株式会社",
         "company_url": "https://corporate.coincheck.com/",
         "slide_urls": [
@@ -1078,7 +1065,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 85,
+        "rowIndex": 84,
         "company_name": "株式会社カミナシ",
         "company_url": "https://corp.kaminashi.jp/",
         "slide_urls": [
@@ -1091,7 +1078,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 86,
+        "rowIndex": 85,
         "company_name": "株式会社アペルザ",
         "company_url": "https://www.aperza.com/corp/",
         "slide_urls": [
@@ -1104,7 +1091,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 87,
+        "rowIndex": 86,
         "company_name": "株式会社アイデミー",
         "company_url": "https://aidemy.co.jp/company/",
         "slide_urls": [
@@ -1117,7 +1104,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 88,
+        "rowIndex": 87,
         "company_name": "メダップ株式会社",
         "company_url": "https://medup.jp/",
         "slide_urls": [
@@ -1130,7 +1117,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 89,
+        "rowIndex": 88,
         "company_name": "GMOペパボ株式会社",
         "company_url": "https://pepabo.com/",
         "slide_urls": [
@@ -1143,7 +1130,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 90,
+        "rowIndex": 89,
         "company_name": "株式会社FLUX",
         "company_url": "https://flux-g.com/",
         "slide_urls": [
@@ -1156,7 +1143,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 91,
+        "rowIndex": 90,
         "company_name": "株式会社TimeTree",
         "company_url": "https://timetreeapp.com/intl/ja/corporate",
         "slide_urls": [
@@ -1169,7 +1156,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 92,
+        "rowIndex": 91,
         "company_name": "株式会社スピークバディ",
         "company_url": "https://speakbuddy.jp/",
         "slide_urls": [
@@ -1182,7 +1169,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 93,
+        "rowIndex": 92,
         "company_name": "株式会社JX通信社",
         "company_url": "https://jxpress.net/",
         "slide_urls": [
@@ -1195,7 +1182,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 94,
+        "rowIndex": 93,
         "company_name": "HENNGE株式会社",
         "company_url": "https://hennge.com/jp/",
         "slide_urls": [
@@ -1208,7 +1195,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 95,
+        "rowIndex": 94,
         "company_name": "株式会社VARK",
         "company_url": "https://corp.vark.co.jp/",
         "slide_urls": [
@@ -1221,7 +1208,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 96,
+        "rowIndex": 95,
         "company_name": "Supership株式会社",
         "company_url": "https://supership.jp/",
         "slide_urls": [
@@ -1234,7 +1221,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 97,
+        "rowIndex": 96,
         "company_name": "株式会社AppBrew",
         "company_url": "https://appbrew.io/",
         "slide_urls": [
@@ -1247,7 +1234,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 98,
+        "rowIndex": 97,
         "company_name": "株式会社hokan",
         "company_url": "https://www.corp.hkn.jp/",
         "slide_urls": [
@@ -1260,7 +1247,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 99,
+        "rowIndex": 98,
         "company_name": "Re.Hatch株式会社",
         "company_url": "https://re-hatch.jp/",
         "slide_urls": [
@@ -1273,7 +1260,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 100,
+        "rowIndex": 99,
         "company_name": "株式会社Prazto",
         "company_url": "https://prazto.com/",
         "slide_urls": [
@@ -1286,7 +1273,7 @@
         "image_height": 350
     },
     {
-        "rowIndex": 101,
+        "rowIndex": 100,
         "company_name": "株式会社グラファー",
         "company_url": "https://graffer.jp/",
         "slide_urls": [
@@ -1299,7 +1286,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 102,
+        "rowIndex": 101,
         "company_name": "インフォメティス株式会社",
         "company_url": "https://www.informetis.com/",
         "slide_urls": [
@@ -1312,7 +1299,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 103,
+        "rowIndex": 102,
         "company_name": "株式会社電脳交通",
         "company_url": "https://cybertransporters.com/",
         "slide_urls": [
@@ -1325,7 +1312,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 104,
+        "rowIndex": 103,
         "company_name": "株式会社ナレッジラボ",
         "company_url": "https://knowledgelabo.com/",
         "slide_urls": [
@@ -1338,7 +1325,7 @@
         "image_height": 387
     },
     {
-        "rowIndex": 105,
+        "rowIndex": 104,
         "company_name": "株式会社MICIN",
         "company_url": "https://micin.jp/",
         "slide_urls": [
@@ -1351,7 +1338,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 106,
+        "rowIndex": 105,
         "company_name": "株式会社TENTIAL",
         "company_url": "https://corp.tential.jp/",
         "slide_urls": [
@@ -1364,7 +1351,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 107,
+        "rowIndex": 106,
         "company_name": "株式会社スタメン",
         "company_url": "https://stmn.co.jp/",
         "slide_urls": [
@@ -1377,7 +1364,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 108,
+        "rowIndex": 107,
         "company_name": "エムスリー株式会社",
         "company_url": "https://corporate.m3.com/",
         "slide_urls": [
@@ -1391,7 +1378,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 109,
+        "rowIndex": 108,
         "company_name": "株式会社Lang-8",
         "company_url": "https://lang-8.jp/",
         "slide_urls": [
@@ -1404,7 +1391,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 110,
+        "rowIndex": 109,
         "company_name": "株式会社Libry",
         "company_url": "https://about.libry.jp/",
         "slide_urls": [
@@ -1417,7 +1404,7 @@
         "image_height": 395
     },
     {
-        "rowIndex": 111,
+        "rowIndex": 110,
         "company_name": "株式会社フレクト",
         "company_url": "https://www.flect.co.jp/",
         "slide_urls": [
@@ -1430,7 +1417,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 112,
+        "rowIndex": 111,
         "company_name": "株式会社ビビッドガーデン",
         "company_url": "https://vivid-garden.co.jp/",
         "slide_urls": [
@@ -1443,7 +1430,7 @@
         "image_height": 316
     },
     {
-        "rowIndex": 113,
+        "rowIndex": 112,
         "company_name": "株式会社スタディスト",
         "company_url": "https://studist.jp/",
         "slide_urls": [
@@ -1456,7 +1443,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 114,
+        "rowIndex": 113,
         "company_name": "株式会社ギフティ",
         "company_url": "https://giftee.co.jp/",
         "slide_urls": [
@@ -1469,7 +1456,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 115,
+        "rowIndex": 114,
         "company_name": "株式会社アンドパッド",
         "company_url": "https://andpad.co.jp/",
         "slide_urls": [
@@ -1482,7 +1469,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 116,
+        "rowIndex": 115,
         "company_name": "株式会社IRIAM",
         "company_url": "https://www.live.iriam.com/",
         "slide_urls": [
@@ -1495,7 +1482,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 117,
+        "rowIndex": 116,
         "company_name": "株式会社スマートラウンド",
         "company_url": "https://jp.smartround.com/",
         "slide_urls": [
@@ -1503,7 +1490,7 @@
         ]
     },
     {
-        "rowIndex": 118,
+        "rowIndex": 117,
         "company_name": "株式会社マインディア",
         "company_url": "https://corporate.minedia.com/",
         "slide_urls": [
@@ -1516,7 +1503,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 119,
+        "rowIndex": 118,
         "company_name": "株式会社WOW WORLD",
         "company_url": "https://www.wow-world.co.jp/",
         "slide_urls": [
@@ -1529,7 +1516,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 120,
+        "rowIndex": 119,
         "company_name": "REALITY株式会社",
         "company_url": "https://reality.inc/",
         "slide_urls": [
@@ -1542,7 +1529,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 121,
+        "rowIndex": 120,
         "company_name": "株式会社OneMile Partners",
         "company_url": "https://onemile.co.jp/",
         "slide_urls": [
@@ -1555,7 +1542,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 122,
+        "rowIndex": 121,
         "company_name": "株式会社Progate",
         "company_url": "https://prog-8.com/",
         "slide_urls": [
@@ -1569,7 +1556,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 123,
+        "rowIndex": 122,
         "company_name": "株式会社POL",
         "company_url": "https://pol.co.jp/",
         "slide_urls": [
@@ -1582,7 +1569,7 @@
         "image_height": 322
     },
     {
-        "rowIndex": 124,
+        "rowIndex": 123,
         "company_name": "株式会社ROUTE06",
         "company_url": "https://route06.co.jp/",
         "slide_urls": [
