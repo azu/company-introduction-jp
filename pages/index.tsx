@@ -302,6 +302,7 @@ function HomePage() {
             <Head>
                 <meta charSet="utf-8" />
                 <title>日本の会社紹介スライドのまとめ</title>
+                <meta name="description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
                 <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
                 <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
             </Head>
