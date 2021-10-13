@@ -1,7 +1,6 @@
 import company from "./company.json";
 import { ChangeEventHandler, useCallback, useEffect, useMemo, useState } from "react";
 import { InView } from "react-intersection-observer";
-import Image from "next/image";
 import { FaSpeakerDeck, FaSlideshare } from "react-icons/fa";
 import { BsFillFileEarmarkSpreadsheetFill } from "react-icons/bs";
 import { AiFillCaretLeft, AiFillCaretRight, AiFillGithub } from "react-icons/ai";
@@ -93,13 +92,14 @@ const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => 
             rel="noreferrer"
             aria-label={`${props.company_name}のスライドの${props.currentPage}ページ目`}
         >
-            <Image
+            <img
                 width={props.image_width}
                 height={props.image_height}
                 alt={""}
                 src={`https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`}
                 onLoad={props.onLoad}
                 onError={props.onError}
+                loading={"lazy"}
             />
         </a>
     );
@@ -114,11 +114,12 @@ const SlideShareSlide = (props: SlideProps & { slideUrl: string; onLoad: () => v
             rel="noreferrer"
             aria-label={`${props.company_name}のスライドの${props.currentPage}ページ目`}
         >
-            <Image
+            <img
                 width={"560"}
                 height={"315"}
                 alt={""}
                 src={`/not-found-image.jpeg`}
+                loading={"lazy"}
                 onLoad={props.onLoad}
                 onError={props.onError}
             />
