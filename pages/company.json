@@ -1632,5 +1632,52 @@
         "image_ratio": 1.41436464088398,
         "image_width": 560,
         "image_height": 395
+    },
+    {
+        "rowIndex": 128,
+        "company_name": "メドピア株式会社",
+        "company_url": "https://medpeer.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/medpeer_recruit/medopiagurupucai-yong-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "733c1b3d3f86447795a4271a4afb2eed",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 129,
+        "company_name": "株式会社サイバーエージェント",
+        "company_url": "https://www.cyberagent.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/cyberagent_recruit/cypitch"
+        ],
+        "type": "speakerdeck",
+        "id": "f7bf5c77aecd448da08563bc84c617dd",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
+    },
+    {
+        "rowIndex": 130,
+        "company_name": "株式会社ツクルバ",
+        "company_url": "https://tsukuruba.com/",
+        "slide_urls": [
+            "https://docs.google.com/presentation/d/1IUo8wih36by3teKXlrKse0JfqlQB6MvH_JRPE91qc3k/edit#slide=id.g9b9d40d9b6_0_100"
+        ]
+    },
+    {
+        "rowIndex": 131,
+        "company_name": "株式会社プレイド",
+        "company_url": "https://plaid.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/plaid/plaid-recruit"
+        ],
+        "type": "speakerdeck",
+        "id": "edbf636b41be4739b3019b8e3391447b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
