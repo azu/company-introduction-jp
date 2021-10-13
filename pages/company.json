@@ -1679,5 +1679,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 132,
+        "company_name": "207株式会社",
+        "company_url": "https://207-inc.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/sinrush/207hui-she-gai-yao-210502"
+        ],
+        "type": "speakerdeck",
+        "id": "ae89fd73210743ea851287c815f2ae03",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
