@@ -138,7 +138,7 @@ const Slide = (props: SlideProps) => {
     }, [props.currentPage]);
     const shouldShowLastPage = useMemo(() => {
         return loadErrorPages.includes(props.currentPage);
-    }, [lastPage, loadErrorPages, props.currentPage]);
+    }, [loadErrorPages, props.currentPage]);
     const slideUrl = useMemo(() => {
         if (props.currentPage === 0) {
             return props.slide_urls[0];
