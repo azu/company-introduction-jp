@@ -128,11 +128,8 @@ const SlideShareSlide = (props: SlideProps & { slideUrl: string; onLoad: () => v
 };
 
 const Slide = (props: SlideProps) => {
-    const [lastPage, setLastPage] = useState<number>(0);
     const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
-    const onLoad = useCallback(() => {
-        setLastPage(props.currentPage);
-    }, [props.currentPage]);
+    const onLoad = useCallback(() => {}, []);
     const onErrorPage = useCallback(() => {
         setLoadErrorPages((prevState) => prevState.concat(props.currentPage));
     }, [props.currentPage]);
@@ -143,8 +140,12 @@ const Slide = (props: SlideProps) => {
         if (props.currentPage === 0) {
             return props.slide_urls[0];
         }
-        return `${props.slide_urls[0]}?slide=${props.currentPage}`;
-    }, [props.currentPage, props.slide_urls]);
+        if (props.type === "speakerdeck") {
+            return `${props.slide_urls[0]}?slide=${props.currentPage + 1}`; // 1-index
+        } else {
+            return props.slide_urls[0];
+        }
+    }, [props.currentPage, props.type, props.slide_urls]);
     const Slide = useMemo(() => {
         if (props.type === "speakerdeck") {
             return <SpeakerDeckSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />;
