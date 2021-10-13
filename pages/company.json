@@ -1580,5 +1580,57 @@
         "image_ratio": 1.33333333333333,
         "image_width": 560,
         "image_height": 420
+    },
+    {
+        "rowIndex": 124,
+        "company_name": "Sansan株式会社",
+        "company_url": "https://jp.corp-sansan.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/sansanbuildersbox/sansan-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "ebe9684467934939a1ac948d0d6c3211",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 125,
+        "company_name": "Classi株式会社",
+        "company_url": "https://corp.classi.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/classijp/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "7cb11a9ce4ff4ea7a9ab3b676ab4a4f0",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 126,
+        "company_name": "株式会社プラハ",
+        "company_url": "https://www.praha-inc.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/praha/praha-company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "2870e5c1d16a4df5855430c79a70871a",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 127,
+        "company_name": "トリコ株式会社",
+        "company_url": "https://tricot-inc.com",
+        "slide_urls": [
+            "https://speakerdeck.com/tricot_hr/torikozhu-shi-hui-she-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "404c4287c0da4772a5ea265633431dfb",
+        "image_ratio": 1.41436464088398,
+        "image_width": 560,
+        "image_height": 395
     }
 ]
