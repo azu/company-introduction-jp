@@ -1692,5 +1692,13 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 133,
+        "company_name": "ビットバンク株式会社",
+        "company_url": "https://bitbank.cc/",
+        "slide_urls": [
+            "https://docs.google.com/presentation/d/e/2PACX-1vQjiMPnEkwACxRpoMD7Tt0rdxF2ue_UylhEeqD6877o5Be1cutESJ2c9p70UPoHVQ15AuEZDeJmFfRp/pub"
+        ]
     }
 ]
