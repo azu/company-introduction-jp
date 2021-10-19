@@ -1700,5 +1700,18 @@
         "slide_urls": [
             "https://docs.google.com/presentation/d/e/2PACX-1vQjiMPnEkwACxRpoMD7Tt0rdxF2ue_UylhEeqD6877o5Be1cutESJ2c9p70UPoHVQ15AuEZDeJmFfRp/pub"
         ]
+    },
+    {
+        "rowIndex": 134,
+        "company_name": "homie株式会社",
+        "company_url": "https://homie.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/homie__recruit/hui-she-an-nei-zi-liao-5ec6d5bd-5e67-498e-b30b-1a6b1128dee3"
+        ],
+        "type": "speakerdeck",
+        "id": "b7d7f92a0f8745748083d915a85f7c58",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
