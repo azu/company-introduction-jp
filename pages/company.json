@@ -1395,13 +1395,13 @@
         "company_name": "株式会社Libry",
         "company_url": "https://about.libry.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/libry/libry-company-introduction-to-engineer"
+            "https://speakerdeck.com/libry/libry-company-introduction"
         ],
         "type": "speakerdeck",
-        "id": "305c7cf9f8204294b0f3ee7b46d7cd94",
-        "image_ratio": 1.41436464088398,
+        "id": "b75b1eb2f8ae4ca68f652b277825db0c",
+        "image_ratio": 1.44428772919605,
         "image_width": 560,
-        "image_height": 395
+        "image_height": 387
     },
     {
         "rowIndex": 110,
