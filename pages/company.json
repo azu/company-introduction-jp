@@ -1713,5 +1713,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 135,
+        "company_name": "テックタッチ株式会社",
+        "company_url": "https://techtouch.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/techtouch/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "64168d67cf2c4d7fb06963f5a68c6596",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
