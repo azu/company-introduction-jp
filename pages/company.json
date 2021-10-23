@@ -1726,5 +1726,13 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 136,
+        "company_name": "株式会社HERP",
+        "company_url": "https://herp.co.jp/",
+        "slide_urls": [
+            "https://culture.herp.co.jp/"
+        ]
     }
 ]
