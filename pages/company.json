@@ -1726,5 +1726,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 136,
+        "company_name": "freee株式会社",
+        "company_url": "https://corp.freee.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/freee/10fen-dewakarufreee-enziniaxiang-kehui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "1377995733eb4fc1aaa824b8741c7336",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
