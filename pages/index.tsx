@@ -77,6 +77,15 @@ const Company = (props: Company) => {
                             <FaSlideshare color={"#006159"} /> SlideShare
                         </a>
                     )}
+                    {props.type === "other" && (
+                        <a
+                            className={"CompanySlides"}
+                            href={props.slide_urls[0]}
+                            aria-label={`${props.company_name}のスライド`}
+                        >
+                            Slide
+                        </a>
+                    )}
                 </h2>
             </div>
         </>

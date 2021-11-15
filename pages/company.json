@@ -1482,6 +1482,7 @@
         "image_height": 314
     },
     {
+        "type": "other",
         "rowIndex": 116,
         "company_name": "株式会社スマートラウンド",
         "company_url": "https://jp.smartround.com/",
@@ -1660,6 +1661,7 @@
         "image_height": 420
     },
     {
+        "type": "other",
         "rowIndex": 130,
         "company_name": "株式会社ツクルバ",
         "company_url": "https://tsukuruba.com/",
@@ -1694,6 +1696,7 @@
         "image_height": 314
     },
     {
+        "type": "other",
         "rowIndex": 133,
         "company_name": "ビットバンク株式会社",
         "company_url": "https://bitbank.cc/",
@@ -1739,5 +1742,14 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "type": "other",
+        "rowIndex": 137,
+        "company_name": "Nota株式会社",
+        "company_url": "https://notainc.com/",
+        "slide_urls": [
+            "https://assets.website-files.com/5ee5b3d4fe66915f7953972a/60640762a1481e1f561610de_%E6%8E%A1%E7%94%A8%E8%B3%87%E6%96%992021.pdf"
+        ]
     }
 ]

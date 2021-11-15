@@ -28,13 +28,19 @@ const actions = json
                     ...item
                 };
             }
-            const speakerDeck = await fetchSpeakerDeck(slideUrl).catch((error) => {
-                console.error("[update-data] failed to load slide details", slideUrl);
-                return Promise.reject(error);
-            });
+            if (slideUrl.startsWith("https://speakerdeck.com")) {
+                const speakerDeck = await fetchSpeakerDeck(slideUrl).catch((error) => {
+                    console.error("[update-data] failed to load slide details", slideUrl);
+                    return Promise.reject(error);
+                });
+                return {
+                    ...item,
+                    ...speakerDeck
+                };
+            }
             return {
-                ...item,
-                ...speakerDeck
+                type: "other",
+                ...item
             };
         };
     });
