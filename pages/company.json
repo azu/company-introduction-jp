@@ -1511,7 +1511,7 @@
             "https://speakerdeck.com/azia/wow-world-hui-she-shao-jie-zi-liao"
         ],
         "type": "speakerdeck",
-        "id": "a4242ea8547143ea864d904019ee4251",
+        "id": "70bed9913d6b4d0fb690258537dfa7e9",
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
@@ -1751,5 +1751,18 @@
         "slide_urls": [
             "https://assets.website-files.com/5ee5b3d4fe66915f7953972a/60640762a1481e1f561610de_%E6%8E%A1%E7%94%A8%E8%B3%87%E6%96%992021.pdf"
         ]
+    },
+    {
+        "rowIndex": 138,
+        "company_name": "株式会社Gaudiy",
+        "company_url": "https://hp.gaudiy.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/gaudiy/culture-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "da75b1686f2348ff971f771bd9596d92",
+        "image_ratio": 1.90334572490706,
+        "image_width": 560,
+        "image_height": 294
     }
 ]
