@@ -1764,5 +1764,62 @@
         "image_ratio": 1.90334572490706,
         "image_width": 560,
         "image_height": 294
+    },
+    {
+        "type": "other",
+        "rowIndex": 140,
+        "company_name": "株式会社Runtrip",
+        "company_url": "https://corp.runtrip.jp/",
+        "slide_urls": [
+            "https://www.notion.so/Runtrip-d80968ef2b2e4d039c9c894471744e20"
+        ]
+    },
+    {
+        "type": "other",
+        "rowIndex": 141,
+        "company_name": "株式会社Layer X",
+        "company_url": "https://layerx.co.jp/",
+        "slide_urls": [
+            "https://layerx.notion.site/LayerX-5a5845c2dc5241518eb7f3bf21433793"
+        ]
+    },
+    {
+        "rowIndex": 142,
+        "company_name": "株式会社M&Aクラウド",
+        "company_url": "https://corp.macloud.jp/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/macloud/cai-yong-pitutibutuku"
+        ],
+        "type": "speakerdeck",
+        "id": "dd94f12e06b8476ba24c21e9678d70de",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 143,
+        "company_name": "キャディ株式会社",
+        "company_url": "https://corp.caddi.jp/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/caddi_eng/caddi-recruit-202108"
+        ],
+        "type": "speakerdeck",
+        "id": "78fd4ba09fbc4a3f857d78b2bea6142e",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 144,
+        "company_name": "サイボウズ株式会社",
+        "company_url": "https://cybozu.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/cybozuinsideout/cybozu-engineer-recruit"
+        ],
+        "type": "speakerdeck",
+        "id": "5eabf6cdd9e7484988e6a0d1b8f5d957",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
