@@ -1821,5 +1821,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 145,
+        "company_name": "株式会社はてな",
+        "company_url": "https://hatenacorp.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hatena/engineers-recruitment"
+        ],
+        "type": "speakerdeck",
+        "id": "73919842c53c4af3a7d4025702e399fc",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
