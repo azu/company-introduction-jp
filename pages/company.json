@@ -1047,9 +1047,9 @@
         ],
         "type": "speakerdeck",
         "id": "b0c531e1d0c74622a5842bc525e095e7",
-        "image_ratio": 1.77777777777778,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 83,
@@ -1508,7 +1508,7 @@
         "company_name": "株式会社WOW WORLD",
         "company_url": "https://www.wow-world.co.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/azia/wow-world-hui-she-shao-jie-zi-liao"
+            "https://speakerdeck.com/wowworld/eizia-hui-she-shao-jie-zi-liao"
         ],
         "type": "speakerdeck",
         "id": "70bed9913d6b4d0fb690258537dfa7e9",
@@ -1578,9 +1578,9 @@
         ],
         "type": "speakerdeck",
         "id": "82045c82e032459e9602c0954bf1dcc0",
-        "image_ratio": 1.33333333333333,
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 420
+        "image_height": 314
     },
     {
         "rowIndex": 124,
