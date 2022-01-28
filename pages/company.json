@@ -1766,6 +1766,19 @@
         "image_height": 294
     },
     {
+        "rowIndex": 139,
+        "company_name": "株式会社BitStar",
+        "company_url": "https://corp.bitstar.tokyo/",
+        "slide_urls": [
+            "https://speakerdeck.com/bitstar/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "2a8c407f0ef348c2990feb8f0d3f3e37",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
         "type": "other",
         "rowIndex": 140,
         "company_name": "株式会社Runtrip",
