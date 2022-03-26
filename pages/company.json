@@ -1824,19 +1824,6 @@
     },
     {
         "rowIndex": 144,
-        "company_name": "サイボウズ株式会社",
-        "company_url": "https://cybozu.co.jp/",
-        "slide_urls": [
-            "https://speakerdeck.com/cybozuinsideout/cybozu-engineer-recruit"
-        ],
-        "type": "speakerdeck",
-        "id": "5eabf6cdd9e7484988e6a0d1b8f5d957",
-        "image_ratio": 1.77777777777778,
-        "image_width": 560,
-        "image_height": 314
-    },
-    {
-        "rowIndex": 145,
         "company_name": "株式会社はてな",
         "company_url": "https://hatenacorp.jp/",
         "slide_urls": [
@@ -1844,6 +1831,19 @@
         ],
         "type": "speakerdeck",
         "id": "73919842c53c4af3a7d4025702e399fc",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 145,
+        "company_name": "株式会社ソニックガーデン",
+        "company_url": "https://www.sonicgarden.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/kuranuki/sonitukugadenfalsehui-she-shao-jie-2022nian-3yue-ban"
+        ],
+        "type": "speakerdeck",
+        "id": "492b1cc48aab402783c4d09d5f04e1d1",
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
