@@ -1589,9 +1589,9 @@
         ],
         "type": "speakerdeck",
         "id": "7cb11a9ce4ff4ea7a9ab3b676ab4a4f0",
-        "image_ratio": 1.77777777777778,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 125,
@@ -1832,5 +1832,44 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 145,
+        "company_name": "Tangerine株式会社",
+        "company_url": "https://tangerine.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/3yasuda/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "2ee86845b7584684898950ec79d8b5cf",
+        "image_ratio": 1.41451612903226,
+        "image_width": 560,
+        "image_height": 395
+    },
+    {
+        "rowIndex": 146,
+        "company_name": "株式会社アッテル",
+        "company_url": "https://attelu.jp/company",
+        "slide_urls": [
+            "https://speakerdeck.com/attelu/culture-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "09e06579ff3c452c9d79ca636e40f6d6",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 147,
+        "company_name": "エーテンラボ株式会社",
+        "company_url": "https://a10lab.com/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/a10lab201612/etenrabozhu-shi-hui-she-cai-yong-detuku"
+        ],
+        "type": "speakerdeck",
+        "id": "aaea573710d34a2c9462e9852c75d536",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
