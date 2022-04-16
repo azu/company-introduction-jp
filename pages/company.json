@@ -139,9 +139,9 @@
         ],
         "type": "speakerdeck",
         "id": "e4ad181e9d73407388c330771c21e074",
-        "image_ratio": 1.77777777777778,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 13,
@@ -1858,5 +1858,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 147,
+        "company_name": "Tangerine株式会社",
+        "company_url": "https://tangerine.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/3yasuda/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "2ee86845b7584684898950ec79d8b5cf",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
