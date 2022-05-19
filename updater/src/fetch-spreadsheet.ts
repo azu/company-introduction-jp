@@ -29,7 +29,7 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
     let currentCursor = 0;
     while (true) {
         const url = API_ENDPOINT + `?skip=${currentCursor}&limit=100`;
-        console.log("[fetchSpreadsheet] fetch", url);
+        console.info("[fetchSpreadsheet] fetch", url);
         const result = (await fetch(url, {
             headers: {
                 Authorization: `Bearer ${API_KEY}`,
@@ -37,11 +37,12 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
             }
         }).then((res) => res.json())) as { results: RawCompany[]; hasNextPage: boolean };
         currentCursor += 100 + 1;
+        console.info("Fetched result", result)
         results.push(...result.results.map((item) => formatCompany(item)));
         if (!result.hasNextPage) {
             break;
         }
     }
-    console.log("[fetchSpreadsheet] fetched total rows", results.length);
+    console.info("[fetchSpreadsheet] fetched total rows", results.length);
     return results;
 };
