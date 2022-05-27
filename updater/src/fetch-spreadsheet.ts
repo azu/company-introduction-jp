@@ -42,6 +42,7 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
         if (!result.hasNextPage) {
             break;
         }
+        await new Promise(resolve => setTimeout(resolve, 30 * 1000));
     }
     console.info("[fetchSpreadsheet] fetched total rows", results.length);
     return results;
