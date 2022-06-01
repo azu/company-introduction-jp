@@ -1634,7 +1634,12 @@
         "company_url": "https://207-inc.com/",
         "slide_urls": [
             "https://speakerdeck.com/sinrush/207hui-she-gai-yao-210502"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "ae89fd73210743ea851287c815f2ae03",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "type": "other",
@@ -1702,9 +1707,9 @@
         ],
         "type": "speakerdeck",
         "id": "da75b1686f2348ff971f771bd9596d92",
-        "image_ratio": 1.90334572490706,
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 294
+        "image_height": 314
     },
     {
         "rowIndex": 135,
