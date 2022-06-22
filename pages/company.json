@@ -58,7 +58,12 @@
         "company_url": "https://hey.jp/company/",
         "slide_urls": [
             "https://speakerdeck.com/heyinc/hey-book"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "ada0326670644eb8b43b35492ce721d0",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "rowIndex": 7,
