@@ -1858,5 +1858,31 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 147,
+        "company_name": "株式会社Works Human Intelligence ",
+        "company_url": "https://www.works-hi.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/whisaiyo/works-human-intelligence"
+        ],
+        "type": "speakerdeck",
+        "id": "cc897cd972c5479d96128af8010bd535",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 148,
+        "company_name": "株式会社バイセルテクノロジーズ",
+        "company_url": "https://buysell-technologies.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/buyselltechnologies/enziniacai-yong-buysell-technologieshui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "bae751eaade04383b2d296adc339f0b9",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
