@@ -1884,5 +1884,31 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 149,
+        "company_name": "株式会社SocialDog",
+        "company_url": "https://socialdog.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/socialdog/socialdog-recruit"
+        ],
+        "type": "speakerdeck",
+        "id": "f38c85bad3144e2eaa7555f7f319cb51",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 150,
+        "company_name": "株式会社モニクル",
+        "company_url": "https://monicle.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/monicle/about"
+        ],
+        "type": "speakerdeck",
+        "id": "11c0fa6aed72458fac3ecfb06ceb255a",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
