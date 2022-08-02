@@ -1868,9 +1868,9 @@
         ],
         "type": "speakerdeck",
         "id": "cc897cd972c5479d96128af8010bd535",
-        "image_ratio": 1.77777777777778,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 148,
@@ -1910,5 +1910,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 151,
+        "company_name": "テイラー株式会社",
+        "company_url": "https://www.tailor.tech/",
+        "slide_urls": [
+            "https://speakerdeck.com/tailortech/tailor-company-introduction"
+        ],
+        "type": "speakerdeck",
+        "id": "b5a9bb5c3db84109831f00256a0de55a",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
