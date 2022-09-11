@@ -1910,5 +1910,18 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 151,
+        "company_name": "for,Freelance株式会社",
+        "company_url": "https://key-movie.forfreelance.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/ryosuke0507/key-moviesabisushao-jie"
+        ],
+        "type": "speakerdeck",
+        "id": "65e126d01c6c4d55b019cb9000cf8317",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
