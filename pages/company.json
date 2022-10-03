@@ -755,13 +755,13 @@
         "company_name": "株式会社ケップル",
         "company_url": "https://www.kepple.co.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/kepple_hr/kepple-recruitingpitch-20210916"
+            "https://speakerdeck.com/kepple_hr/kepple-corporatepitch-20220901"
         ],
         "type": "speakerdeck",
-        "id": "310da93717e7475c97e476db0b370e2a",
-        "image_ratio": 1.77777777777778,
+        "id": "10aa9df44a814316bd697a9eb4ca239b",
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 61,
@@ -1848,19 +1848,6 @@
     },
     {
         "rowIndex": 146,
-        "company_name": "株式会社Works Human Intelligence ",
-        "company_url": "https://www.works-hi.co.jp/",
-        "slide_urls": [
-            "https://speakerdeck.com/whisaiyo/works-human-intelligence"
-        ],
-        "type": "speakerdeck",
-        "id": "cc897cd972c5479d96128af8010bd535",
-        "image_ratio": 1.77725118483412,
-        "image_width": 560,
-        "image_height": 315
-    },
-    {
-        "rowIndex": 147,
         "company_name": "株式会社バイセルテクノロジーズ",
         "company_url": "https://buysell-technologies.com/",
         "slide_urls": [
@@ -1873,7 +1860,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 148,
+        "rowIndex": 147,
         "company_name": "株式会社SocialDog",
         "company_url": "https://socialdog.jp/",
         "slide_urls": [
@@ -1886,7 +1873,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 149,
+        "rowIndex": 148,
         "company_name": "株式会社モニクル",
         "company_url": "https://monicle.co.jp/",
         "slide_urls": [
@@ -1899,7 +1886,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 150,
+        "rowIndex": 149,
         "company_name": "テイラー株式会社",
         "company_url": "https://www.tailor.tech/",
         "slide_urls": [
@@ -1912,7 +1899,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 151,
+        "rowIndex": 150,
         "company_name": "for,Freelance株式会社",
         "company_url": "https://key-movie.forfreelance.co.jp/",
         "slide_urls": [
@@ -1925,7 +1912,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 152,
+        "rowIndex": 151,
         "company_name": "りらいあデジタル株式会社",
         "company_url": "https://www.relia-digital.com/",
         "slide_urls": [
