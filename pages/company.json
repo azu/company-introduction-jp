@@ -499,10 +499,10 @@
         "company_name": "ラクスル株式会社",
         "company_url": "https://corp.raksul.com/",
         "slide_urls": [
-            "https://speakerdeck.com/raksulrecruiting/raksul-introduction"
+            "https://speakerdeck.com/raksulrecruiting/rakusuruhui-she-shuo-ming-zi-liao"
         ],
         "type": "speakerdeck",
-        "id": "39a342d1156044239bc1f0ac2b2cb71b",
+        "id": "c71fb49190794ebb8aa1a6d42f071b35",
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
@@ -755,10 +755,10 @@
         "company_name": "株式会社ケップル",
         "company_url": "https://www.kepple.co.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/kepple_hr/kepple-corporatepitch-20220901"
+            "https://speakerdeck.com/kepple_hr/kepple-corporatepitch-20221101"
         ],
         "type": "speakerdeck",
-        "id": "10aa9df44a814316bd697a9eb4ca239b",
+        "id": "6bc260cda46d4b2381adbaefbf7bc999",
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
@@ -1279,9 +1279,9 @@
         ],
         "type": "speakerdeck",
         "id": "87203ce7d07c4eb29cedb70e048722b8",
-        "image_ratio": 1.33333333333333,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 420
+        "image_height": 315
     },
     {
         "rowIndex": 101,
