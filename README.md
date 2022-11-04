@@ -1,4 +1,4 @@
-g# company-introduction-jp
+# company-introduction-jp
 
 日本の会社紹介スライドのまとめ。
 
