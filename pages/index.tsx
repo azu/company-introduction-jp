@@ -63,6 +63,8 @@ const Company = (props: Company) => {
                         <a
                             className={"CompanySlides"}
                             href={props.slide_urls[0]}
+                            target={"_blank"}
+                            rel="noreferrer"
                             aria-label={`${props.company_name}のスライド`}
                         >
                             <FaSpeakerDeck color={"#006159"} /> Speakerdeck
@@ -72,6 +74,8 @@ const Company = (props: Company) => {
                         <a
                             className={"CompanySlides"}
                             href={props.slide_urls[0]}
+                            target={"_blank"}
+                            rel="noreferrer"
                             aria-label={`${props.company_name}のスライド`}
                         >
                             <FaSlideshare color={"#006159"} /> SlideShare
@@ -81,6 +85,8 @@ const Company = (props: Company) => {
                         <a
                             className={"CompanySlides"}
                             href={props.slide_urls[0]}
+                            target={"_blank"}
+                            rel="noreferrer"
                             aria-label={`${props.company_name}のスライド`}
                         >
                             Slide
@@ -316,7 +322,7 @@ function HomePage() {
                 <meta name="description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
                 <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
                 <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
-                <meta property="og:image" content={"/ogp.jpeg"}/>
+                <meta property="og:image" content={"/ogp.jpeg"} />
             </Head>
             <style jsx>{`
                 .Grid {
@@ -403,6 +409,7 @@ function HomePage() {
                     background: transparent;
                     padding: 8px 16px;
                     font-size: 16px;
+                    cursor: pointer;
                 }
 
                 .LinkWithIcon {

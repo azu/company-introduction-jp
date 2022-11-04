@@ -31,6 +31,7 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "incremental": true
   },
   "include": [
     "src/**/*"
