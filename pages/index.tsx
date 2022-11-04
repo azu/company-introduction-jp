@@ -316,6 +316,7 @@ function HomePage() {
                 <meta name="description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
                 <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
                 <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
+                <meta property="og:image" content={"/ogp.jpeg"}/>
             </Head>
             <style jsx>{`
                 .Grid {
