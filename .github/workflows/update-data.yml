@@ -17,7 +17,7 @@ jobs:
       - name: Update Data
         run: |
           yarn install
-          for _ in 1 2; do yarn update-data && break; done
+          for _ in 1 2 3; do yarn update-data && break; done
         env:
           SHEETON_API_KEY: ${{ secrets.SHEETON_API_KEY }}
         working-directory: updater/
