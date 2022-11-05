@@ -1695,13 +1695,18 @@
         ]
     },
     {
-        "type": "other",
         "rowIndex": 134,
-        "company_name": "株式会社Layer X",
+        "company_name": "株式会社LayerX",
         "company_url": "https://layerx.co.jp/",
         "slide_urls": [
-            "https://layerx.notion.site/LayerX-5a5845c2dc5241518eb7f3bf21433793"
-        ]
+            "https://speakerdeck.com/layerx/company-deck",
+            "https://speakerdeck.com/layerx/compass_202209"
+        ],
+        "type": "speakerdeck",
+        "id": "bdb6170127d44f1ebe2b07d97c896514",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     },
     {
         "rowIndex": 135,
