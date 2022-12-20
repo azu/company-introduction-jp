@@ -1889,5 +1889,14 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "type": "other",
+        "rowIndex": 149,
+        "company_name": "株式会社Ateam",
+        "company_url": "https://www.a-tm.co.jp/recruit/",
+        "slide_urls": [
+            "https://www.a-tm.co.jp/wp-content/themes/a-tm_pc/pdf/ateam_recruitment-materials.pdf"
+        ]
     }
 ]
