@@ -1898,5 +1898,18 @@
         "slide_urls": [
             "https://www.a-tm.co.jp/wp-content/themes/a-tm_pc/pdf/ateam_recruitment-materials.pdf"
         ]
+    },
+    {
+        "rowIndex": 150,
+        "company_name": "Nstock株式会社",
+        "company_url": "https://nstock.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/nstock/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "445db519f73f449596178d9fddd24c2b",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
