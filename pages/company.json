@@ -1911,5 +1911,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 151,
+        "company_name": "株式会社ソウゾウ",
+        "company_url": "https://souzoh.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/mercari/zhu-shi-hui-she-souzou-hui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "6b37e2a090f540c3a83c8ade82d190ee",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
