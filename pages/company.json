@@ -1442,12 +1442,7 @@
         "company_url": "https://onemile.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/onemile/we-are-hiring"
-        ],
-        "type": "speakerdeck",
-        "id": "08e6f083f0a04ee293135982e0d53522",
-        "image_ratio": 1.77777777777778,
-        "image_width": 560,
-        "image_height": 314
+        ]
     },
     {
         "rowIndex": 114,
