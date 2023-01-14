@@ -690,10 +690,10 @@
         "company_name": "アライドアーキテクツ株式会社",
         "company_url": "https://www.aainc.co.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/alliedarchitects/araidoakitekutuzhu-shi-hui-she-enziniadezainaxiang-ke-hui-she-shao-jie-zi-liao"
+            "https://speakerdeck.com/alliedarchitects/2022ensiniacai-yong-zi-liao"
         ],
         "type": "speakerdeck",
-        "id": "3c8dc28eff22434facf5c0e1440ddb4e",
+        "id": "b81a1c6f869d4fecaf45514504ffb6ef",
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
@@ -1123,9 +1123,9 @@
         ],
         "type": "speakerdeck",
         "id": "c999be993a50478aaf9862f3d8612560",
-        "image_ratio": 1.77966101694915,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     },
     {
         "rowIndex": 89,
