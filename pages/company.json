@@ -1924,5 +1924,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 152,
+        "company_name": "X Mile株式会社",
+        "company_url": "https://www.xmile.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/xmile/engineer-recruiting-pitch"
+        ],
+        "type": "speakerdeck",
+        "id": "0b3a633167d14260b981dc7ef7d4386c",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
