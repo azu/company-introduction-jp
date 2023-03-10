@@ -552,12 +552,7 @@
         "company_url": "https://town.biz/",
         "slide_urls": [
             "https://speakerdeck.com/towninc/townhui-she-shuo-ming-zi-liao"
-        ],
-        "type": "speakerdeck",
-        "id": "32680d8170e84c8a9a639167e3b12d7f",
-        "image_ratio": 1.6,
-        "image_width": 560,
-        "image_height": 350
+        ]
     },
     {
         "rowIndex": 45,
