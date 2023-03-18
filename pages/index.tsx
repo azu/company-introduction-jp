@@ -14,7 +14,7 @@ declare module "react" {
         global?: boolean;
     }
 }
-type Company = typeof company[0];
+type Company = (typeof company)[0];
 const Company = (props: Company) => {
     return (
         <>
@@ -97,7 +97,7 @@ const Company = (props: Company) => {
         </>
     );
 };
-type SlideProps = typeof company[0] & { currentPage: number };
+type SlideProps = (typeof company)[0] & { currentPage: number };
 const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
     return (
         <a
@@ -319,6 +319,10 @@ function HomePage() {
             <Head>
                 <meta charSet="utf-8" />
                 <title>日本の会社紹介スライドのまとめ</title>
+                <link
+                    rel="icon"
+                    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏢</text></svg>"
+                />
                 <meta name="description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
                 <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
                 <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
