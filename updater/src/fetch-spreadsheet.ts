@@ -19,9 +19,9 @@ const assert = (condition: boolean, message: string, debug: unknown) => {
     }
 };
 const formatCompany = (rawCompany: RawCompany): Company => {
-    assert(!rawCompany.会社名, "会社名が空です", rawCompany);
-    assert(!rawCompany.会社URL, "会社URLが空です", rawCompany);
-    assert(!rawCompany.紹介URL, "紹介URLが空です", rawCompany);
+    assert(!!rawCompany.会社名, "会社名が空です", rawCompany);
+    assert(!!rawCompany.会社URL, "会社URLが空です", rawCompany);
+    assert(!!rawCompany.紹介URL, "紹介URLが空です", rawCompany);
     return {
         rowIndex: rawCompany.rowIndex,
         company_name: rawCompany.会社名,
@@ -46,7 +46,7 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
         }).then((res) => res.json())) as { results: RawCompany[]; hasNextPage: boolean };
         currentCursor += 100 + 1;
         console.info("Fetched result", result);
-        results.push(...result.results.map((item) => formatCompany(item)));
+        results.push(...result.results.filter((item) => item !== undefined).map((item) => formatCompany(item)));
         if (!result.hasNextPage) {
             break;
         }

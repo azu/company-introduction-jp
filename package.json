@@ -34,21 +34,21 @@
     "trailingComma": "none"
   },
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "eslint": "^8.26.0",
-    "eslint-config-next": "13.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.3"
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "13.2.4",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.4",
+    "typescript": "^5.0.2"
   },
   "dependencies": {
-    "next": "^13.0.2",
+    "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.3.1",
-    "react-intersection-observer": "^9.4.0",
-    "react-responsive": "^9.0.0-beta.4"
+    "react-icons": "^4.8.0",
+    "react-intersection-observer": "^9.4.3",
+    "react-responsive": "^9.0.2"
   }
 }
