@@ -12,8 +12,16 @@ type RawCompany = {
     会社URL: string;
     紹介URL: string;
 };
-
+const assert = (condition: boolean, message: string, debug: unknown) => {
+    if (!condition) {
+        console.error("Assertion failed", message, debug);
+        throw new Error(message);
+    }
+};
 const formatCompany = (rawCompany: RawCompany): Company => {
+    assert(!rawCompany.会社名, "会社名が空です", rawCompany);
+    assert(!rawCompany.会社URL, "会社URLが空です", rawCompany);
+    assert(!rawCompany.紹介URL, "紹介URLが空です", rawCompany);
     return {
         rowIndex: rawCompany.rowIndex,
         company_name: rawCompany.会社名,
@@ -37,12 +45,12 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
             }
         }).then((res) => res.json())) as { results: RawCompany[]; hasNextPage: boolean };
         currentCursor += 100 + 1;
-        console.info("Fetched result", result)
+        console.info("Fetched result", result);
         results.push(...result.results.map((item) => formatCompany(item)));
         if (!result.hasNextPage) {
             break;
         }
-        await new Promise(resolve => setTimeout(resolve, 30 * 1000));
+        await new Promise((resolve) => setTimeout(resolve, 30 * 1000));
     }
     console.info("[fetchSpreadsheet] fetched total rows", results.length);
     return results;
