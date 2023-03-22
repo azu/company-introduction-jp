@@ -1925,5 +1925,44 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 152,
+        "company_name": "トヨクモ株式会社",
+        "company_url": "https://www.toyokumo.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/toyokumo_dev/toyokumohui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "5e684dc4496f428a8967594469708a9a",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 153,
+        "company_name": "株式会社Shippio",
+        "company_url": "https://www.shippio.io/",
+        "slide_urls": [
+            "https://speakerdeck.com/shippio/zhu-shi-hui-she-shippiohui-she-shao-jie-zi-liao-20221130"
+        ],
+        "type": "speakerdeck",
+        "id": "5e41baae15b546dda5e2c6cb0bfa82b5",
+        "image_ratio": 1.77613320999075,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 154,
+        "company_name": "ARINA株式会社",
+        "company_url": "https://arinna.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/wataru66200012/arina-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "220387fc82fa42a1b18e875c03d975ac",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
