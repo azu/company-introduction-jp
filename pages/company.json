@@ -4,22 +4,21 @@
         "company_name": "株式会社SmartHR",
         "company_url": "https://smarthr.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/hr_team/mirrativ-letter",
-            "https://speakerdeck.com/hr_team/engineers-handbook"
+            "https://speakerdeck.com/miyasho88/we-are-hiring"
         ],
         "type": "speakerdeck",
-        "id": "c4e7dfe3adfa4fe3b1b7e4a87c972038",
-        "image_ratio": 1.33333333333333,
+        "id": "e20c6467299e4c1ca07ad14064a89d74",
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 420
+        "image_height": 314
     },
     {
         "rowIndex": 3,
         "company_name": "株式会社ミラティブ",
         "company_url": "https://www.mirrativ.co.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/hr_team/mirrativ-letter",
-            "https://speakerdeck.com/hr_team/engineers-handbook"
+            "https://speakerdeck.com/mirrativ/mirrativ-letter",
+            "https://speakerdeck.com/mirrativ/engineers-handbook"
         ],
         "type": "speakerdeck",
         "id": "c4e7dfe3adfa4fe3b1b7e4a87c972038",
