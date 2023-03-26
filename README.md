@@ -8,6 +8,12 @@
 
 - <https://company-introduction-jp.vercel.app/>
 
+### RSSフィード
+
+次のURLから、新しい会社紹介スライドの追加をRSSで購読できます。
+
+- <https://company-introduction-jp.vercel.app/rss/new>
+
 ### API
 
 会社の一覧をJSONで返します。
