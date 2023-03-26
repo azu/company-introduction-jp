@@ -20,7 +20,7 @@ const escapeXML = (unsafe: string) => {
     });
 };
 const generateNewCompanyFeed = () => {
-    const latest20 = company.slice().reverse().slice(0, 20);
+    const latest100 = company.slice().reverse().slice(0, 100);
     const feed = new Feed({
         title: "New - 日本の会社紹介スライドのまとめ",
         description: "日本の会社紹介スライドのまとめに新しく追加された会社のスライドです",
@@ -31,7 +31,7 @@ const generateNewCompanyFeed = () => {
         updated: new Date(),
         generator: "https://company-introduction-jp.vercel.app/"
     });
-    for (const company of latest20) {
+    for (const company of latest100) {
         const list = company.slide_urls
             .map((url, i) => {
                 return `<li><a href="${url}">${escapeXML(company.company_name)}</a></li>`;
