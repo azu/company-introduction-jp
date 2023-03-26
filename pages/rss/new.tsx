@@ -38,18 +38,22 @@ const generateNewCompanyFeed = () => {
             })
             .join("");
         const companyLink = `<a href="${company.company_url}">${escapeXML(company.company_name)}</a>の会社紹介スライド`;
+        const slideImage = getSlideImage({
+            id: company.id,
+            type: company.type,
+            currentPage: 0
+        });
+        const slideImageTag = slideImage
+            ? `<div><img src="${slideImage}" alt="スライド1ページ目" width="${company.image_width}" height="${company.image_height}" /></div>`
+            : "";
         feed.addItem({
             id: company.id,
             title: escapeXML(company.company_name),
             link: company.slide_urls[0],
             description: `${escapeXML(company.company_name)}の会社紹介スライド`,
-            content: `<ul>${list}</ul><br />${companyLink}`,
+            content: `${slideImageTag}<ul>${list}</ul><br />${companyLink}`,
             date: new Date(),
-            image: getSlideImage({
-                id: company.id,
-                type: company.type,
-                currentPage: 0
-            })
+            image: slideImage
         });
     }
     return feed.rss2();
