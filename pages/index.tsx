@@ -97,6 +97,13 @@ const Company = (props: Company) => {
         </>
     );
 };
+export const getSlideImage = (props: { id: string; currentPage: number; type: "speakerdeck" | string }) => {
+    if (props.type === "speakerdeck") {
+        return `https://files.speakerdeck.com/presentations/${props.id}/slide_${props.currentPage}.jpg`;
+    } else {
+        return `https://company-introduction-jp.vercel.app/not-found-image.jpeg`;
+    }
+};
 type SlideProps = (typeof company)[0] & { currentPage: number };
 const SpeakerDeckSlide = (props: SlideProps & { slideUrl: string; onLoad: () => void; onError: () => void }) => {
     return (
@@ -327,6 +334,13 @@ function HomePage() {
                 <meta property="og:title" content="日本の会社紹介スライドのまとめ" key="title" />
                 <meta property="og:description" content="日本の会社による会社紹介スライドをまとめたサイトです" />
                 <meta property="og:image" content={"/ogp.jpeg"} />
+                {/* New Feed */}
+                <link
+                    rel="alternate"
+                    type="application/rss+xml"
+                    title="New Company RSS"
+                    href="https://company-introduction-jp.vercel.app/rss/new"
+                />
             </Head>
             <style jsx>{`
                 .Grid {
