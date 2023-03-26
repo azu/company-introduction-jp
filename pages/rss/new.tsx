@@ -43,7 +43,7 @@ const generateNewCompanyFeed = () => {
             type: company.type,
             currentPage: 0
         });
-        const slideImageTag = slideImage
+        const slideImageTag = slideImage.startsWith("https://")
             ? `<div><img src="${slideImage}" alt="スライド1ページ目" width="${company.image_width}" height="${company.image_height}" /></div>`
             : "";
         feed.addItem({
@@ -52,8 +52,7 @@ const generateNewCompanyFeed = () => {
             link: company.slide_urls[0],
             description: `${escapeXML(company.company_name)}の会社紹介スライド`,
             content: `${slideImageTag}<ul>${list}</ul><br />${companyLink}`,
-            date: new Date(),
-            image: slideImage
+            date: new Date()
         });
     }
     return feed.rss2();
