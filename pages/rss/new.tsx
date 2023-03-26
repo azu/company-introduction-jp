@@ -44,7 +44,7 @@ const generateNewCompanyFeed = () => {
             currentPage: 0
         });
         const slideImageTag = slideImage.startsWith("https://")
-            ? `<div><img src="${slideImage}" alt="スライド1ページ目" width="${company.image_width}" height="${company.image_height}" /></div>`
+            ? `<img src="${slideImage}" alt="スライド1ページ目" width="${company.image_width}" height="${company.image_height}" />`
             : "";
         feed.addItem({
             id: company.id,
