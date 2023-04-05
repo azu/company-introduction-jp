@@ -1963,5 +1963,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 155,
+        "company_name": "株式会社QuickWork",
+        "company_url": "https://quickwork.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/quickwork/quickworkhui-she-shuo-ming-zi-liao-cai-yong-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "8bbabf9708124ecdb204ec033abf56a4",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
