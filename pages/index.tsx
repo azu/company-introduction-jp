@@ -14,13 +14,16 @@ declare module "react" {
         global?: boolean;
     }
 }
-type Company = (typeof company)[0];
+type Company = (typeof company)[0] & {
+    // default block
+    displayMode?: "inline" | "block";
+};
 const Company = (props: Company) => {
+    const displayMode = props.displayMode ?? "block";
     return (
         <>
             <style jsx>{`
                 .Company {
-                    background-color: white;
                     display: grid;
                     flex-direction: column;
                     place-items: center;
@@ -42,10 +45,14 @@ const Company = (props: Company) => {
                 }
             `}</style>
             <div
-                style={{
-                    width: props.image_width,
-                    height: props.image_height
-                }}
+                style={
+                    displayMode === "block"
+                        ? {
+                              width: props.image_width,
+                              height: props.image_height
+                          }
+                        : {}
+                }
                 className={"Company"}
             >
                 <h1 className={"CompanyName"}>
@@ -149,6 +156,74 @@ const SlideShareSlide = (props: SlideProps & { slideUrl: string; onLoad: () => v
     );
 };
 
+const EmbedSlide = (props: SlideProps) => {
+    const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
+    const onLoad = useCallback(() => {}, []);
+    const onErrorPage = useCallback(() => {
+        setLoadErrorPages((prevState) => prevState.concat(props.currentPage));
+    }, [props.currentPage]);
+    const shouldShowLastPage = useMemo(() => {
+        return loadErrorPages.includes(props.currentPage);
+    }, [loadErrorPages, props.currentPage]);
+    const slideUrl = useMemo(() => {
+        if (props.currentPage === 0) {
+            return props.slide_urls[0];
+        }
+        if (props.type === "speakerdeck") {
+            return `${props.slide_urls[0]}?slide=${props.currentPage + 1}`; // 1-index
+        } else {
+            return props.slide_urls[0];
+        }
+    }, [props.currentPage, props.type, props.slide_urls]);
+    const Slide = useMemo(() => {
+        if (props.type === "speakerdeck") {
+            return (
+                <iframe
+                    loading={"lazy"}
+                    className="speakerdeck-iframe notranslate"
+                    style={{
+                        border: "0px none",
+                        background: "rgba(0, 0, 0, 0.1) padding-box",
+                        margin: "0px",
+                        padding: "0px",
+                        borderRadius: "6px",
+                        boxShadow: "rgba(0, 0, 0, 0.2) 0px 5px 40px",
+                        width: "100%",
+                        height: "auto",
+                        aspectRatio: `${props.image_width} / ${props.image_height}`
+                    }}
+                    src={`https://speakerdeck.com/player/${props.id}`}
+                    title={props.name}
+                    allowFullScreen={true}
+                ></iframe>
+            );
+        } else {
+            return <SlideShareSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />;
+        }
+    }, [props, slideUrl, onLoad, onErrorPage]);
+    return (
+        <InView rootMargin={"600px"}>
+            {({ inView, ref }) => {
+                return (
+                    <div
+                        ref={ref}
+                        style={{
+                            // width: "80vw",
+                            // maxWidth: "100%",
+                            height: "80vh",
+                            maxHeight: "100%",
+                            aspectRatio: `${props.image_width} / ${props.image_height}`,
+                            visibility: inView ? "visible" : "hidden"
+                        }}
+                    >
+                        {shouldShowLastPage ? <Company {...props} /> : Slide}
+                    </div>
+                );
+            }}
+        </InView>
+    );
+};
+
 const Slide = (props: SlideProps) => {
     const [loadErrorPages, setLoadErrorPages] = useState<number[]>([]);
     const onLoad = useCallback(() => {}, []);
@@ -200,14 +275,13 @@ const Slide = (props: SlideProps) => {
     );
 };
 type ToggleProps = {
-    left: { label: string; value: string };
-    right: { label: string; value: string };
+    items: { label: string; value: ModeType }[];
     value: string;
-    onChange: (value: string) => void;
+    onChange: (value: ModeType) => void;
 };
 const Toggle = (props: ToggleProps) => {
     const onChange: ChangeEventHandler<HTMLInputElement> = (event) => {
-        props.onChange(event.target.value);
+        props.onChange(event.target.value as ModeType);
     };
     return (
         <>
@@ -265,61 +339,69 @@ const Toggle = (props: ToggleProps) => {
                 }
             `}</style>
             <form className="switch-field">
-                <input
-                    type="radio"
-                    id="switch_left"
-                    name="switchToggle"
-                    value={props.left.value}
-                    onChange={onChange}
-                    checked={props.left.value === props.value}
-                />
-                <label htmlFor="switch_left">{props.left.label}</label>
-                <input
-                    type="radio"
-                    id="switch_right"
-                    name="switchToggle"
-                    value={props.right.value}
-                    onChange={onChange}
-                    checked={props.right.value === props.value}
-                />
-                <label htmlFor="switch_right">{props.right.label}</label>
+                {props.items.map((item) => {
+                    return (
+                        <div key={item.value} style={{ display: "inline-block" }}>
+                            <input
+                                type="radio"
+                                id={"switch" + item.value}
+                                name="switchToggle"
+                                value={item.value}
+                                onChange={onChange}
+                                checked={item.value === props.value}
+                            />
+                            <label htmlFor={"switch" + item.value}>{item.label}</label>
+                        </div>
+                    );
+                })}
             </form>
         </>
     );
 };
 
+type ModeType = "list" | "grid" | "embed_slide";
+
 function HomePage() {
     const isMobile = useMediaQuery({ query: "(max-width: 600px)" });
     const [currentPage, setCurrentPage] = useState(0);
-    const [mode, setMode] = useState<"list" | "grid">("list");
+    const [currentCompanyIndex, setCurrentCompanyIndex] = useState(0);
+    const [mode, setMode] = useState<ModeType>("list");
     useEffect(() => {
         if (isMobile) {
             setMode("grid");
         }
     }, [isMobile]);
     const onClickNext = useCallback(() => {
-        setCurrentPage((prevState) => prevState + 1);
-    }, []);
+        if (mode === "embed_slide") {
+            setCurrentCompanyIndex((prevState) => prevState + 1);
+        } else {
+            setCurrentPage((prevState) => prevState + 1);
+        }
+    }, [mode]);
     const onClickPrev = useCallback(() => {
-        setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
-    }, []);
+        if (mode === "embed_slide") {
+            setCurrentCompanyIndex((prevState) => (prevState > 0 ? prevState - 1 : 0));
+        } else {
+            setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
+        }
+    }, [mode]);
     useEffect(() => {
         const listener = function (event: KeyboardEvent) {
             if (event.key === "ArrowRight") {
                 event.preventDefault();
-                setCurrentPage((prevState) => prevState + 1);
+                onClickNext();
             } else if (event.key === "ArrowLeft") {
                 event.preventDefault();
-                setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
+                onClickPrev();
             }
         };
         document.addEventListener("keydown", listener);
         return () => {
             document.removeEventListener("keydown", listener);
         };
-    }, []);
-    const onChangeMode = useCallback((value: string) => {
-        setMode(value as "list" | "grid");
+    }, [onClickPrev, onClickNext]);
+    const onChangeMode = useCallback((value: ModeType) => {
+        setMode(value);
     }, []);
     return (
         <div>
@@ -343,6 +425,14 @@ function HomePage() {
                 />
             </Head>
             <style jsx>{`
+                .Full {
+                    display: grid;
+                    overflow: hidden;
+                    justify-items: center;
+                    width: 100%;
+                    height: 100%;
+                }
+
                 .Grid {
                     display: grid;
                     grid-gap: 10px;
@@ -438,45 +528,55 @@ function HomePage() {
                     font-size: 24px;
                 }
             `}</style>
-            <div className={`Grid ${mode === "list" ? "Grid--List" : "Grid--Grid"}`}>
-                {company.map((slide) => {
-                    if (mode === "list") {
+            {mode === "embed_slide" ? (
+                <div className={"Full"}>
+                    <EmbedSlide {...company[currentCompanyIndex]} />
+                    <Company {...company[currentCompanyIndex]} displayMode={"inline"} />
+                </div>
+            ) : (
+                <div className={`Grid ${mode === "list" ? "Grid--List" : "Grid--Grid"}`}>
+                    {company.map((slide) => {
+                        if (mode === "list") {
+                            return (
+                                <div className={"GridItem"} key={slide.rowIndex}>
+                                    <Slide {...slide} currentPage={currentPage} />
+                                    <Company {...slide} />
+                                </div>
+                            );
+                        }
                         return (
-                            <div className={"GridItem"} key={slide.rowIndex}>
+                            <div key={slide.rowIndex} className={"GridItem"}>
                                 <Slide {...slide} currentPage={currentPage} />
-                                <Company {...slide} />
                             </div>
                         );
-                    }
-                    return (
-                        <div key={slide.rowIndex} className={"GridItem"}>
-                            <Slide {...slide} currentPage={currentPage} />
-                        </div>
-                    );
-                })}
-            </div>
+                    })}
+                </div>
+            )}
             <footer className={"Footer"}>
                 <div className={"FooterController"}>
                     <button
                         className={"FooterControllerButton"}
                         onClick={onClickPrev}
-                        aria-label={`スライドを前のページに変更`}
+                        aria-label={mode === "embed_slide" ? "前の会社を表示" : `スライドを前のページに変更`}
                     >
                         <AiFillCaretLeft color={"#fff"} />
                     </button>
-                    <span>{currentPage}</span>
+                    <span>{mode === "embed_slide" ? currentCompanyIndex : currentPage}</span>
                     <button
                         className={"FooterControllerButton"}
                         onClick={onClickNext}
-                        aria-label={`スライドを次のページに変更`}
+                        aria-label={mode === "embed_slide" ? "次の会社を表示" : `スライドを前のページに変更`}
                     >
                         <AiFillCaretRight color={"#fff"} />
                     </button>
                 </div>
                 <div className={"FooterModeChanger"}>
                     <Toggle
-                        left={{ label: "List", value: "list" }}
-                        right={{ label: "Grid", value: "grid" }}
+                        items={[
+                            { label: "List", value: "list" },
+                            { label: "Grid", value: "grid" },
+                            { label: "Slide", value: "embed_slide" }
+                        ]}
                         value={mode}
                         onChange={onChangeMode}
                     />
