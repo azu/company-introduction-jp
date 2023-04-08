@@ -380,7 +380,7 @@ function HomePage() {
     }, [mode]);
     const onClickPrev = useCallback(() => {
         if (mode === "embed_slide") {
-            setCurrentCompanyIndex((prevState) => (prevState > 0 ? prevState - 1 : 0));
+            setCurrentCompanyIndex((prevState) => (prevState > 0 ? prevState - 1 : company.length - 1));
         } else {
             setCurrentPage((prevState) => (prevState > 0 ? prevState - 1 : 0));
         }
