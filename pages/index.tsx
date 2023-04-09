@@ -201,27 +201,50 @@ const EmbedSlide = (props: SlideProps) => {
             return <SlideShareSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />;
         }
     }, [props, slideUrl, onLoad, onErrorPage]);
-    return (
-        <InView rootMargin={"600px"}>
-            {({ inView, ref }) => {
-                return (
-                    <div
-                        ref={ref}
-                        style={{
-                            // width: "80vw",
-                            // maxWidth: "100%",
-                            height: "80vh",
-                            maxHeight: "100%",
-                            aspectRatio: `${props.image_width} / ${props.image_height}`,
-                            visibility: inView ? "visible" : "hidden"
-                        }}
-                    >
-                        {shouldShowLastPage ? <Company {...props} /> : Slide}
-                    </div>
-                );
-            }}
-        </InView>
-    );
+    if (props.type === "speakerdeck") {
+        return (
+            <div
+                style={{
+                    height: "80vh",
+                    maxHeight: "100%",
+                    aspectRatio: `${props.image_width} / ${props.image_height}`
+                }}
+            >
+                <iframe
+                    loading={"lazy"}
+                    className="speakerdeck-iframe notranslate"
+                    style={{
+                        border: "0px none",
+                        background: "rgba(0, 0, 0, 0.1) padding-box",
+                        margin: "0px",
+                        padding: "0px",
+                        borderRadius: "6px",
+                        boxShadow: "rgba(0, 0, 0, 0.2) 0px 5px 40px",
+                        width: "100%",
+                        height: "auto",
+                        aspectRatio: `${props.image_width} / ${props.image_height}`
+                    }}
+                    src={`https://speakerdeck.com/player/${props.id}`}
+                    title={props.name}
+                    allowFullScreen={true}
+                ></iframe>
+            </div>
+        );
+    } else {
+        return (
+            <div
+                style={{
+                    height: "80vh",
+                    maxHeight: "100%",
+                    display: "grid",
+                    justifyContent: "center",
+                    alignContent: "center"
+                }}
+            >
+                <SlideShareSlide {...props} slideUrl={slideUrl} onLoad={onLoad} onError={onErrorPage} />
+            </div>
+        );
+    }
 };
 
 const Slide = (props: SlideProps) => {
@@ -373,7 +396,7 @@ function HomePage() {
     }, [isMobile]);
     const onClickNext = useCallback(() => {
         if (mode === "embed_slide") {
-            setCurrentCompanyIndex((prevState) => prevState + 1);
+            setCurrentCompanyIndex((prevState) => (prevState < company.length - 1 ? prevState + 1 : 0));
         } else {
             setCurrentPage((prevState) => prevState + 1);
         }
