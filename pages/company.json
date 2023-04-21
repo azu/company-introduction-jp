@@ -1950,5 +1950,44 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 154,
+        "company_name": "株式会社クラス",
+        "company_url": "https://clas.style/company/",
+        "slide_urls": [
+            "https://speakerdeck.com/clas/zhu-shi-hui-she-kurasuhui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "6f0b73cf39814e9ea6c80afdc1a5475f",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 155,
+        "company_name": "株式会社ショーケース",
+        "company_url": "https://www.showcase-tv.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/showcasetv/zhu-shi-hui-she-siyokesu-hui-she-shuo-ming-zi-liao-9dc9f9ea-18ca-4219-a870-49b3372d14d3"
+        ],
+        "type": "speakerdeck",
+        "id": "7c0c30d7082b4c48b2a6c97aee5b4aff",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 156,
+        "company_name": "エル・エス・アイジャパン株式会社",
+        "company_url": "https://www.lsi-j.co.jp/official/",
+        "slide_urls": [
+            "https://speakerdeck.com/lsijapan_hr/hui-she-shuo-ming-hui-zi-liao-eruesuai-ziyapanzhu-shi-hui-she"
+        ],
+        "type": "speakerdeck",
+        "id": "920fd9df912d41519a4d64ba2af50740",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
