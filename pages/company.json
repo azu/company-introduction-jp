@@ -1989,5 +1989,18 @@
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 157,
+        "company_name": "株式会社PitPa",
+        "company_url": "https://pitpa.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/pitpa_pr/zhu-shi-hui-she-pitpa-hui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "3cc2202ac66549768f06e965cb427919",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
