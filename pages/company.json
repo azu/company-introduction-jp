@@ -2002,5 +2002,44 @@
         "image_ratio": 1.77725118483412,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 158,
+        "company_name": "グランサーズ株式会社",
+        "company_url": "https://grancers-group.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/grancersmarke/guransazuhui-she-shao-jie-cai-yong-qing-bao-ban"
+        ],
+        "type": "speakerdeck",
+        "id": "8e9e46b8e25649bd93236143e86d1362",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 159,
+        "company_name": "株式会社スカイディスク",
+        "company_url": "https://skydisc.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/uchimura191218/skydisc-hui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "5c1c75ec60fd4ab7902bed9c6ab4503d",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 160,
+        "company_name": "株式会社スタメン",
+        "company_url": "https://stmn.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/stmn/zhu-shi-hui-she-sutamen-enziniaxiang-kehui-she-shao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "83574b73e7e644c4a9feea3add029af6",
+        "image_ratio": 1.77613320999075,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
