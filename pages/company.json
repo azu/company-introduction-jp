@@ -1508,7 +1508,12 @@
         "company_url": "https://www.cyberagent.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/cyberagent_recruit/cypitch"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "f7bf5c77aecd448da08563bc84c617dd",
+        "image_ratio": 1.33333333333333,
+        "image_width": 560,
+        "image_height": 420
     },
     {
         "type": "other",
