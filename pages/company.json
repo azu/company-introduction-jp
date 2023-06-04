@@ -2041,5 +2041,18 @@
         "image_ratio": 1.77613320999075,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 161,
+        "company_name": "株式会社ニーリー",
+        "company_url": "https://www.nealle.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/nealle/nealle-company-deck-06fd918b-634c-4525-b657-ae7ae354dac2"
+        ],
+        "type": "speakerdeck",
+        "id": "c00836a5bdb84a64925639881a0f11aa",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
