@@ -54,8 +54,8 @@
     },
     {
         "rowIndex": 6,
-        "company_name": "ヘイ株式会社",
-        "company_url": "https://hey.jp/company/",
+        "company_name": "STORES株式会社",
+        "company_url": "https://www.st.inc/",
         "slide_urls": [
             "https://speakerdeck.com/heyinc/hey-book"
         ],
@@ -2051,6 +2051,67 @@
         ],
         "type": "speakerdeck",
         "id": "c00836a5bdb84a64925639881a0f11aa",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 162,
+        "company_name": "株式会社Voicy",
+        "company_url": "https://corp.voicy.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/voicy_team/pitch-for-engineer"
+        ],
+        "type": "speakerdeck",
+        "id": "57c0789089454f84a2333c3a3dc95b7a",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 163,
+        "company_name": "株式会社CARTA HOLDINGS",
+        "company_url": "https://cartaholdings.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/carta_engineering/carta-guide-for-engineers"
+        ],
+        "type": "speakerdeck",
+        "id": "b9edcff84a5f458ea4596c2b38722d22",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "type": "other",
+        "rowIndex": 164,
+        "company_name": "株式会社ゆめみ",
+        "company_url": "https://www.yumemi.co.jp/",
+        "slide_urls": [
+            "https://assets.super.so/df290f98-2de3-4caa-9480-2e9e2082cb4f/files/e825dfee-af87-497b-a1ed-7e0e52761788.pdf"
+        ]
+    },
+    {
+        "rowIndex": 165,
+        "company_name": "オイシックス・ラ・大地株式会社",
+        "company_url": "https://www.oisixradaichi.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/ordhr/oisixradaichihui-she-shuo-ming-20220914-950d7d12-7327-4744-9359-d446d4496011"
+        ],
+        "type": "speakerdeck",
+        "id": "d04ce4a75cb54a31992c1cb70eef2272",
+        "image_ratio": 1.77777777777778,
+        "image_width": 560,
+        "image_height": 314
+    },
+    {
+        "rowIndex": 166,
+        "company_name": "Chatwork株式会社",
+        "company_url": "https://corp.chatwork.com/ja/",
+        "slide_urls": [
+            "https://speakerdeck.com/chatwork_hr/chatwork"
+        ],
+        "type": "speakerdeck",
+        "id": "14c8891581624369ae5c3e86e70899cc",
         "image_ratio": 1.77777777777778,
         "image_width": 560,
         "image_height": 314
