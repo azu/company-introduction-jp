@@ -1921,9 +1921,9 @@
         ],
         "type": "speakerdeck",
         "id": "5e41baae15b546dda5e2c6cb0bfa82b5",
-        "image_ratio": 1.77613320999075,
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 315
+        "image_height": 314
     },
     {
         "rowIndex": 152,
@@ -2038,9 +2038,9 @@
         ],
         "type": "speakerdeck",
         "id": "83574b73e7e644c4a9feea3add029af6",
-        "image_ratio": 1.77613320999075,
+        "image_ratio": 1.77777777777778,
         "image_width": 560,
-        "image_height": 315
+        "image_height": 314
     },
     {
         "rowIndex": 161,
