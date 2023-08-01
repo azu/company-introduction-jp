@@ -1927,19 +1927,6 @@
     },
     {
         "rowIndex": 152,
-        "company_name": "株式会社QuickWork",
-        "company_url": "https://quickwork.jp/",
-        "slide_urls": [
-            "https://speakerdeck.com/quickwork/quickworkhui-she-shuo-ming-zi-liao-cai-yong-zi-liao"
-        ],
-        "type": "speakerdeck",
-        "id": "8bbabf9708124ecdb204ec033abf56a4",
-        "image_ratio": 1.77777777777778,
-        "image_width": 560,
-        "image_height": 314
-    },
-    {
-        "rowIndex": 153,
         "company_name": "株式会社クラス",
         "company_url": "https://clas.style/company/",
         "slide_urls": [
@@ -1952,7 +1939,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 154,
+        "rowIndex": 153,
         "company_name": "株式会社ショーケース",
         "company_url": "https://www.showcase-tv.com/",
         "slide_urls": [
@@ -1965,7 +1952,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 155,
+        "rowIndex": 154,
         "company_name": "エル・エス・アイジャパン株式会社",
         "company_url": "https://www.lsi-j.co.jp/official/",
         "slide_urls": [
@@ -1978,7 +1965,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 156,
+        "rowIndex": 155,
         "company_name": "株式会社PitPa",
         "company_url": "https://pitpa.jp/",
         "slide_urls": [
@@ -1991,7 +1978,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 157,
+        "rowIndex": 156,
         "company_name": "グランサーズ株式会社",
         "company_url": "https://grancers-group.com/",
         "slide_urls": [
@@ -2004,7 +1991,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 158,
+        "rowIndex": 157,
         "company_name": "株式会社スカイディスク",
         "company_url": "https://skydisc.jp/",
         "slide_urls": [
@@ -2017,7 +2004,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 159,
+        "rowIndex": 158,
         "company_name": "株式会社スタメン",
         "company_url": "https://stmn.co.jp/",
         "slide_urls": [
@@ -2030,7 +2017,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 160,
+        "rowIndex": 159,
         "company_name": "株式会社ニーリー",
         "company_url": "https://www.nealle.com/",
         "slide_urls": [
@@ -2043,7 +2030,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 161,
+        "rowIndex": 160,
         "company_name": "株式会社Voicy",
         "company_url": "https://corp.voicy.jp/",
         "slide_urls": [
@@ -2056,7 +2043,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 162,
+        "rowIndex": 161,
         "company_name": "株式会社CARTA HOLDINGS",
         "company_url": "https://cartaholdings.co.jp/",
         "slide_urls": [
@@ -2070,7 +2057,7 @@
     },
     {
         "type": "other",
-        "rowIndex": 163,
+        "rowIndex": 162,
         "company_name": "株式会社ゆめみ",
         "company_url": "https://www.yumemi.co.jp/",
         "slide_urls": [
@@ -2078,7 +2065,7 @@
         ]
     },
     {
-        "rowIndex": 164,
+        "rowIndex": 163,
         "company_name": "オイシックス・ラ・大地株式会社",
         "company_url": "https://www.oisixradaichi.co.jp/",
         "slide_urls": [
@@ -2091,7 +2078,7 @@
         "image_height": 314
     },
     {
-        "rowIndex": 165,
+        "rowIndex": 164,
         "company_name": "Chatwork株式会社",
         "company_url": "https://corp.chatwork.com/ja/",
         "slide_urls": [
