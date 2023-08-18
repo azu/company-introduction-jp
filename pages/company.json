@@ -1817,13 +1817,8 @@
         "company_name": "りらいあデジタル株式会社",
         "company_url": "https://www.relia-digital.com/",
         "slide_urls": [
-            "https://speakerdeck.com/reliadigital/reliadigital"
-        ],
-        "type": "speakerdeck",
-        "id": "746bd6c22bb24d5c9270ebb991c356ae",
-        "image_ratio": 1.77725118483412,
-        "image_width": 560,
-        "image_height": 315
+            "https://speakerdeck.com/reliadigital/"
+        ]
     },
     {
         "type": "other",
