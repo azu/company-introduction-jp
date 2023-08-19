@@ -1817,8 +1817,13 @@
         "company_name": "りらいあデジタル株式会社",
         "company_url": "https://www.relia-digital.com/",
         "slide_urls": [
-            "https://speakerdeck.com/reliadigital/"
-        ]
+            "https://speakerdeck.com/reliadigital/riraiadezitaruzhu-shi-hui-she"
+        ],
+        "type": "speakerdeck",
+        "id": "e9a104f91b0743d0a1ea8afddf0ab93c",
+        "image_ratio": 1.77725118483412,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "type": "other",
@@ -2068,8 +2073,8 @@
         ],
         "type": "speakerdeck",
         "id": "14c8891581624369ae5c3e86e70899cc",
-        "image_ratio": 1.77777777777778,
+        "image_ratio": 1.77725118483412,
         "image_width": 560,
-        "image_height": 314
+        "image_height": 315
     }
 ]
