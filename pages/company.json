@@ -239,13 +239,13 @@
         "company_name": "株式会社ユニラボ",
         "company_url": "https://www.unilabo.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/unilabo/zhu-shi-hui-she-yunirabocai-yong-pitutizi-liao"
+            "https://speakerdeck.com/unilabo/recruit-for-engineers"
         ],
         "type": "speakerdeck",
-        "id": "42c88f1bcfcc4996bde9f3c366d491b0",
-        "image_ratio": 1.3333333333333333,
+        "id": "ea639b8235b44be196a17906b9318df7",
+        "image_ratio": 1.7777777777777777,
         "image_width": 560,
-        "image_height": 420
+        "image_height": 315
     },
     {
         "rowIndex": 21,
@@ -1820,7 +1820,7 @@
             "https://speakerdeck.com/reliadigital/riraiadezitaruzhu-shi-hui-she"
         ],
         "type": "speakerdeck",
-        "id": "e9a104f91b0743d0a1ea8afddf0ab93c",
+        "id": "a787a0083cae4a48b5f0d45c4dad2de5",
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
