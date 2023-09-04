@@ -2076,5 +2076,40 @@
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "type": "slideshare",
+        "rowIndex": 164,
+        "company_name": "VideoTouch株式会社",
+        "company_url": "https://videotouch.co.jp/",
+        "slide_urls": [
+            "https://www.slideshare.net/TakenoriTauchi/ver31pdf"
+        ]
+    },
+    {
+        "rowIndex": 165,
+        "company_name": "株式会社Azit",
+        "company_url": "https://azit.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/azit/azit-company-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "277e7ac7b6c14786afc077516087c727",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 166,
+        "company_name": "oVice株式会社",
+        "company_url": "https://www.ovice.com/ja/company",
+        "slide_urls": [
+            "https://speakerdeck.com/ovice/ovice-company-info"
+        ],
+        "type": "speakerdeck",
+        "id": "13f3c7c413b141508f2ad8e764478a20",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
