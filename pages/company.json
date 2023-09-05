@@ -2111,5 +2111,18 @@
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 167,
+        "company_name": "Beatrust 株式会社",
+        "company_url": "https://corp.beatrust.com/corporate",
+        "slide_urls": [
+            "https://speakerdeck.com/beatrust/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "73d226d9cf114cbf8ac16dd73cd6075b",
+        "image_ratio": 1.7772511848341233,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
