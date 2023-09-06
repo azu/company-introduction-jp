@@ -2124,5 +2124,14 @@
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "type": "other",
+        "rowIndex": 168,
+        "company_name": "株式会社フライル",
+        "company_url": "https://corp.flyle.io/",
+        "slide_urls": [
+            "https://www.canva.com/design/DAFRnFiK3d4/view"
+        ]
     }
 ]
