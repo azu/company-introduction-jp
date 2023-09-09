@@ -2133,5 +2133,18 @@
         "slide_urls": [
             "https://www.canva.com/design/DAFRnFiK3d4/view"
         ]
+    },
+    {
+        "rowIndex": 169,
+        "company_name": "MOSH株式会社",
+        "company_url": "https://corp.mosh.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/mosh_inc/company-profile-a11cf3c4-075a-42f6-86ed-4b2ba5645eaa"
+        ],
+        "type": "speakerdeck",
+        "id": "740a73fbd5cc4ddd9b635817a66c875a",
+        "image_ratio": 1.3333333333333333,
+        "image_width": 560,
+        "image_height": 420
     }
 ]
