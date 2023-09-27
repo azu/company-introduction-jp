@@ -1389,11 +1389,10 @@
         "company_name": "株式会社Progate",
         "company_url": "https://prog-8.com/",
         "slide_urls": [
-            "https://speakerdeck.com/progate/we-are-hiring",
-            "https://speakerdeck.com/progate/about-progate-engineer"
+            "https://speakerdeck.com/progate/fy2023-dot-8-hui-she-shao-jie-zi-liao"
         ],
         "type": "speakerdeck",
-        "id": "df7d2aa20f1e40ccb5199b6c6105a00b",
+        "id": "f44b3137cde742a59a2e7e2c89e15f3c",
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
