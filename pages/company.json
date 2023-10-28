@@ -1812,21 +1812,8 @@
         "image_height": 315
     },
     {
-        "rowIndex": 143,
-        "company_name": "りらいあデジタル株式会社",
-        "company_url": "https://www.relia-digital.com/",
-        "slide_urls": [
-            "https://speakerdeck.com/reliadigital/riraiadezitaruzhu-shi-hui-she"
-        ],
-        "type": "speakerdeck",
-        "id": "a787a0083cae4a48b5f0d45c4dad2de5",
-        "image_ratio": 1.7772511848341233,
-        "image_width": 560,
-        "image_height": 315
-    },
-    {
         "type": "other",
-        "rowIndex": 144,
+        "rowIndex": 143,
         "company_name": "株式会社Ateam",
         "company_url": "https://www.a-tm.co.jp/recruit/",
         "slide_urls": [
@@ -1834,7 +1821,7 @@
         ]
     },
     {
-        "rowIndex": 145,
+        "rowIndex": 144,
         "company_name": "Nstock株式会社",
         "company_url": "https://nstock.co.jp/",
         "slide_urls": [
@@ -1847,7 +1834,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 146,
+        "rowIndex": 145,
         "company_name": "株式会社ソウゾウ",
         "company_url": "https://souzoh.com/",
         "slide_urls": [
@@ -1860,7 +1847,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 147,
+        "rowIndex": 146,
         "company_name": "X Mile株式会社",
         "company_url": "https://www.xmile.co.jp/",
         "slide_urls": [
@@ -1873,7 +1860,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 148,
+        "rowIndex": 147,
         "company_name": "トヨクモ株式会社",
         "company_url": "https://www.toyokumo.co.jp/",
         "slide_urls": [
@@ -1886,7 +1873,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 149,
+        "rowIndex": 148,
         "company_name": "株式会社Shippio",
         "company_url": "https://www.shippio.io/",
         "slide_urls": [
@@ -1899,7 +1886,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 150,
+        "rowIndex": 149,
         "company_name": "ARINA株式会社",
         "company_url": "https://arinna.co.jp/",
         "slide_urls": [
@@ -1912,7 +1899,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 151,
+        "rowIndex": 150,
         "company_name": "株式会社クラス",
         "company_url": "https://clas.style/company/",
         "slide_urls": [
@@ -1925,7 +1912,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 152,
+        "rowIndex": 151,
         "company_name": "株式会社ショーケース",
         "company_url": "https://www.showcase-tv.com/",
         "slide_urls": [
@@ -1938,7 +1925,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 153,
+        "rowIndex": 152,
         "company_name": "エル・エス・アイジャパン株式会社",
         "company_url": "https://www.lsi-j.co.jp/official/",
         "slide_urls": [
@@ -1951,7 +1938,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 154,
+        "rowIndex": 153,
         "company_name": "株式会社PitPa",
         "company_url": "https://pitpa.jp/",
         "slide_urls": [
@@ -1964,7 +1951,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 155,
+        "rowIndex": 154,
         "company_name": "グランサーズ株式会社",
         "company_url": "https://grancers-group.com/",
         "slide_urls": [
@@ -1977,7 +1964,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 156,
+        "rowIndex": 155,
         "company_name": "株式会社スカイディスク",
         "company_url": "https://skydisc.jp/",
         "slide_urls": [
@@ -1990,7 +1977,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 157,
+        "rowIndex": 156,
         "company_name": "株式会社スタメン",
         "company_url": "https://stmn.co.jp/",
         "slide_urls": [
@@ -2003,7 +1990,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 158,
+        "rowIndex": 157,
         "company_name": "株式会社ニーリー",
         "company_url": "https://www.nealle.com/",
         "slide_urls": [
@@ -2016,7 +2003,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 159,
+        "rowIndex": 158,
         "company_name": "株式会社Voicy",
         "company_url": "https://corp.voicy.jp/",
         "slide_urls": [
@@ -2029,7 +2016,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 160,
+        "rowIndex": 159,
         "company_name": "株式会社CARTA HOLDINGS",
         "company_url": "https://cartaholdings.co.jp/",
         "slide_urls": [
@@ -2043,7 +2030,7 @@
     },
     {
         "type": "other",
-        "rowIndex": 161,
+        "rowIndex": 160,
         "company_name": "株式会社ゆめみ",
         "company_url": "https://www.yumemi.co.jp/",
         "slide_urls": [
@@ -2051,7 +2038,7 @@
         ]
     },
     {
-        "rowIndex": 162,
+        "rowIndex": 161,
         "company_name": "オイシックス・ラ・大地株式会社",
         "company_url": "https://www.oisixradaichi.co.jp/",
         "slide_urls": [
@@ -2064,7 +2051,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 163,
+        "rowIndex": 162,
         "company_name": "Chatwork株式会社",
         "company_url": "https://corp.chatwork.com/ja/",
         "slide_urls": [
@@ -2078,7 +2065,7 @@
     },
     {
         "type": "slideshare",
-        "rowIndex": 164,
+        "rowIndex": 163,
         "company_name": "VideoTouch株式会社",
         "company_url": "https://videotouch.co.jp/",
         "slide_urls": [
@@ -2086,7 +2073,7 @@
         ]
     },
     {
-        "rowIndex": 165,
+        "rowIndex": 164,
         "company_name": "株式会社Azit",
         "company_url": "https://azit.co.jp/",
         "slide_urls": [
@@ -2099,7 +2086,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 166,
+        "rowIndex": 165,
         "company_name": "oVice株式会社",
         "company_url": "https://www.ovice.com/ja/company",
         "slide_urls": [
@@ -2112,7 +2099,7 @@
         "image_height": 315
     },
     {
-        "rowIndex": 167,
+        "rowIndex": 166,
         "company_name": "Beatrust 株式会社",
         "company_url": "https://corp.beatrust.com/corporate",
         "slide_urls": [
@@ -2126,7 +2113,7 @@
     },
     {
         "type": "other",
-        "rowIndex": 168,
+        "rowIndex": 167,
         "company_name": "株式会社フライル",
         "company_url": "https://corp.flyle.io/",
         "slide_urls": [
@@ -2134,7 +2121,7 @@
         ]
     },
     {
-        "rowIndex": 169,
+        "rowIndex": 168,
         "company_name": "MOSH株式会社",
         "company_url": "https://corp.mosh.jp/",
         "slide_urls": [
