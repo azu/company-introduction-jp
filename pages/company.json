@@ -1162,9 +1162,9 @@
         ],
         "type": "speakerdeck",
         "id": "39db704a5fa043d0abfe643f46468929",
-        "image_ratio": 1.414516129032258,
+        "image_ratio": 1.4122383252818036,
         "image_width": 560,
-        "image_height": 395
+        "image_height": 396
     },
     {
         "rowIndex": 92,
@@ -2132,5 +2132,18 @@
         "image_ratio": 1.3333333333333333,
         "image_width": 560,
         "image_height": 420
+    },
+    {
+        "rowIndex": 169,
+        "company_name": "polyfit株式会社",
+        "company_url": "https://www.polyfit.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/satoshiojsx/we-are-hiring"
+        ],
+        "type": "speakerdeck",
+        "id": "b59fd8f581954df192b2c879d36f978a",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
