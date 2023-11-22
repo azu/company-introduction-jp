@@ -461,7 +461,12 @@
         "company_url": "https://www.counterworks.jp/",
         "slide_urls": [
             "https://speakerdeck.com/kentymmt/counterworks-hui-she-shao-jie-zi-liao"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "215a4fd780d14dcbb80697ca9fa896bc",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "rowIndex": 38,
@@ -2137,6 +2142,32 @@
         ],
         "type": "speakerdeck",
         "id": "b59fd8f581954df192b2c879d36f978a",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 170,
+        "company_name": "HeaR株式会社",
+        "company_url": "https://www.hear.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/hear/company-profile"
+        ],
+        "type": "speakerdeck",
+        "id": "62babefd4ef44d588e0deea027cf2230",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
+        "rowIndex": 171,
+        "company_name": "Micoworks株式会社",
+        "company_url": "https://www.micoworks.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/micoworks/micoworkszhu-shi-hui-she-cai-yong-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "3b224fb9e1f146d69808d3c1f2fbd27b",
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
