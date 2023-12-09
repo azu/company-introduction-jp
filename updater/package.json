@@ -15,9 +15,9 @@
   "author": "azu",
   "type": "module",
   "scripts": {
-    "update-data": "ts-node-esm --require dotenv/config src/update-data.ts",
-    "fetch-spreadsheet": "ts-node-esm --require dotenv/config src/fetch-spreadsheet.ts",
-    "merge-speakerdeck": "ts-node-esm --require dotenv/config src/merge-speackerdeck.ts",
+    "update-data": "node --loader ts-node/esm --require dotenv/config src/update-data.ts",
+    "fetch-spreadsheet": "node --loader ts-node/esm --require dotenv/config src/fetch-spreadsheet.ts",
+    "merge-speakerdeck": "node --loader ts-node/esm --require dotenv/config src/merge-speackerdeck.ts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "prettier": {
