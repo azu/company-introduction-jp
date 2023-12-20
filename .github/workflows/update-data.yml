@@ -22,7 +22,7 @@ jobs:
           SHEETON_API_KEY: ${{ secrets.SHEETON_API_KEY }}
         working-directory: updater/
       - name: Commit
-        uses: EndBug/add-and-commit@v6
+        uses: EndBug/add-and-commit@v9
         with:
           message: "Update Data"
           push: true
