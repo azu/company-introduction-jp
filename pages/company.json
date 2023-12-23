@@ -2184,5 +2184,18 @@
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 173,
+        "company_name": "株式会社WiseVine",
+        "company_url": "https://corp.wise-vine.com/",
+        "slide_urls": [
+            "https://speakerdeck.com/yukinomura/wisevinehui-she-shuo-ming-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "c61a559991df4187b77682d32b980a7b",
+        "image_ratio": 1.7772511848341233,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
