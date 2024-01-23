@@ -2197,5 +2197,18 @@
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 174,
+        "company_name": "株式会社NEXERA",
+        "company_url": "https://corp.nexera.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/nexera/nexera-inc-company-deck-07780642-ddc5-4e48-987f-19fbbe76d264"
+        ],
+        "type": "speakerdeck",
+        "id": "3c2372e2daf6440d9f2e1e0c350818f5",
+        "image_ratio": 1.7810760667903525,
+        "image_width": 560,
+        "image_height": 314
     }
 ]
