@@ -2197,5 +2197,18 @@
         "image_ratio": 1.7810760667903525,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 174,
+        "company_name": "株式会社フォーズン",
+        "company_url": "https://foursons.co.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/foursons/dong-hua-zhi-zuo-sabisushao-jie-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "edbbdfc5939a4f53ba016974225c6674",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
