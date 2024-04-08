@@ -2184,5 +2184,18 @@
         "image_ratio": 1.7810760667903525,
         "image_width": 560,
         "image_height": 314
+    },
+    {
+        "rowIndex": 173,
+        "company_name": "合同会社ロケットボーイズ",
+        "company_url": "https://rocket-boys.co.jp",
+        "slide_urls": [
+            "https://speakerdeck.com/boyst/roketutoboizuying-ye-zi-liao"
+        ],
+        "type": "speakerdeck",
+        "id": "8bbd4b70dad8423891cd7b3ab8b23596",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
