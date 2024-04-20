@@ -30,6 +30,7 @@ jobs:
       - name: SpreadSheet URL
         if: failure()
         run: |
-          cat GITHUB_SUMMARY.md >> $GITHUB_STEP_SUMMARY
+          # if exists GITHUB_SUMMARY.md, append to GITHUB_STEP_SUMMARY
+          [ -f GITHUB_SUMMARY.md ] && cat GITHUB_SUMMARY.md >> $GITHUB_STEP_SUMMARY
           echo "## SpreadSheet URL" >> $GITHUB_STEP_SUMMARY
           echo "Go to https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit#gid=0" >> $GITHUB_STEP_SUMMARY
