@@ -9,15 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v
         with:
           node-version: 18
+          cache: 'yarn'
       - name: Update Data
         run: |
           yarn install
-          for _ in 1 2 3; do yarn update-data && break; done
+          for _ in 1 2 3; do yarn run update-data && break; done
         env:
           SHEETON_API_KEY: ${{ secrets.SHEETON_API_KEY }}
         working-directory: updater/
@@ -28,4 +29,7 @@ jobs:
           push: true
       - name: SpreadSheet URL
         if: failure()
-        run: echo "Go to https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit#gid=0"
+        run: |
+          cat GITHUB_SUMMARY.md >> $GITHUB_STEP_SUMMARY
+          echo "## SpreadSheet URL" >> $GITHUB_STEP_SUMMARY
+          echo "Go to https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit#gid=0" >> $GITHUB_STEP_SUMMARY

@@ -44,8 +44,25 @@ const actions = json
             };
         };
     });
-const results = (await pAll(actions, {
-    concurrency: 4
-})) as Result[];
+try {
+    const results = (await pAll(actions, {
+        concurrency: 4
+    })) as Result[];
 
-await fs.writeFile(OUTPUT_PATH, JSON.stringify(results, null, 4), "utf8");
+    await fs.writeFile(OUTPUT_PATH, JSON.stringify(results, null, 4), "utf8");
+} catch (error) {
+    console.error("[update-data] failed to fetch slide details", error);
+    // if GITHUB_ACTION=true, then output GITHUB_SUMMARY.md
+    if (process.env.GITHUB_ACTION) {
+        await fs.writeFile(
+            path.join(__dirname, "../../GITHUB_SUMMARY.md"),
+            `## Error
+
+${error}
+
+`,
+            "utf8"
+        );
+    }
+    process.exit(1);
+}
