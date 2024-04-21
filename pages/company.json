@@ -2187,14 +2187,14 @@
     },
     {
         "rowIndex": 173,
-        "company_name": "合同会社ロケットボーイズ",
-        "company_url": "https://rocket-boys.co.jp",
+        "company_name": "newmo株式会社",
+        "company_url": "https://newmo.me/",
         "slide_urls": [
-            "https://speakerdeck.com/boyst/roketutoboizuying-ye-zi-liao"
+            "https://speakerdeck.com/newmo/join-our-team"
         ],
         "type": "speakerdeck",
-        "id": "8bbd4b70dad8423891cd7b3ab8b23596",
-        "image_ratio": 1.7777777777777777,
+        "id": "02a08a1fa9754d64a35f62825e9305a2",
+        "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
     }
