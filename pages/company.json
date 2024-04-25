@@ -175,7 +175,12 @@
         "company_url": "https://kanmu.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/kanmu/kanmu-inc-current-status"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "78911418a1df4b1a9a60f938a57e9951",
+        "image_ratio": 1.7772511848341233,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "rowIndex": 16,
