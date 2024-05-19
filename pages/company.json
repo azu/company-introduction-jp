@@ -2210,13 +2210,5 @@
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
-    },
-    {
-        "rowIndex": 175,
-        "company_name": "合同会社まるて",
-        "company_url": "https://maru-te.co.jp",
-        "slide_urls": [
-            "https://speakerdeck.com/shinpeit"
-        ]
     }
 ]
