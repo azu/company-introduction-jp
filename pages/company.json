@@ -53,19 +53,6 @@
         "image_height": 315
     },
     {
-        "rowIndex": 6,
-        "company_name": "STORES株式会社",
-        "company_url": "https://www.st.inc/",
-        "slide_urls": [
-            "https://speakerdeck.com/heyinc/hey-book"
-        ],
-        "type": "speakerdeck",
-        "id": "ada0326670644eb8b43b35492ce721d0",
-        "image_ratio": 1.7772511848341233,
-        "image_width": 560,
-        "image_height": 315
-    },
-    {
         "rowIndex": 7,
         "company_name": "株式会社HRBrain",
         "company_url": "https://www.hrbrain.co.jp/",
@@ -1210,10 +1197,10 @@
         "company_name": "株式会社TENTIAL",
         "company_url": "https://corp.tential.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/piyosakai/invitation-to-tential"
+            "https://speakerdeck.com/piyosakai/240501geng-xin-tential-company-profile-64cfcb28-2f1d-4eee-adca-1f15acd3d7d4"
         ],
         "type": "speakerdeck",
-        "id": "87203ce7d07c4eb29cedb70e048722b8",
+        "id": "c226419badbf4daa9d428be0edfa5d66",
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
