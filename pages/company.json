@@ -53,6 +53,19 @@
         "image_height": 315
     },
     {
+        "rowIndex": 6,
+        "company_name": "STORES株式会社",
+        "company_url": "https://www.st.inc/",
+        "slide_urls": [
+            "https://speakerdeck.com/heyinc/hey-book"
+        ],
+        "type": "speakerdeck",
+        "id": "ada0326670644eb8b43b35492ce721d0",
+        "image_ratio": 1.7772511848341233,
+        "image_width": 560,
+        "image_height": 315
+    },
+    {
         "rowIndex": 7,
         "company_name": "株式会社HRBrain",
         "company_url": "https://www.hrbrain.co.jp/",
