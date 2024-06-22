@@ -15,9 +15,9 @@
   "author": "azu",
   "type": "module",
   "scripts": {
-    "update-data": "node --loader ts-node/esm --require dotenv/config src/update-data.ts",
-    "fetch-spreadsheet": "node --loader ts-node/esm --require dotenv/config src/fetch-spreadsheet.ts",
-    "merge-speakerdeck": "node --loader ts-node/esm --require dotenv/config src/merge-speackerdeck.ts",
+    "update-data": "node --import=tsimp/import src/update-data.ts",
+    "fetch-spreadsheet": "node --import=tsimp/import src/fetch-spreadsheet.ts",
+    "merge-speakerdeck": "node --import=tsimp/import src/merge-speackerdeck.ts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
   "prettier": {
@@ -32,14 +32,12 @@
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
-    "dotenv": "^16.0.3",
     "lint-staged": "^13.2.0",
     "mocha": "^10.2.0",
     "prettier": "^2.8.4",
     "rimraf": "^4.4.0",
-    "ts-node": "^10.9.1",
-    "ts-node-test-register": "^10.0.0",
-    "typescript": "^5.0.2"
+    "tsimp": "^2.0.11",
+    "typescript": "^5.5.2"
   },
   "dependencies": {
     "jsdom": "^21.1.1",

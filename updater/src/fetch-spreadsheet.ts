@@ -28,28 +28,36 @@ const formatCompany = (rawCompany: RawCompany): Company => {
     };
 };
 export const fetchSpreadsheet = async (): Promise<Company[]> => {
-    const API_ENDPOINT = `https://api.sheetson.com/v2/sheets/会社一覧`;
-    const SPREADSHEET_ID = "1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc";
-    const API_KEY = process.env.SHEETON_API_KEY;
-    const results: Company[] = [];
-    let currentCursor = 0;
-    while (true) {
-        const url = API_ENDPOINT + `?skip=${currentCursor}&limit=100`;
-        console.info("[fetchSpreadsheet] fetch", url);
-        const result = (await fetch(url, {
-            headers: {
-                Authorization: `Bearer ${API_KEY}`,
-                "X-Spreadsheet-Id": SPREADSHEET_ID
-            }
-        }).then((res) => res.json())) as { results: RawCompany[]; hasNextPage: boolean };
-        currentCursor += 100 + 1;
-        console.info("Fetched result", result);
-        results.push(...result.results.filter((item) => item !== undefined).map((item) => formatCompany(item)));
-        if (!result.hasNextPage) {
-            break;
-        }
-        await new Promise((resolve) => setTimeout(resolve, 30 * 1000));
-    }
-    console.info("[fetchSpreadsheet] fetched total rows", results.length);
-    return results;
+    const API_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/values/会社一覧`;
+    const GOOGLE_SPREADSHEET_API_KEY = process.env.GOOGLE_SPREADSHEET_API_KEY;
+    const url = API_ENDPOINT + `?key=${GOOGLE_SPREADSHEET_API_KEY}`;
+    console.info("[fetchSpreadsheet] fetch", url);
+    const results = await fetch(url).catch(() => {
+        // URL includes credential, so we should not log it.
+        return Promise.reject(new Error("fetch error"));
+    });
+    const resultsJson = (await results.json()) as {
+        values: {
+            0: string;
+            1: string;
+            2: string;
+        }[];
+    };
+    console.log("[fetchSpreadsheet] fetched", resultsJson);
+    const resultValuesWithoutHeader = resultsJson.values.slice(1);
+    const values = resultValuesWithoutHeader.filter((row) => {
+        return Boolean(row[0]) && Boolean(row[1]) && Boolean(row[2]);
+    });
+    console.info("[fetchSpreadsheet] fetched total rows", {
+        total: values.length,
+        rawTotal: resultValuesWithoutHeader.length
+    });
+    return values.map((row, index) => {
+        return formatCompany({
+            rowIndex: index + 2,
+            会社名: row[0],
+            会社URL: row[1],
+            紹介URL: row[2]
+        });
+    });
 };
