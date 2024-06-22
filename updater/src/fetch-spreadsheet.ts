@@ -36,6 +36,9 @@ export const fetchSpreadsheet = async (): Promise<Company[]> => {
         // URL includes credential, so we should not log it.
         return Promise.reject(new Error("fetch error"));
     });
+    if (!results.ok) {
+        return Promise.reject(new Error(`fetch error result ok false: ${results.status}`));
+    }
     const resultsJson = (await results.json()) as {
         values: {
             0: string;
