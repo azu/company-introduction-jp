@@ -18,7 +18,7 @@ jobs:
       - name: Update Data
         run: |
           yarn install
-          for _ in 1 2 3; do yarn run update-data && break; done
+          for _ in 1; do yarn run update-data && break; done
         env:
           GOOGLE_SPREADSHEET_API_KEY: ${{ secrets.GOOGLE_SPREADSHEET_API_KEY }}
         working-directory: updater/
