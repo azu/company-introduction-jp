@@ -824,7 +824,7 @@
         ],
         "type": "speakerdeck",
         "id": "2c75f7eed95047f5975eb5ffb82f6789",
-        "image_ratio": 1.7777777777777777,
+        "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
     },
@@ -1006,7 +1006,7 @@
         ],
         "type": "speakerdeck",
         "id": "215211e05bc0409389d7de89c70f8723",
-        "image_ratio": 1.7777777777777777,
+        "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
     },
@@ -1093,10 +1093,10 @@
         "company_name": "株式会社hokan",
         "company_url": "https://www.corp.hkn.jp/",
         "slide_urls": [
-            "https://speakerdeck.com/hokan/hokan-culture-deck"
+            "https://speakerdeck.com/hokan/zu-zhi-deck"
         ],
         "type": "speakerdeck",
-        "id": "05c27e6c0d464dae9dd5345b4f2054ee",
+        "id": "6e2c8b64852e4a148e3a63b4f7deed8b",
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
