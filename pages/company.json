@@ -71,12 +71,7 @@
         "company_url": "https://www.hrbrain.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/hrbrain/introduction"
-        ],
-        "type": "speakerdeck",
-        "id": "04906b9c19604329bc21287a23645da4",
-        "image_ratio": 0.5625549370055669,
-        "image_width": 560,
-        "image_height": 995
+        ]
     },
     {
         "rowIndex": 8,
