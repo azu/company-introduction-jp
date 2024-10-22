@@ -2162,5 +2162,18 @@
         "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "rowIndex": 172,
+        "company_name": "株式会社ギフトモール",
+        "company_url": "https://giftmallcorp.jp/",
+        "slide_urls": [
+            "https://speakerdeck.com/luchegroup/giftmall-company-deck"
+        ],
+        "type": "speakerdeck",
+        "id": "b87f327b3af94344a5630183212b5595",
+        "image_ratio": 1.7772511848341233,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
