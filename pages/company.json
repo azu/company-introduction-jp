@@ -2149,5 +2149,14 @@
         "image_ratio": 1.7772511848341233,
         "image_width": 560,
         "image_height": 315
+    },
+    {
+        "type": "other",
+        "rowIndex": 171,
+        "company_name": "株式会社Timee",
+        "company_url": "https://corp.timee.co.jp/",
+        "slide_urls": [
+            "https://docs.google.com/presentation/d/e/2PACX-1vTT_ntj1TvliankKG9T732mrVWVxFCqBddZ7EH311uPQVj40uR2L-jUw1nDKNJzs5dkF41VeQW6IraM/embed"
+        ]
     }
 ]
