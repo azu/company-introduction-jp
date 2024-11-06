@@ -1726,12 +1726,7 @@
         "company_url": "https://nstock.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/nstock/we-are-hiring"
-        ],
-        "type": "speakerdeck",
-        "id": "445db519f73f449596178d9fddd24c2b",
-        "image_ratio": 1.7777777777777777,
-        "image_width": 560,
-        "image_height": 315
+        ]
     },
     {
         "rowIndex": 138,
