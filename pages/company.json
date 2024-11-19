@@ -1804,12 +1804,7 @@
         "company_url": "https://clas.style/company/",
         "slide_urls": [
             "https://speakerdeck.com/clas/zhu-shi-hui-she-kurasuhui-she-shao-jie-zi-liao"
-        ],
-        "type": "speakerdeck",
-        "id": "6f0b73cf39814e9ea6c80afdc1a5475f",
-        "image_ratio": 1.7772511848341233,
-        "image_width": 560,
-        "image_height": 315
+        ]
     },
     {
         "rowIndex": 144,
