@@ -8,43 +8,48 @@ import path from "path";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = path.join(__dirname, "../../pages/company.json");
 type Result = SlideItem & Company;
-const json = await fetchSpreadsheet();
-const actions = json
-    .filter((item) => {
-        if (!item.company_url.startsWith("http")) {
-            return false;
-        }
-        if (!item.slide_urls[0].startsWith("https")) {
-            return false;
-        }
-        return true;
-    })
-    .map((item) => {
-        return async () => {
-            const slideUrl = item.slide_urls[0];
-            if (slideUrl.startsWith("https://www.slideshare.net/")) {
+const errorLogs: string[] = [];
+const log = (message: string) => {
+    console.log(message);
+    errorLogs.push(message);
+};
+try {
+    const json = await fetchSpreadsheet();
+    const actions = json
+        .filter((item) => {
+            if (!item.company_url.startsWith("http")) {
+                return false;
+            }
+            if (!item.slide_urls[0].startsWith("https")) {
+                return false;
+            }
+            return true;
+        })
+        .map((item) => {
+            return async () => {
+                const slideUrl = item.slide_urls[0];
+                if (slideUrl.startsWith("https://www.slideshare.net/")) {
+                    return {
+                        type: "slideshare",
+                        ...item
+                    };
+                }
+                if (slideUrl.startsWith("https://speakerdeck.com/")) {
+                    const speakerDeck = await fetchSpeakerDeck(slideUrl).catch((error) => {
+                        log("[update-data] failed to load slide details: " + slideUrl);
+                        return Promise.reject(error);
+                    });
+                    return {
+                        ...item,
+                        ...speakerDeck
+                    };
+                }
                 return {
-                    type: "slideshare",
+                    type: "other",
                     ...item
                 };
-            }
-            if (slideUrl.startsWith("https://speakerdeck.com/")) {
-                const speakerDeck = await fetchSpeakerDeck(slideUrl).catch((error) => {
-                    console.error("[update-data] failed to load slide details", slideUrl);
-                    return Promise.reject(error);
-                });
-                return {
-                    ...item,
-                    ...speakerDeck
-                };
-            }
-            return {
-                type: "other",
-                ...item
             };
-        };
-    });
-try {
+        });
     const results = (await pAll(actions, {
         concurrency: 4
     })) as Result[];
@@ -54,11 +59,16 @@ try {
     console.error("[update-data] failed to fetch slide details", error);
     // if GITHUB_ACTION=true, then output GITHUB_SUMMARY.md
     if (process.env.GITHUB_ACTION) {
+        console.debug("[update-data] GITHUB_ACTION=true, output GITHUB_SUMMARY.md");
         await fs.writeFile(
             path.join(__dirname, "../../GITHUB_SUMMARY.md"),
             `## Error
 
 ${error}
+
+## Logs
+
+${errorLogs.join("\n\n")}
 
 `,
             "utf8"
