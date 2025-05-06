@@ -2080,5 +2080,18 @@
         "slide_urls": [
             "https://docs.google.com/presentation/d/e/2PACX-1vTT_ntj1TvliankKG9T732mrVWVxFCqBddZ7EH311uPQVj40uR2L-jUw1nDKNJzs5dkF41VeQW6IraM/embed"
         ]
+    },
+    {
+        "rowIndex": 166,
+        "company_name": "Top10ERP.org",
+        "company_url": "https://www.top10erp.org",
+        "slide_urls": [
+            "https://speakerdeck.com/redrh/top-erp"
+        ],
+        "type": "speakerdeck",
+        "id": "7e95fc37d1f34b108cf5f6a3eeb23f7d",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     }
 ]
