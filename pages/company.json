@@ -1496,7 +1496,12 @@
         "company_url": "https://corp.macloud.jp/company/",
         "slide_urls": [
             "https://speakerdeck.com/macloud/cai-yong-pitutibutuku"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "dd94f12e06b8476ba24c21e9678d70de",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "rowIndex": 120,
