@@ -1778,7 +1778,12 @@
         "company_url": "https://www.lsi-j.co.jp/official/",
         "slide_urls": [
             "https://speakerdeck.com/lsijapan_hr/hui-she-shuo-ming-zi-liao-eruesuai-ziyapan"
-        ]
+        ],
+        "type": "speakerdeck",
+        "id": "926d25d4314b4195ba194d9338a9b498",
+        "image_ratio": 1.7777777777777777,
+        "image_width": 560,
+        "image_height": 315
     },
     {
         "rowIndex": 142,
