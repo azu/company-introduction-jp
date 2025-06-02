@@ -442,9 +442,9 @@
         ],
         "type": "speakerdeck",
         "id": "b9e533fc2fd5456c88fa089ec8f5f2ba",
-        "image_ratio": 1.7777777777777777,
+        "image_ratio": 1.6,
         "image_width": 560,
-        "image_height": 315
+        "image_height": 350
     },
     {
         "rowIndex": 37,
@@ -971,7 +971,7 @@
         ],
         "type": "speakerdeck",
         "id": "215211e05bc0409389d7de89c70f8723",
-        "image_ratio": 1.7772511848341233,
+        "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
     },
@@ -1977,7 +1977,7 @@
         ],
         "type": "speakerdeck",
         "id": "3b224fb9e1f146d69808d3c1f2fbd27b",
-        "image_ratio": 1.7772511848341233,
+        "image_ratio": 1.7777777777777777,
         "image_width": 560,
         "image_height": 315
     },
