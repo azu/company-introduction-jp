@@ -1974,12 +1974,7 @@
         "company_url": "https://www.simpleform.co.jp/",
         "slide_urls": [
             "https://speakerdeck.com/simpleform/simpleformhui-she-shuo-ming-zi-liao"
-        ],
-        "type": "speakerdeck",
-        "id": "9e701daba2404b49853d8b267341b3d8",
-        "image_ratio": 1.7777777777777777,
-        "image_width": 560,
-        "image_height": 315
+        ]
     },
     {
         "rowIndex": 158,
