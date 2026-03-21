@@ -31,6 +31,8 @@ jobs:
         with:
           message: "Update Data"
           push: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create or Update Issue on failure
         if: failure()
         env:
