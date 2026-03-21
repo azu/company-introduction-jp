@@ -73,6 +73,7 @@ export const fetchCSV = async (): Promise<Company[]> => {
     const [_header, ...dataRows] = rows;
     console.info("[fetchCSV] fetched total rows", { total: dataRows.length });
     return dataRows
+        .filter((row) => row.some((cell) => cell.trim() !== ""))
         .map((row, index) => {
             const companyName = row[0];
             const companyUrl = row[1];
