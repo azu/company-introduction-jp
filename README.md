@@ -22,12 +22,10 @@
 
 ## 会社紹介スライドの追加方法
 
-データはGoogle SpreadSheetで管理されています。
-次のSpreadSheetに対して自由に追加してください。
+データは[data/companies.csv](./data/companies.csv)で管理されています。
+PRを作成して追加してください。
 
-- <https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit>
-
-項目
+項目（CSV列）
 
 - 会社名: 会社の正式名称。
   - 登記簿の名前が優先されます。
@@ -35,17 +33,16 @@
 - 会社URL: 会社のコーポレートサイトのURL。
   - サービスサイトではなく会社としてのトップページが優先されます。
 - 紹介URL: スライドのURL。
-  - 複数ある場合は改行区切りで入力します。
+  - 複数ある場合は改行区切りで入力します（CSVではダブルクォートで囲む）。
 
 追加したデータは、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)のライセンスの元に提供されます。
-訂正、削除したい場合は、SpreadSheetを編集してください。
-または、[Issue](https://github.com/azu/company-introduction-jp/issues)を作成して知らせてください。
+訂正、削除したい場合は、PRを作成するか、[Issue](https://github.com/azu/company-introduction-jp/issues)を作成して知らせてください。
 
 **編集方針**
 
 - 誤表記:
   - 正しいものへと修正する
-- リンク切れ: 
+- リンク切れ:
   - URLを変更 or 新しいものがない場合は行を削除
 - 項目のフォーマットミス:
   - 項目のフォーマットに合わせて修正 or 修正できない場合は行を削除
@@ -56,12 +53,13 @@
 
 ## ウェブサイトの更新の流れ
 
-<https://company-introduction-jp.vercel.app/>は[SpreadSheet](https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc)を元に1日1回更新されます。
+<https://company-introduction-jp.vercel.app/>は[data/companies.csv](./data/companies.csv)を元に1日1回更新されます。
 
-1. SpreadSheetが更新される
+1. CSVが更新される（PRまたは直接編集）
 2. [update-data.yml](./.github/workflows/update-data.yml)が1日1回起動する
-3. [Sheetson](https://sheetson.com/)を使ってSpreadSheetの中身を取得して、[pages/company.json](./pages/company.json)を更新する
+3. CSVからデータを読み取り、[pages/company.json](./pages/company.json)を更新する
 4. [pages/company.json](./pages/company.json)が更新されたらVercelにデプロイされる
+5. クロールエラーが発生した場合、GitHub Issueが自動作成されCopilotが修正PRを作成する
 
 ## Contributing
 
@@ -82,4 +80,4 @@ For bugs and feature requests, [please create an issue](https://github.com/azu/c
 ## License
 
 - ソースコード: MIT © azu
-- [SpreadSheet](https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc)のデータ: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)
+- [data/companies.csv](./data/companies.csv)のデータ: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)

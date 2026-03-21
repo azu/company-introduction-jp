@@ -1,6 +1,6 @@
 import pAll from "p-all";
 import * as fs from "fs/promises";
-import { Company, fetchSpreadsheet } from "./fetch-spreadsheet.js";
+import { Company, fetchCSV } from "./fetch-csv.js";
 import { fetchSpeakerDeck, SlideItem } from "./merge-speakerdeck.js";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -21,7 +21,7 @@ const log = (message: string) => {
     errorLogs.push(message);
 };
 try {
-    const json = await fetchSpreadsheet();
+    const json = await fetchCSV();
     const actions = json
         .filter((item) => {
             if (!item.company_url.startsWith("http")) {
@@ -74,7 +74,10 @@ try {
         console.error(`\n[update-data] ${crawlErrors.length} companies failed to crawl:\n`);
 
         const errorSummary = crawlErrors
-            .map((e) => `- Row ${e.company.rowIndex}: ${e.company.company_name} (${e.company.slide_urls[0]}) - ${e.error.message}`)
+            .map(
+                (e) =>
+                    `- Row ${e.company.rowIndex}: ${e.company.company_name} (${e.company.slide_urls[0]}) - ${e.error.message}`
+            )
             .join("\n");
         console.error(errorSummary);
 
@@ -84,8 +87,9 @@ try {
             const markdownTable = [
                 "| Row | 会社名 | 会社URL | スライドURL | エラー |",
                 "|-----|--------|---------|-------------|--------|",
-                ...crawlErrors.map((e) =>
-                    `| ${e.company.rowIndex} | ${e.company.company_name} | ${e.company.company_url} | ${e.company.slide_urls[0]} | ${e.error.message} |`
+                ...crawlErrors.map(
+                    (e) =>
+                        `| ${e.company.rowIndex} | ${e.company.company_name} | ${e.company.company_url} | ${e.company.slide_urls[0]} | ${e.error.message} |`
                 )
             ].join("\n");
 
@@ -93,9 +97,18 @@ try {
                 path.join(__dirname, "../../GITHUB_SUMMARY.md"),
                 `## クロールエラー一覧
 
-${crawlErrors.length} 件の会社でエラーが発生しました。Spreadsheetから削除を検討してください。
+${crawlErrors.length} 件の会社でエラーが発生しました。
 
 ${markdownTable}
+
+## 修正方法
+
+以下の手順で修正してください:
+
+1. 各会社の「会社URL」にブラウザでアクセスする
+2. ページ内からSpeakerDeckのスライドURLを探す
+3. 新しいスライドURLが見つかった場合: \`data/companies.csv\` の該当行の「紹介URL」を更新する
+4. スライドURLが見つからない場合: \`data/companies.csv\` から該当行を削除する
 
 ## 詳細ログ
 
