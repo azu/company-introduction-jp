@@ -7,31 +7,58 @@ jobs:
   update-data:
     name: "Update Data"
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
       - name: setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 18
           cache: 'yarn'
       - name: Update Data
         run: |
           yarn install
-          for _ in 1; do yarn run update-data && break; done
-        env:
-          GOOGLE_SPREADSHEET_API_KEY: ${{ secrets.GOOGLE_SPREADSHEET_API_KEY }}
+          yarn run update-data
         working-directory: updater/
       - name: Commit
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
         if: success()
         with:
           message: "Update Data"
           push: true
-      - name: SpreadSheet URL
+      - name: Create or Update Issue on failure
         if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # if exists GITHUB_SUMMARY.md, append to GITHUB_STEP_SUMMARY
-          [ -f GITHUB_SUMMARY.md ] && cat GITHUB_SUMMARY.md >> $GITHUB_STEP_SUMMARY
-          echo "## SpreadSheet URL" >> $GITHUB_STEP_SUMMARY
-          echo "Go to https://docs.google.com/spreadsheets/d/1y1pqQhBIV_uGCp-AzxSQwLDOV4v_tIPobnQJmFMJVDc/edit#gid=0" >> $GITHUB_STEP_SUMMARY
+          SUMMARY=""
+          if [ -f GITHUB_SUMMARY.md ]; then
+            SUMMARY=$(cat GITHUB_SUMMARY.md)
+          else
+            SUMMARY="クロールエラーが発生しました。詳細はActionsログを確認してください。"
+          fi
+
+          # crawl-error ラベルを作成（存在しない場合）
+          gh label create crawl-error --description "Crawl error auto-created" --color "d73a4a" 2>/dev/null || true
+
+          # 既存のopen issueを検索
+          EXISTING_ISSUE=$(gh issue list --label crawl-error --state open --json number --jq '.[0].number' 2>/dev/null || echo "")
+
+          if [ -n "$EXISTING_ISSUE" ]; then
+            # 既存issueの本文を更新
+            gh issue edit "$EXISTING_ISSUE" --body "$SUMMARY"
+            echo "Updated existing issue #$EXISTING_ISSUE"
+          else
+            # 新規issue作成
+            gh issue create \
+              --title "クロールエラー: スライドURLの修正が必要です" \
+              --body "$SUMMARY" \
+              --label "crawl-error" \
+              --assignee "copilot"
+            echo "Created new issue"
+          fi

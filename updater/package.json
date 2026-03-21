@@ -16,7 +16,7 @@
   "type": "module",
   "scripts": {
     "update-data": "node --import=tsimp/import src/update-data.ts",
-    "fetch-spreadsheet": "node --import=tsimp/import src/fetch-spreadsheet.ts",
+    "fetch-csv": "node --import=tsimp/import -e \"import { fetchCSV } from './src/fetch-csv.ts'; const d = await fetchCSV(); console.log(JSON.stringify(d, null, 2));\"",
     "merge-speakerdeck": "node --import=tsimp/import src/merge-speackerdeck.ts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\""
   },
