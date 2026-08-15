@@ -53,10 +53,10 @@ PRを作成して追加してください。
 
 ## ウェブサイトの更新の流れ
 
-<https://company-introduction-jp.vercel.app/>は[data/companies.csv](./data/companies.csv)を元に1日1回更新されます。
+<https://company-introduction-jp.vercel.app/>は[data/companies.csv](./data/companies.csv)を元に、手動でデータ更新workflowを実行したときに更新されます。
 
 1. CSVが更新される（PRまたは直接編集）
-2. [update-data.yml](./.github/workflows/update-data.yml)が1日1回起動する
+2. [update-data.yml](./.github/workflows/update-data.yml)を手動で起動する
 3. CSVからデータを読み取り、[pages/company.json](./pages/company.json)を更新する
 4. [pages/company.json](./pages/company.json)が更新されたらVercelにデプロイされる
 5. クロールエラーが発生した場合、GitHub Issueが自動作成されCopilotが修正PRを作成する
